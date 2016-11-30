@@ -1,40 +1,102 @@
 var test = require('unit.js');
-describe('Learning by the example', function(){
-    it('example variable', function(){
+
+/* You can use...
+
+.string
+.startsWith / .endsWith
+.contains
+.given (change value)
+.match (pregmatch)
+.when (name, function(){ }; })
+.then (name, function(){ }; })
+documentation: http://unitjs.com/guide/quickstart.html
+documentation: http://unitjs.com/
+
+*/
+
+// Our unit tests
+describe('Unit tests', function(){
+    // if(unit-test-name)
+    it('Is it a string?', function(){
         // just for example of tested value
-        var example = 'hello world';
+        var string = "Lol nee.";
+        // Use the test object to check whether the value is..
         test
-            .string(example)
-            .startsWith('hello')
+            //a string..
+            .string(string)
+            //starts with hello
+            .startsWith('Lol')
+            //contains just letters..
             .match(/[a-z]/)
-            .given(example = 'you are welcome')
-            .string(example)
-            .endsWith('welcome')
-            .contains('you')
-            .when('"example" becomes an object', function(){
-                example = {
-                    message: 'hello world',
-                    name: 'Nico',
-                    job: 'developper',
-                    from: 'France'
-                };
-            })
-            .then('test the "example" object', function(){
-                test
-                    .object(example)
-                    .hasValue('developper')
+    });
+
+    it('Is it a valid student number?', function(){
+        // the given student number
+        var studentnumber = 123;
+
+        test
+            .number(studentnumber)
+    });
+
+    it('Are our levels (including) valid?', function(){
+        // our levels
+        var levels = 
+        { 
+            name: "Level 1", 
+            subjects: 
+            { 
+                name: "Grammar", 
+                questions: 
+                [
+                    {
+                        question_id : 21,
+                        question: "Is it a potato?",
+                        answer : "Yes"
+                    },
+                    {
+                        question_id : 40,
+                        question: "Is Andy kut?",
+                        answer : "Yes"
+                    },
+                    {
+                        question_id : 69,
+                        question : "Is this a meme-free zone?",
+                        answer : "No"
+                    }
+
+                ]
+            } 
+        };
+
+        // Use the check object whether it has the values
+        test
+            .object(levels)
+                .hasProperty('name')
+                .hasProperty('subjects')
+                .object(levels.subjects)
                     .hasProperty('name')
-                    .hasProperty('from', 'France')
-                    .contains({message: 'hello world'})
-                ;
-            })
-            .if(example = 'bad value')
-            .error(function(){
-                example.badMethod();
-            })
-        ;
-    });
-    it('other test case', function(){
-        // other tests ...
-    });
+                    .hasProperty('questions')
+                        .array(levels.subjects.questions)
+                            .contains(
+                            [
+                                {
+                                    question_id : 21,
+                                    question: "Is it a potato?",
+                                    answer : "Yes"
+                                },
+                                {
+                                    question_id : 40,
+                                    question: "Is Andy kut?",
+                                    answer : "Yes"
+                                },
+                                {
+                                    question_id : 69,
+                                    question : "Is this a meme-free zone?",
+                                    answer : "No"
+                                }
+
+                            ]
+                            )
+    })
+
 });
