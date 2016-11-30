@@ -2,7 +2,7 @@ var express = require('express'),
     router = express.Router(),
     Level = require('./../services/level');
 
-/* GET users listing. */
+/* GET levels listing. */
 router.get('/', function(req, res, next) {
     var level = new Level();
 
