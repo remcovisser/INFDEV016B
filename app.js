@@ -22,6 +22,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 require('./routes/bootstrap');
 
+// Connect to database
+require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractise', function(err, _db) {
+  global.db = _db;
+});
+
 // error handler
 app.use(function(err, req, res, next) {
   // set locals, only providing error in development

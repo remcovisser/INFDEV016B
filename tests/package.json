@@ -1,5 +1,5 @@
 {
-  "name": "application-name",
+  "name": "Unit tests",
   "version": "0.0.1",
   "dependencies": {
     "unit.js": "^2.0.0"
