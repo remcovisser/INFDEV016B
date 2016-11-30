@@ -24,18 +24,23 @@ require('./routes/bootstrap');
 
 // Connect to database
 require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractise', function(err, _db) {
-  global.db = _db;
+    if (err) {
+        console.error('Unable to connect to MongDB:');
+        throw new Error(err);
+    }
+
+    global.db = _db;
 });
 
 // error handler
 app.use(function(err, req, res, next) {
-  // set locals, only providing error in development
-  res.locals.message = err.message;
-  res.locals.error = req.app.get('env') === 'development' ? err : {};
+    // set locals, only providing error in development
+    res.locals.message = err.message;
+    res.locals.error = req.app.get('env') === 'development' ? err : {};
 
-  // render the error page
-  res.status(err.status || 500);
-  res.render('error');
+    // render the error page
+    res.status(err.status || 500);
+    res.render('error');
 });
 
 module.exports = app;

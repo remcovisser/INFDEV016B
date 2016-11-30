@@ -1,13 +1,14 @@
-var express = require('express');
-var router = express.Router();
+var express = require('express'),
+    router = express.Router(),
+    Level = require('./../services/level');
 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
-    db.collection('exercises').find({}).toArray(function(err, col) {
-        res.send(col);
-    });
+    var level = new Level();
 
-    // res.render('levels', { title: 'Select a level' });
+    level.all(function(levels) {
+        res.render('levels', { title: 'Select a level', levels: levels });
+    });
 });
 
 module.exports = router;
