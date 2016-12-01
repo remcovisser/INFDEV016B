@@ -79,3 +79,19 @@ a:after {
 	}
 }
 
+#levels {
+    .level { 
+        h2 {
+            border:1px solid $blue;
+            padding:20px;
+        }
+        &:hover {
+            h2 {
+                background-color: $blue;
+                color: $white;
+                @include transition(all 0.3s ease-in-out) ;
+            }
+        }
+    }
+}
+
