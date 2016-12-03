@@ -12,8 +12,19 @@ module.exports = class Level {
     }
 
     find(id, callback) {
+        try {
+            var object = ObjectId(id);
+        }
+        catch(e) {
+            return callback(false);
+        }
+
         this.collection.find({ _id: ObjectId(id) }).toArray(function(err, data) {
-            callback(data[0]);
+            if (data.length == 0) {
+                return callback(false);
+            }
+
+            return callback(data[0]);
         })
     }
 };
