@@ -6,7 +6,8 @@
     "server": "node ./bin/www",
     "server-dev": "nodemon ./bin/www",
     "frontend": "gulp --production",
-    "frontend-dev": "gulp watch"
+    "frontend-dev": "gulp watch",
+    "seed": "node seeder.js"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
