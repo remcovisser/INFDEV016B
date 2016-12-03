@@ -11,14 +11,12 @@ router.get('/', function(req, res, next) {
     });
 });
 
-router.get('/level', function(req, res, next) {
+router.get('/:id', function(req, res, next) {
     var level = new Level();
 
-    /*level.get(function(level)) {
-        res.render('level', { title: level.name, level : level});
-    });*/
-
-    res.render('level', { title: 'Level 1' });
+    level.find(req.params.id, function(level) {
+        res.render('level', { title: level.name, level: level });
+    });
 });
 
 module.exports = router;

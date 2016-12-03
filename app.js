@@ -1,9 +1,10 @@
-let express = require('express'),
+const express = require('express'),
     path = require('path'),
     favicon = require('serve-favicon'),
     logger = require('morgan'),
     cookieParser = require('cookie-parser'),
-    bodyParser = require('body-parser');
+    bodyParser = require('body-parser'),
+    mongodb = require('mongodb');
 
 var app = express();
 global.app = app;
@@ -23,7 +24,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 require('./routes/bootstrap');
 
 // Connect to database
-require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractise', function(err, _db) {
+global.ObjectId = mongodb.ObjectId;
+mongodb.MongoClient.connect('mongodb://localhost:27017/EnglishPractise', function(err, _db) {
     if (err) {
         console.error('Unable to connect to MongDB:');
         throw new Error(err);

@@ -10,5 +10,10 @@ module.exports = class Level {
             callback(data);
         });
     }
-};
 
+    find(id, callback) {
+        this.collection.find({ _id: ObjectId(id) }).toArray(function(err, data) {
+            callback(data[0]);
+        })
+    }
+};
