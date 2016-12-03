@@ -5,9 +5,9 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
     }
 
     // Cler old collections
-    db.collection('levels').drop();
+    db.collection('exercises').drop();
 
-    db.collection('levels').insertMany([
+    db.collection('exercises').insertMany([
         {
             name: 'Name one'
         },
