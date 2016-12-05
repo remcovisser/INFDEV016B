@@ -16,6 +16,19 @@ documentation: http://unitjs.com/
 
 // Our unit tests
 describe('Unit tests', function(){
+    it('Is logged in?', function(){
+        var userData = {
+            username: 12345,
+            password: 'not_encrypted_password',
+        };
+
+        test
+            .string(userData.username, userData.password)
+                .match(/[0-9]/) // Check whether the username is numerical or not
+                .hasHeaderJson() // Check if the response is send in JSON-format
+        ;
+    });
+
     // if(unit-test-name)
     it('Is it a string?', function(){
         // just for example of tested value
