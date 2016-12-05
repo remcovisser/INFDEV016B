@@ -4,8 +4,23 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
         throw new Error(err);
     }
 
-    // Cler old collections
+    // Clear old collections
     db.collection('exercises').drop();
+    db.collection('users').drop();
+
+    db.collection('users').insertMany([
+        {
+            username: 12345,
+            password: 'password'
+        },
+        {
+            username: 12346,
+            password: 'password2'
+        }
+    ], function(){
+        console.log('Done adding users!');
+        process.exit();
+    });
 
     db.collection('exercises').insertMany([
         {
@@ -16,7 +31,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
             name: 'Name two'
         }
     ], function() {
-        console.log('Done!');
+        console.log('Done adding exercises!');
 
         process.exit();
     });
