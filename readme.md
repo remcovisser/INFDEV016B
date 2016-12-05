@@ -8,11 +8,12 @@ To install global dependencies:
 
 ###To start server
 _Do not forget to start your MongoDB server first_ 
-* Compile once: `npm server`
+* Compile once: `npm server` or `npm run server`
 * Recompile in realtime: `npm server-dev`
+* The server runs on localhost:3000
 
 ###Compile SASS and JS
-* Compile once: `npm frontend`
+* Compile once: `npm frontend` or `npm run frontend`
 * Recompile in realtime: `npm frontend-dev`
 
 ###Requirements
