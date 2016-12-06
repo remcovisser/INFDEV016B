@@ -1,12 +1,27 @@
 <div class="container centered home">
-    <h2>Please enter your student number below to sign in.</h2>
+    <h2>Please enter your student number..</h2>
     <hr/>
     <form>
         <div class="input-group">
-            <input name="studnumber" class="form-control" placeholder="Student number">
             <span class="input-group-btn">
-                <button type="submit" class="btn btn-info">Sign in</button>
+                <input type="text" name="studnumber" id="studnumber" class="form-control" placeholder="Your student number..." required/>
+				<button onclick="send();" class="btn btn-info" href="javascript:;">Submit</button>
             </span>
         </div>
     </form>
 </div>
+
+<script>
+	function send(){
+		var userName = document.getElementById('studnumber');
+		
+		if (userName.value == 18) 
+		{
+			alert(userName.value);
+		} 
+		else 
+		{
+			alert("empty");
+		}
+	}
+</script>
