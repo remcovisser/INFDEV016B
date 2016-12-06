@@ -7,7 +7,7 @@ router.get('/', User.isGuest, function(req, res, next) {
     res.render('index', { title: 'Welcome!' });
 });
 
-router.post('/process-login', function(req, res, next) {
+router.post('/process-login', User.isGuest, function(req, res, next) {
     var user = new User();
 
     // validation
@@ -20,6 +20,13 @@ router.post('/process-login', function(req, res, next) {
         res.cookie('userId', result._id);
         res.redirect('/levels');
     });
+});
+
+router.get('/logout', User.isAuthenticated, function(req, res, next) {
+    var user = new User();
+
+    user.logOut(res);
+    res.redirect('/?success[auth]=loggedOut');
 });
 
 module.exports = router;

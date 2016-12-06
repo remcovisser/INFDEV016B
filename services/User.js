@@ -49,39 +49,46 @@ module.exports = class User {
     }
 
     static isGuest(req, res, next) {
-        var collection = db.collection('users');
-
+        // Check if auth cookie is defined
         if (req.cookies.userId == undefined) {
             return next();
         }
 
-        collection.find({ _id: ObjectId(req.cookies.userId) }).toArray(function(err, result) {
-            // User not found
-            if (result.length != 0) {
-                res.redirect('/levels');
+        var that = new User();
 
+        that.find(req.cookies.userId, function(result) {
+            if (result) {
+                res.redirect('/levels');
                 return;
             }
 
-            // Remove cookie
-            res.cookie('userId', '', { expires: new Date() });
+            that.logOut(res);
             return next();
         });
     }
 
     static isAuthenticated(req, res, next) {
-        var collection = db.collection('users');
+        // Check if auth cookie is defined
+        if (req.cookies.userId == undefined) {
+            res.redirect('/?errors[global]=unauthenticated');
+            return;
+        }
 
-        collection.find({ _id: ObjectId(req.cookies.userId) }).toArray(function(err, result) {
-            // User not found
-            if (result.length == 0) {
+        var that = new User();
+
+        that.find(req.cookies.userId, function(result) {
+            if (!result) {
                 res.redirect('/?errors[global]=unauthenticated');
                 return;
             }
 
             global.CurrentUser = result[0];
-
             return next();
         });
+    }
+
+    logOut(res) {
+        // Remove cookie
+        res.cookie('userId', '', { expires: new Date() });
     }
 };
