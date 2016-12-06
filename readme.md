@@ -7,7 +7,7 @@ To install global dependencies:
 * `npm install gulp -g`
 
 ###To start server
-_Do not forget to start your MongoDB server first_ 
+_Do not forget to start your MongoDB server first_
 * Compile once: `npm server` or `npm run server`
 * Recompile in realtime: `npm server-dev`
 * The server runs on localhost:3000

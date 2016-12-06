@@ -26,12 +26,12 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
         {
             name: 'Level 1',
             description: 'This is the most basic level english.',
-            subjects: [ 
+            subjects: [
                 {
                     name: "Word order",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -43,7 +43,59 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     ]
                 },
                 {
-                    name: "Quantifiers"
+                    name: "Quantifiers",
+                    questions: [
+                        {
+                            id: 1,
+                            question: "How .... money have you got? (much/many)",
+                            answer: "much"
+                        },
+                        {
+                            id: 2,
+                            question: "He has .... money left. (a little/a few)",
+                            answer: "a little"
+                        },
+                        {
+                            id: 3,
+                            question: ".... time (much/many)",
+                            answer: "much"
+                        },
+                        {
+                            id: 4,
+                            question: ".... children (much/many)",
+                            answer: "many"
+                        },
+                        {
+                            id: 5,
+                            question: "There are two boys. .... is smiling. (each/every)",
+                            answer: "each"
+                        },
+                        {
+                            id: 6,
+                            question: "The students .... received a free copy of the magazine. (each/every)",
+                            answer: "each"
+                        },
+                        {
+                            id: 7,
+                            question: "Can I have .... of these apples? (some/any)",
+                            answer: "some"
+                        },
+                        {
+                            id: 8,
+                            question: "Have you got .... apples? (some/any)",
+                            answer: "any"
+                        },
+                        {
+                            id: 9,
+                            question: "There is .... wrong with our car. (something/anything)",
+                            answer: "something"
+                        },
+                        {
+                            id: 10,
+                            question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
+                            answer: "somehow"
+                        }
+                    ]
                 },
                 {
                     name: "Capitalization"
