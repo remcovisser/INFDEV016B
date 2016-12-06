@@ -1,3 +1,5 @@
+A NodeJS Express application build in ECMAScript 6.
+
 #Installation
 ###To install (and update) dependencies
 `npm install`
@@ -8,6 +10,9 @@ To install global dependencies:
 
 ###To start server
 _Do not forget to start your MongoDB server first_
+* Compile once: `npm server` or `npm run server`
+* Recompile in realtime: `npm server-dev`
+* The server runs on localhost:3000
 * To seed database: `npm run seed`
 * Compile server once: `npm run server`
 * Recompile server in realtime: `npm run server-dev`
