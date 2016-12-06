@@ -1,7 +1,7 @@
-var index = require('./index'),
+var login = require('./login'),
     levels = require('./levels');
 
-app.use('/', index);
+app.use('/', login);
 app.use('/levels', levels);
 
 // catch 404 and forward to error handler
