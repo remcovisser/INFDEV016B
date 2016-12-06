@@ -43,19 +43,79 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     ]
                 },
                 {
-                    name: "Quantifiers"
+                    name: "Quantifiers",
+                    questions: [
+                        {
+                            id: 1, 
+                            question: "Rick, nee.",
+                            answer: "NotLikeThis.... of niet"
+                        },
+                        {
+                            id: 2,
+                            question: "What okeesapkdakd is it?",
+                            answer: "High noon"
+                        }
+                    ]
                 },
                 {
-                    name: "Capitalization"
+                    name: "Capitalization",
+                    questions: [
+                        {
+                            id: 1, 
+                            question: "Lorem, succes.",
+                            answer: "Ipsum"
+                        },
+                        {
+                            id: 2,
+                            question: "What time is it?",
+                            answer: "High noon"
+                        }
+                    ]
                 },
                 {
-                    name: "Spelling"
+                    name: "Spelling",
+                    questions: [
+                        {
+                            id: 1, 
+                            question: "Rick, succes.",
+                            answer: "NotLikeThis"
+                        },
+                        {
+                            id: 2,
+                            question: "What time is it?",
+                            answer: "High noon"
+                        }
+                    ]
                 },
                 {
-                    name: "Reading comprehension"
+                    name: "Reading comprehension",
+                    questions: [
+                        {
+                            id: 1, 
+                            question: "Rick, succes.",
+                            answer: "NotLikeThis"
+                        },
+                        {
+                            id: 2,
+                            question: "What time is it?",
+                            answer: "High noon"
+                        }
+                    ]
                 },
                 {
-                    name: "Questions"
+                    name: "Questions",
+                    questions: [
+                        {
+                            id: 1, 
+                            question: "Rick, succes.",
+                            answer: "NotLikeThis"
+                        },
+                        {
+                            id: 2,
+                            question: "What time is it?",
+                            answer: "High noon"
+                        }
+                    ]
                 }
             ]
         },

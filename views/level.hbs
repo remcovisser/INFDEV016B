@@ -1,11 +1,11 @@
 <div class="container centered">
-    <h2>Exercises for {{level.name}}</h2>
-    <h3>{{level.description}}</h3>
+    <h2>Exercises for {{ level.name }}</h2>
+    <h3>{{ level.description }}</h3>
     <p>Please select your exercise.</p>
 
     <div id="levels">
     {{#each level.subjects}}
-        <a href="/exercises/{{ _id }}" class="col-md-4 level">
+        <a href="/levels/{{ ../sID }}/{{ name }}/1/" class="col-md-4 level">
             <h2>{{ name }}</h2>
         </a>
     {{/each}}
