@@ -10,6 +10,10 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lato";
@@ -80,7 +84,7 @@ a:after {
 }
 
 #levels {
-    .level { 
+    .level {
         h2 {
             border:1px solid $blue;
             padding:20px;
@@ -115,4 +119,3 @@ a:after {
         overflow: hidden;
     }
 }
-
