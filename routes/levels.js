@@ -13,7 +13,7 @@ router.get('/', User.isAuthenticated, function(req, res, next) {
     });
 });
 
-router.get('/:id', function(req, res, next) {
+router.get('/:id', User.isAuthenticated, function(req, res, next) {
     var level = new Level();
 
     level.find(req.params.id, function(level) {
@@ -28,7 +28,7 @@ router.get('/:id', function(req, res, next) {
     });
 });
 
-router.get('/:id/:subject/:question_id', function(req,res,next) {
+router.get('/:id/:subject/:question_id', User.isAuthenticated, function(req,res,next) {
     var level = new Level();
     
     level.find(req.params.id, function(level) {
