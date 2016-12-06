@@ -4,5 +4,10 @@
         <span></span>
     </div>
     <h2>{{currentQuestion.question}}</h2>
-    Het antwoord is: {{currentQuestion.answer}}
+    <input type="text" id="answer" /><span>
+    <br />
+    <button type="button" id="check">Check</button>
+    <button type="button" class="hidden" id="next">Next</button>
+    <br />
+    <span class="hidden" id="correctAswerContainer">The correct answer is: <span id="correctAnswer">{{currentQuestion.answer}}</span>
 </div>
