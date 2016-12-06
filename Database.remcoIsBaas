@@ -1,0 +1,27 @@
+users [
+  username: ""
+]
+
+levels [
+  name: ""
+  subjects [
+    name: ""
+    questions = [
+      id: ObjectId
+      question: ""
+      answer: ""
+    ]
+	]
+]
+
+results [
+  username [
+    subjects [
+      name [
+        question_id: ObjectId
+        answer: ""
+        points: bool
+      ]
+    ]
+  ]
+]
