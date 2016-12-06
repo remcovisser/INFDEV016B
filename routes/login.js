@@ -3,7 +3,7 @@ var express = require('express'),
     User = require('./../services/User');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', User.isGuest, function(req, res, next) {
     res.render('index', { title: 'Welcome!' });
 });
 
