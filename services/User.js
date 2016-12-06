@@ -64,7 +64,7 @@ module.exports = class User {
             }
 
             // Remove cookie
-            req.cookie('userId', '', { expires: new Date() });
+            res.cookie('userId', '', { expires: new Date() });
             return next();
         });
     }
