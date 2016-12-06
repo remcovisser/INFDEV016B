@@ -8,20 +8,6 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
     db.collection('exercises').drop();
     db.collection('users').drop();
 
-    db.collection('users').insertMany([
-        {
-            username: 12345,
-            password: 'password'
-        },
-        {
-            username: 12346,
-            password: 'password2'
-        }
-    ], function(){
-        console.log('Done adding users!');
-        process.exit();
-    });
-
     db.collection('exercises').insertMany([
         {
             name: 'Level 1',

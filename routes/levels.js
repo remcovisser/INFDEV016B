@@ -4,6 +4,9 @@ var express = require('express'),
 
 /* GET levels listing. */
 router.get('/', function(req, res, next) {
+
+    console.log(req.cookies.userId);
+
     var level = new Level();
 
     level.all(function(levels) {

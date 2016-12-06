@@ -1,3 +1,5 @@
+A NodeJS Express application build in ECMAScript 6.
+
 #Installation
 ###To install (and update) dependencies
 `npm install`
@@ -21,3 +23,4 @@ _Do not forget to start your MongoDB server first_
 * MongoDB v3.2.*
 * Nodemon v1.11.*
 * Gulp v3.9.*
+* ACMAScript 6
