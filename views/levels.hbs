@@ -1,34 +1,13 @@
 <div class="container centered home">
-    <h2>Please enter your level</h2>
+    <h2>Please pick a level</h2>
 
-    <!-- uitcommenten als je nog geen data hebt
     <div id="levels">
-        <a href="#" class="col-md-4 level">
-            <h2>Level 1</h2>
-        </a>
-        <a href="#" class="col-md-4 level">
-            <h2>Level 2</h2>
-        </a>
-        <a href="#" class="col-md-4 level">
-            <h2>Level 3</h2>
-        </a>
-        <a href="#" class="col-md-4 level">
-            <h2>Level 4</h2>
-        </a>
-        <a href="#" class="col-md-4 level">
-            <h2>Level 5</h2>
-        </a>
-        <a href="#" class="col-md-4 level">
-            <h2>Level 6</h2>
-        </a>
-    </div>
-    -->
-
     {{#each levels}}
         <a href="/levels/{{ _id }}" class="col-md-4 level">
             <h2>{{ name }}</h2>
         </a>
     {{/each}}
+    </div>
 
     
 </div>

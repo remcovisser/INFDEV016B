@@ -1,9 +1,14 @@
 <div class="container centered">
-    <!-- if you have no code.. -->
-    <h3>Your progress</h3>
-    <div class="progress_bar">
-        <span></span>
+    <h2>Exercises for {{level.name}}</h2>
+    <h3>{{level.description}}</h3>
+    <p>Please select your exercise.</p>
+
+    <div id="levels">
+    {{#each level.subjects}}
+        <a href="/exercises/{{ _id }}" class="col-md-4 level">
+            <h2>{{ name }}</h2>
+        </a>
+    {{/each}}
     </div>
-    <h2>Level 1</h1>
-    <h2>{{level.name}}</h2>
+    
 </div>
