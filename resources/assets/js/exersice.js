@@ -3,6 +3,7 @@ $(function() {
   var urlParts = document.URL.split('/');
   var width = ((parseInt(urlParts[urlParts.length-1]) * 10) -10) + "%";
   $(".progress_bar").find("span").css("width", width);
+  $(".progress_bar span").text(width);
 
   // Is the check button is pressed
   $( "#check" ).click(function() {
@@ -13,6 +14,8 @@ $(function() {
     }
     $("#correctAswerContainer").removeClass("hidden");
     $("#next").removeClass("hidden");
+    // Else they can abuse the check and just fix their answer before going to the next assignment.
+    $(this).attr("disabled", true);
   });
 
   // Is the next button is pressed
