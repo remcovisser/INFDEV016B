@@ -9,6 +9,10 @@
     <div id="app">
 
         <div class="container">
+            {{#if currentUser}}
+                <a href="/logout" class="pull-right">Logout</a>
+            {{/if}}
+
             <section id="header">
                 <header class="centered">
                     <h1>Learn english!</h1>

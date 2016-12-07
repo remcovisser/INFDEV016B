@@ -46,7 +46,6 @@ router.get('/:id/:subject/:question_id', User.isAuthenticated, function(req,res,
             var subjects = level.subjects[i];
 
             if(subjects.name == qSubject) {
-                console.log("Hoi");
                 var questions = subjects.questions;
                 var currentQuestion = questions[qId];
 
