@@ -16,17 +16,23 @@ documentation: http://unitjs.com/
 
 // Our unit tests
 describe('Unit tests', function(){
-    it('Is logged in?', function(){
+    
+    // goede unit test voorbeeld:
+    // Compare de data in de onderstaande functie met data die je ontvangt (als parameter(s))
+    // Als het goed is return je true, anders false.
+    // Dit is dus unit testing
+    it('Is logged in?', function(username, password){
         var userData = {
             username: 12345,
             password: 'not_encrypted_password',
         };
 
-        test
-            .string(userData.username, userData.password)
-                .match(/[0-9]/) // Check whether the username is numerical or not
-                .hasHeaderJson() // Check if the response is send in JSON-format
-        ;
+        if(username == userData.username && password == userData.password) {
+            return true;
+        }
+        else {
+            return false;
+        }
     });
 
     // if(unit-test-name)
