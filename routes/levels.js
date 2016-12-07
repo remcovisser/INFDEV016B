@@ -15,24 +15,22 @@ router.get('/', User.isAuthenticated, function(req, res, next) {
 
 router.get('/:id', User.isAuthenticated, function(req, res, next) {
     var level = new Level();
-
-    level.find(req.params.id, function(level) {
+    level.findByName('name', req.params.id, function(level) {
 
         if (level == false) {
             res.status(404);
             res.render('404', {title: 'Page not found'});
             return;
         }
-        
-        res.render('level', { title: level.name, level: level, sID : level._id});
-    });
+
+        res.render('level', { title: level.name, level: level, sName : level.name});
+    }, 'name');
 });
 
 router.get('/:id/:subject/:question_id', User.isAuthenticated, function(req,res,next) {
     var level = new Level();
-    
-    level.find(req.params.id, function(level) {
 
+    level.findByName('name', req.params.id, function(level) {
         if (level == false) {
             res.status(404);
             res.render('404', {title: 'Page not found'});
@@ -56,7 +54,7 @@ router.get('/:id/:subject/:question_id', User.isAuthenticated, function(req,res,
                 }
             }
         }
-        
+
         res.render('exercise', { title: level.name, level: level, currentQuestion: currentQuestion});
     });
 });

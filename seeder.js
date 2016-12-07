@@ -8,10 +8,26 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
     db.collection('exercises').drop();
     db.collection('users').drop();
 
+    // Insert users
+    db.collection('users').insertMany([
+      {
+          username: 12345,
+          password: 'password'
+      },
+      {
+          username: 12346,
+          password: 'password2'
+      }
+    ], function(){
+      console.log('Done adding users!');
+      process.exit();
+    });
+
+    // Insert exercises
     db.collection('exercises').insertMany([
         {
-            name: 'Level 1',
-            description: 'This is the most basic level english.',
+            name: 'C2',
+            description: 'This is the most basic  english.',
             subjects: [
                 {
                     name: "Word order",
@@ -87,7 +103,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Lorem, succes.",
                             answer: "Ipsum"
                         },
@@ -102,7 +118,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -117,7 +133,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Reading comprehension",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -142,7 +158,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "to France"
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
                             answer: "by plane"
                         },
@@ -152,7 +168,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "because it's his birthday"
                         },
                         {
-                            id: 5, 
+                            id: 5,
                             question: "Who is joining you? (Peter, someone, I'm going)",
                             answer: "Peter"
                         },
@@ -162,7 +178,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Johnny's"
                         },
                         {
-                            id: 7, 
+                            id: 7,
                             question: "What book will you read? (That book, in 9 minutes, a manga)",
                             answer: "That book"
                         },
@@ -172,7 +188,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Japanese"
                         },
                         {
-                            id: 9, 
+                            id: 9,
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof"
                         },
@@ -185,26 +201,155 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                 }
             ]
         },
-
         {
-            name: 'Level 2',
-            description: 'This is a beginner level english.'
+            name: 'C1',
+            description: 'This is a beginner  english.',
+            subjects: [
+            	{
+            		  name: "Word order",
+                  questions: []
+            	},
+            	{
+            		  name: "Quantifiers",
+                  questions: []
+            	},
+            	{
+            		  name: "Capitalization",
+                  questions: []
+            	},
+            	{
+            		  name: "Spelling",
+                  questions: []
+            	},
+            	{
+            		  name: "Reading comprehension",
+                  questions: []
+            	},
+            	{
+            		  name: "Questions",
+                  questions: []
+            	},
+            ]
         },
         {
-            name: 'Level 3',
+            name: 'B2',
             description: '...',
+            subjects: [
+            	{
+            		  name: "Word order",
+                  questions: []
+            	},
+            	{
+            		  name: "Quantifiers",
+                  questions: []
+            	},
+            	{
+            		  name: "Capitalization",
+                  questions: []
+            	},
+            	{
+            		  name: "Spelling",
+                  questions: []
+            	},
+            	{
+            		  name: "Reading comprehension",
+                  questions: []
+            	},
+            	{
+            		  name: "Questions",
+                  questions: []
+            	},
+            ]
         },
         {
-            name: 'Level 4',
-            description: '....'
-        },
-        {
-            name: 'Level 5',
+            name: 'B1',
             description: '....',
+            subjects: [
+            	{
+            		  name: "Word order",
+                  questions: []
+            	},
+            	{
+            		  name: "Quantifiers",
+                  questions: []
+            	},
+            	{
+            		  name: "Capitalization",
+                  questions: []
+            	},
+            	{
+            		  name: "Spelling",
+                  questions: []
+            	},
+            	{
+            		  name: "Reading comprehension",
+                  questions: []
+            	},
+            	{
+            		  name: "Questions",
+                  questions: []
+            	},
+            ]
         },
         {
-            name: 'Level 6',
-            description: '..'
+            name: 'A2',
+            description: '....',
+            subjects: [
+            	{
+            		  name: "Word order",
+                  questions: []
+            	},
+            	{
+            		  name: "Quantifiers",
+                  questions: []
+            	},
+            	{
+            		  name: "Capitalization",
+                  questions: []
+            	},
+            	{
+            		  name: "Spelling",
+                  questions: []
+            	},
+            	{
+            		  name: "Reading comprehension",
+                  questions: []
+            	},
+            	{
+            		  name: "Questions",
+                  questions: []
+            	},
+            ]
+        },
+        {
+            name: 'A1',
+            description: '..',
+            subjects: [
+            	{
+            		  name: "Word order",
+                  questions: []
+            	},
+            	{
+            		  name: "Quantifiers",
+                  questions: []
+            	},
+            	{
+            		  name: "Capitalization",
+                  questions: []
+            	},
+            	{
+            		  name: "Spelling",
+                  questions: []
+            	},
+            	{
+            		  name: "Reading comprehension",
+                  questions: []
+            	},
+            	{
+            		  name: "Questions",
+                  questions: []
+            	},
+            ]
         }
     ], function() {
         console.log('Done adding exercises!');
