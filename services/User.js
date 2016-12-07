@@ -46,7 +46,49 @@ module.exports = class User {
                 callback(res.ops[0]);
             });
         });
+    }
 
+    static isGuest(req, res, next) {
+        // Check if auth cookie is defined
+        if (req.cookies.userId == undefined) {
+            return next();
+        }
 
+        var that = new User();
+
+        that.find(req.cookies.userId, function(result) {
+            if (result) {
+                res.redirect('/levels');
+                return;
+            }
+
+            that.logOut(res);
+            return next();
+        });
+    }
+
+    static isAuthenticated(req, res, next) {
+        // Check if auth cookie is defined
+        if (req.cookies.userId == undefined) {
+            res.redirect('/?errors[global]=unauthenticated');
+            return;
+        }
+
+        var that = new User();
+
+        that.find(req.cookies.userId, function(result) {
+            if (!result) {
+                res.redirect('/?errors[global]=unauthenticated');
+                return;
+            }
+
+            global.CurrentUser = result[0];
+            return next();
+        });
+    }
+
+    logOut(res) {
+        // Remove cookie
+        res.cookie('userId', '', { expires: new Date() });
     }
 };

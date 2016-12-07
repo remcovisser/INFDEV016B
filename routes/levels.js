@@ -1,11 +1,10 @@
 var express = require('express'),
     router = express.Router(),
-    Level = require('./../services/level');
+    Level = require('./../services/level'),
+    User = require('./../services/User');
 
 /* GET levels listing. */
-router.get('/', function(req, res, next) {
-
-    console.log(req.cookies.userId);
+router.get('/', User.isAuthenticated, function(req, res, next) {
 
     var level = new Level();
 
@@ -14,7 +13,7 @@ router.get('/', function(req, res, next) {
     });
 });
 
-router.get('/:id', function(req, res, next) {
+router.get('/:id', User.isAuthenticated, function(req, res, next) {
     var level = new Level();
 
     level.find(req.params.id, function(level) {
@@ -29,7 +28,7 @@ router.get('/:id', function(req, res, next) {
     });
 });
 
-router.get('/:id/:subject/:question_id', function(req,res,next) {
+router.get('/:id/:subject/:question_id', User.isAuthenticated, function(req,res,next) {
     var level = new Level();
     
     level.find(req.params.id, function(level) {
