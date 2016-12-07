@@ -49,7 +49,45 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization"
                 },
                 {
-                    name: "Spelling"
+                    name: "Spelling",
+                    questions: [
+                        {
+                            id: 1,
+                            question: "I walket to the stor.",
+                            answer: "I walked to the store.",
+                            choices:[
+                                {
+                                    a: "I walks to the stor.",
+                                    b: "I walked to the store.",
+                                    c: "Sentence is already correct."
+                                }
+                            ]
+                        },
+                        {
+                            id: 2,
+                            question: "I have sleeped ferry well.",
+                            answer: "I have slept.",
+                            choices:[
+                                {
+                                    a: "I have slept ferry well..",
+                                    b: "I have slept very well.",
+                                    c: "Sentence is already correct."
+                                }
+                            ]
+                        },
+                        {
+                            id: 3,
+                            question: "Your annoying me quite a byte..",
+                            answer: "He changed too much.",
+                            choices:[
+                                {
+                                    a: "Your annoying me quite a bit.",
+                                    b: "you're annoying me quite a bit.",
+                                    c: "Sentence is already correct."
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
                     name: "Reading comprehension"
