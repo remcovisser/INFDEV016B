@@ -211,7 +211,58 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
             	},
             	{
             		  name: "Quantifiers",
-                  questions: []
+                  questions: [
+                      {
+                          id: 1,
+                          question: "We need .... bananas. (some/any)",
+                          answer: "some"
+                      },
+                      {
+                          id: 2,
+                          question: "You can't buy .... posters in this shop. (some/any)",
+                          answer: "any"
+                      },
+                      {
+                          id: 3,
+                          question: "They have found .... gold in that old mine. (some/any)",
+                          answer: "some"
+                      },
+                      {
+                          id: 4,
+                          question: "Do the Smiths have .... yellow van? (a/an)",
+                          answer: "a"
+                      },
+                      {
+                          id: 5,
+                          question: ".... little cheese (A/An)",
+                          answer: "A"
+                      },
+                      {
+                          id: 6,
+                          question: ".... few cars (A/An)",
+                          answer: "A"
+                      },
+                      {
+                          id: 7,
+                          question: "There are four worksheets - please take one of each. (each/every)",
+                          answer: "each"
+                      },
+                      {
+                          id: 8,
+                          question: "We enjoyed .... minute of our holidays. (each/every)",
+                          answer: "every"
+                      },
+                      {
+                          id: 9,
+                          question: "How .... time is left?) (much/many)",
+                          answer: "much"
+                      },
+                      {
+                          id: 10,
+                          question: "How .... sisters does Ella have? (much/many)",
+                          answer: "many"
+                      },
+                  ]
             	},
             	{
             		  name: "Capitalization",
