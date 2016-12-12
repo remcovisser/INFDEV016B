@@ -8,21 +8,6 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
     db.collection('exercises').drop();
     db.collection('users').drop();
 
-    // Insert users
-    db.collection('users').insertMany([
-      {
-          username: 12345,
-          password: 'password'
-      },
-      {
-          username: 12346,
-          password: 'password2'
-      }
-    ], function(){
-      console.log('Done adding users!');
-      process.exit();
-    });
-
     // Insert exercises
     db.collection('exercises').insertMany([
         {
@@ -205,201 +190,201 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
             name: 'C1',
             description: 'This is a beginner  english.',
             subjects: [
-            	{
-            		  name: "Word order",
-                  questions: []
-            	},
-            	{
-            		  name: "Quantifiers",
-                  questions: [
-                      {
-                          id: 1,
-                          question: "We need .... bananas. (some/any)",
-                          answer: "some"
-                      },
-                      {
-                          id: 2,
-                          question: "You can't buy .... posters in this shop. (some/any)",
-                          answer: "any"
-                      },
-                      {
-                          id: 3,
-                          question: "They have found .... gold in that old mine. (some/any)",
-                          answer: "some"
-                      },
-                      {
-                          id: 4,
-                          question: "Do the Smiths have .... yellow van? (a/an)",
-                          answer: "a"
-                      },
-                      {
-                          id: 5,
-                          question: ".... little cheese (A/An)",
-                          answer: "A"
-                      },
-                      {
-                          id: 6,
-                          question: ".... few cars (A/An)",
-                          answer: "A"
-                      },
-                      {
-                          id: 7,
-                          question: "There are four worksheets - please take one of each. (each/every)",
-                          answer: "each"
-                      },
-                      {
-                          id: 8,
-                          question: "We enjoyed .... minute of our holidays. (each/every)",
-                          answer: "every"
-                      },
-                      {
-                          id: 9,
-                          question: "How .... time is left?) (much/many)",
-                          answer: "much"
-                      },
-                      {
-                          id: 10,
-                          question: "How .... sisters does Ella have? (much/many)",
-                          answer: "many"
-                      },
-                  ]
-            	},
-            	{
-            		  name: "Capitalization",
-                  questions: []
-            	},
-            	{
-            		  name: "Spelling",
-                  questions: []
-            	},
-            	{
-            		  name: "Reading comprehension",
-                  questions: []
-            	},
-            	{
-            		  name: "Questions",
-                  questions: []
-            	},
+                {
+                    name: "Word order",
+                    questions: []
+                },
+                {
+                    name: "Quantifiers",
+                    questions: [
+                        {
+                            id: 1,
+                            question: "We need .... bananas. (some/any)",
+                            answer: "some"
+                        },
+                        {
+                            id: 2,
+                            question: "You can't buy .... posters in this shop. (some/any)",
+                            answer: "any"
+                        },
+                        {
+                            id: 3,
+                            question: "They have found .... gold in that old mine. (some/any)",
+                            answer: "some"
+                        },
+                        {
+                            id: 4,
+                            question: "Do the Smiths have .... yellow van? (a/an)",
+                            answer: "a"
+                        },
+                        {
+                            id: 5,
+                            question: ".... little cheese (A/An)",
+                            answer: "A"
+                        },
+                        {
+                            id: 6,
+                            question: ".... few cars (A/An)",
+                            answer: "A"
+                        },
+                        {
+                            id: 7,
+                            question: "There are four worksheets - please take one of each. (each/every)",
+                            answer: "each"
+                        },
+                        {
+                            id: 8,
+                            question: "We enjoyed .... minute of our holidays. (each/every)",
+                            answer: "every"
+                        },
+                        {
+                            id: 9,
+                            question: "How .... time is left?) (much/many)",
+                            answer: "much"
+                        },
+                        {
+                            id: 10,
+                            question: "How .... sisters does Ella have? (much/many)",
+                            answer: "many"
+                        },
+                    ]
+                },
+                {
+                    name: "Capitalization",
+                    questions: []
+                },
+                {
+                    name: "Spelling",
+                    questions: []
+                },
+                {
+                    name: "Reading comprehension",
+                    questions: []
+                },
+                {
+                    name: "Questions",
+                    questions: []
+                },
             ]
         },
         {
             name: 'B2',
             description: '...',
             subjects: [
-            	{
-            		  name: "Word order",
-                  questions: []
-            	},
-            	{
-            		  name: "Quantifiers",
-                  questions: []
-            	},
-            	{
-            		  name: "Capitalization",
-                  questions: []
-            	},
-            	{
-            		  name: "Spelling",
-                  questions: []
-            	},
-            	{
-            		  name: "Reading comprehension",
-                  questions: []
-            	},
-            	{
-            		  name: "Questions",
-                  questions: []
-            	},
+                {
+                    name: "Word order",
+                    questions: []
+                },
+                {
+                    name: "Quantifiers",
+                    questions: []
+                },
+                {
+                    name: "Capitalization",
+                    questions: []
+                },
+                {
+                    name: "Spelling",
+                    questions: []
+                },
+                {
+                    name: "Reading comprehension",
+                    questions: []
+                },
+                {
+                    name: "Questions",
+                    questions: []
+                },
             ]
         },
         {
             name: 'B1',
             description: '....',
             subjects: [
-            	{
-            		  name: "Word order",
-                  questions: []
-            	},
-            	{
-            		  name: "Quantifiers",
-                  questions: []
-            	},
-            	{
-            		  name: "Capitalization",
-                  questions: []
-            	},
-            	{
-            		  name: "Spelling",
-                  questions: []
-            	},
-            	{
-            		  name: "Reading comprehension",
-                  questions: []
-            	},
-            	{
-            		  name: "Questions",
-                  questions: []
-            	},
+                {
+                    name: "Word order",
+                    questions: []
+                },
+                {
+                    name: "Quantifiers",
+                    questions: []
+                },
+                {
+                    name: "Capitalization",
+                    questions: []
+                },
+                {
+                    name: "Spelling",
+                    questions: []
+                },
+                {
+                    name: "Reading comprehension",
+                    questions: []
+                },
+                {
+                    name: "Questions",
+                    questions: []
+                },
             ]
         },
         {
             name: 'A2',
             description: '....',
             subjects: [
-            	{
-            		  name: "Word order",
-                  questions: []
-            	},
-            	{
-            		  name: "Quantifiers",
-                  questions: []
-            	},
-            	{
-            		  name: "Capitalization",
-                  questions: []
-            	},
-            	{
-            		  name: "Spelling",
-                  questions: []
-            	},
-            	{
-            		  name: "Reading comprehension",
-                  questions: []
-            	},
-            	{
-            		  name: "Questions",
-                  questions: []
-            	},
+                {
+                    name: "Word order",
+                    questions: []
+                },
+                {
+                    name: "Quantifiers",
+                    questions: []
+                },
+                {
+                    name: "Capitalization",
+                    questions: []
+                },
+                {
+                    name: "Spelling",
+                    questions: []
+                },
+                {
+                    name: "Reading comprehension",
+                    questions: []
+                },
+                {
+                    name: "Questions",
+                    questions: []
+                },
             ]
         },
         {
             name: 'A1',
             description: '..',
             subjects: [
-            	{
-            		  name: "Word order",
-                  questions: []
-            	},
-            	{
-            		  name: "Quantifiers",
-                  questions: []
-            	},
-            	{
-            		  name: "Capitalization",
-                  questions: []
-            	},
-            	{
-            		  name: "Spelling",
-                  questions: []
-            	},
-            	{
-            		  name: "Reading comprehension",
-                  questions: []
-            	},
-            	{
-            		  name: "Questions",
-                  questions: []
-            	},
+                {
+                    name: "Word order",
+                    questions: []
+                },
+                {
+                    name: "Quantifiers",
+                    questions: []
+                },
+                {
+                    name: "Capitalization",
+                    questions: []
+                },
+                {
+                    name: "Spelling",
+                    questions: []
+                },
+                {
+                    name: "Reading comprehension",
+                    questions: []
+                },
+                {
+                    name: "Questions",
+                    questions: []
+                },
             ]
         }
     ], function() {
