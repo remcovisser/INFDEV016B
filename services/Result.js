@@ -5,43 +5,51 @@ module.exports = class Result {
         this.collection = db.collection('results');
     }
 
-    save(callback) {
+    save(level, subject, question, points, answer, userId, callback) {
+      this.findResults(userId, function(data) {
+          if(data) {
+            //data['levels'][level]['subjects'][subject]['questions'][question]['points'] = points;
+            //data['levels'][level]['subjects'][subject]['questions'][question]['answer'] = answer;
+            db.collection('results').remove({'_id' : userId})
+            db.collection('results').insert([data]);
+          } else {
+            var levels = ["C1", "C2", "B2", "B1", "A2", "A1"];
+            var subjects = ["Word order", "Quantifiers", "Capitalization", "Spelling", "Reading comprehension", "Questions"];
+            var seederData = ['levels'];
+              seederData[0]['levels'][0].push({'name':'C1'});
+            for(var i=0; i<levels.length; i++) {
 
-      this.collection.insert([
-        {
-            _id: '001',
-            levels: [
+                seederData[0]['levels']['name'] = levels[i];
+                for(var x=0; x<subjects.length; x++) {
+                    seederData['levels']['name'][levels[i]]['name'] = subjects[x];
+                }
+            }
+            console.log(seederData);
+
+            db.collection('results').insert([
               {
-                _id: 1,
-                name: 'C1',
-                subjects: [
-                  {
-                    name: "Quantifiers",
-                    questions: [
-                      {
-                        answer: "many",
-                        points: 0
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
+                  _id: userId,
+                  levels: [
+                    {
+                      name: level,
+                      subjects: [
+                        {
+                          name: question,
+                          questions: [
+                            {
+                              answer: answer,
+                              points: points
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            )
           }
-        ]
-      )
-
-
-      this.findResults('001', function(data) {
-          data['levels'][0]['subjects'][0]['questions'][0]['points'] = 1;
-
-          db.collection('results').remove({'_id' : '001'})
-          db.collection('results').insert([data]);
       });
-
-
-
-
 
       callback("test");
     }
