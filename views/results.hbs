@@ -7,19 +7,23 @@
     "subjects":[
     {"name":"Quantifiers",
     "questions":[{"answer":"many","points":0}]}]}]} -->
-    {{#each results.levels}}
-        <h3>{{ name }}</h3>
+    {{#if results}}
+        {{#each results.levels}}
+            <h3>{{ name }}</h3>
 
-            {{#each subjects}}
-                <h4>{{ name }}</h4>
+                {{#each subjects}}
+                    <h4>{{ name }}</h4>
 
-                {{#each questions}}
-                    {{question}} : {{points}} points received
+                    {{#each questions}}
+                        {{question}} : {{points}} points received
+                    {{/each}}
+
                 {{/each}}
 
-            {{/each}}
-
-    {{/each}}
-    </div>
+        {{/each}}
+    {{else}}
+        <h3>You don't have any results ....yet.</h3>
+    {{/if}}
+    
 
 </div>
