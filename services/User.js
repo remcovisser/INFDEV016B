@@ -82,13 +82,14 @@ module.exports = class User {
                 return;
             }
 
-            global.CurrentUser = result[0];
+            app.locals.currentUser = result;
             return next();
         });
     }
 
     logOut(res) {
         // Remove cookie
+        delete app.locals.currentUser;
         res.cookie('userId', '', { expires: new Date() });
     }
 };

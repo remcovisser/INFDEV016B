@@ -27,4 +27,14 @@ module.exports = class Level {
             return callback(data[0]);
         })
     }
+
+    findByName(name, value, callback) {
+        this.collection.find({ name: value }).toArray(function(err, data) {
+            if (data.length == 0) {
+                return callback(false);
+            }
+
+            return callback(data[0]);
+        })
+      }
 };
