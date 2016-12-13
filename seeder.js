@@ -104,12 +104,12 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         {
                             id: 1,
                             question: "I walket to the stor.",
-                            answer: "I walked to the store.",
+                            answer: "I walked to the store."
                         },
                         {
                             id: 2,
                             question: "I have sleeped ferry well.",
-                            answer: "I have slept very well.",
+                            answer: "I have slept very well."
                         },
                         {
                             id: 3,
@@ -151,6 +151,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             question: "You never cheese to amaze me",
                             answer: "You never cease to amaze me"
                         }
+                    ]
                 },
                 {
                     name: "Reading comprehension",
