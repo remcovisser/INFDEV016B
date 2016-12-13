@@ -13,4 +13,11 @@ router.get('/:id/:subject/:question_id/:result', User.isAuthenticated, function(
   res.send('Failed to save');
 });
 
+router.get('/:id', User.isAuthenticated, function(req,res,next) {
+    var result = new Result();
+    result.findResults(req.params.id, function(data){
+        res.render('results', { title: 'Your results', results: data });
+    });
+});
+
 module.exports = router;
