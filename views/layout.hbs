@@ -7,13 +7,14 @@
   </head>
   <body>
     <div id="app">
-
         <div class="container">
-            {{#if currentUser}}
-                <a href="/logout" class="pull-right">Logout</a>
-            {{/if}}
-
             <section id="header">
+                {{#if currentUser}}
+                <div class="menu">
+                    <a href="/levels" class="btn btn-outline-info">Levels</a>
+                    <a href="/logout" class="btn btn-outline-danger">Log out</a>
+                </div>
+                {{/if}}
                 <header class="centered">
                     <h1>Learn english!</h1>
                 </header>

@@ -99,6 +99,20 @@ a:after {
     }
 }
 
+.menu {
+    margin-top:20px;
+    text-align:right;
+    a {
+        color:$blue;
+        border:1px solid;
+
+        &:hover {
+            background:$blue;
+            color:$white;
+        }
+    }
+}
+
 #answer {
     margin-bottom:0 20px;
 }
