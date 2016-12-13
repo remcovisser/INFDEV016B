@@ -10,6 +10,10 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lato";
@@ -80,7 +84,7 @@ a:after {
 }
 
 #levels {
-    .level { 
+    .level {
         h2 {
             border:1px solid $blue;
             padding:20px;
@@ -95,6 +99,24 @@ a:after {
     }
 }
 
+.menu {
+    margin-top:20px;
+    text-align:right;
+    a {
+        color:$blue;
+        border:1px solid;
+
+        &:hover {
+            background:$blue;
+            color:$white;
+        }
+    }
+}
+
+#answer {
+    margin-bottom:0 20px;
+}
+
 .progress_bar {
     height: 20px;  /* Can be anything */
 	position: relative;
@@ -105,14 +127,16 @@ a:after {
 	box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
 
     span {
-        width:25%;
+        width:0%;
         display: block;
         height: 20px;
+        line-height:20px;
         -moz-border-radius: 25px;
 	    -webkit-border-radius: 25px;
         background-color: rgb(43,194,83);
         position: relative;
         overflow: hidden;
+        color:white;
+        font-weight:bold;
     }
 }
-

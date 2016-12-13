@@ -6,6 +6,8 @@
  */
 
 require('./bootstrap');
+require('./exersice');
+
 
 const app = new Vue({
     el: '#app'

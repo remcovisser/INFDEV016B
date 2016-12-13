@@ -1,21 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <title>{{title}}</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="/css/app.css" />
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic">
   </head>
   <body>
     <div id="app">
-      <div class="container">
-        <section id="header">
-            <header class="centered">
-                <h1>Learn english!</h1>
-            </header>
-        </section>
+        <div class="container">
+            <section id="header">
+                {{#if currentUser}}
+                <div class="menu">
+                    <a href="/levels" class="btn btn-outline-info">Levels</a>
+                    <a href="/logout" class="btn btn-outline-danger">Log out</a>
+                </div>
+                {{/if}}
+                <header class="centered">
+                    <h1>Learn english!</h1>
+                </header>
+            </section>
+        </div>
+
+        {{{ body }}}
+
     </div>
-    {{{body}}}
-    </div>
+
     <script src="/js/app.js"></script>
   </body>
 </html>
