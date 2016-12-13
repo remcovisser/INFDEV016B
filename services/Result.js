@@ -6,41 +6,50 @@ module.exports = class Result {
     }
 
     save(callback) {
-      this.findByName('_id', '001', function(data) {
-          console.log(data);
-      });
 
-      /*
-        this.collection.insert([
-          {
-              _id: '001',
-              levels:
-                {
-                  _id: 1,
-                  name: 'C1',
-                  subjects: [
-                    {
-                      name: "Quantifiers",
-                      questions: [
-                        {
-                          answer: "many",
-                          points: 0
-                        }
-                      ]
-                    }
-                  ]
-                }
+      this.collection.insert([
+        {
+            _id: '001',
+            levels: [
+              {
+                _id: 1,
+                name: 'C1',
+                subjects: [
+                  {
+                    name: "Quantifiers",
+                    questions: [
+                      {
+                        answer: "many",
+                        points: 0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
         ]
       )
-        */
+
+
+      this.findResults('001', function(data) {
+          data['levels'][0]['subjects'][0]['questions'][0]['points'] = 1;
+
+          db.collection('results').remove({'_id' : '001'})
+          db.collection('results').insert([data]);
+      });
+
+
+
+
+
       callback("test");
     }
 
 
 
-    findByName(name, value, callback) {
-        this.collection.find({ name: value }).toArray(function(err, data) {
+    findResults(value, callback) {
+        this.collection.find({ _id: value }).toArray(function(err, data) {
             if (data.length == 0) {
                 return callback(false);
             }
