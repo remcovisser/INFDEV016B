@@ -1,6 +1,6 @@
 A NodeJS Express application build in ECMAScript 6.
 
-[![Build Status](http://95.85.2.218:8080/job/nodejs-app/badge/icon)](http://95.85.2.218:8080/job/nodejs-app/)
+[![Build Status](http://95.85.2.218:8080/buildStatus/icon?job=nodejs-app)](http://95.85.2.218:8080/job/nodejs-app)
 
 #Installation
 ###To install (and update) dependencies
@@ -11,7 +11,7 @@ To install global dependencies:
 * `npm install gulp -g`
 
 ###To start server
-_Do not forget to start your MongoDB server first_
+_Do not forget to start your MongoDB server first_ (run mongod)
 * Compile once: `npm server` or `npm run server`
 * Recompile in realtime: `npm server-dev`
 * The server runs on localhost:3000
