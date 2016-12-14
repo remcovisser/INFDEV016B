@@ -42,11 +42,6 @@ module.exports = class Result {
             }
             db.collection('results').remove({'_id' : userId})
             db.collection('results').insert([data]);
-          } else {
-            var resC = new Result();
-            var seederData = resC.newResult(userId);
-    
-            db.collection('results').insert(seederData);
           }
       });
 
