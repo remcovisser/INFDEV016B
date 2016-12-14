@@ -1,7 +1,7 @@
 A NodeJS Express application build in ECMAScript 6.
 
 [![Build Status](http://95.85.2.218:8080/buildStatus/icon?job=nodejs-app)](http://95.85.2.218:8080/job/nodejs-app)
-
+ 
 #Installation
 ###To install (and update) dependencies
 `npm install`
