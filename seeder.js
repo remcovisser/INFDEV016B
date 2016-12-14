@@ -87,7 +87,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Lorem, succes.",
                             answer: "Ipsum"
                         },
@@ -157,7 +157,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Reading comprehension",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -182,7 +182,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "to France"
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
                             answer: "by plane"
                         },
@@ -192,7 +192,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "because it's his birthday"
                         },
                         {
-                            id: 5, 
+                            id: 5,
                             question: "Who is joining you? (Peter, someone, I'm going)",
                             answer: "Peter"
                         },
@@ -202,7 +202,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Johnny's"
                         },
                         {
-                            id: 7, 
+                            id: 7,
                             question: "What book will you read? (That book, in 9 minutes, a manga)",
                             answer: "That book"
                         },
@@ -212,7 +212,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Japanese"
                         },
                         {
-                            id: 9, 
+                            id: 9,
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof"
                         },
@@ -304,7 +304,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Lorem, succes.",
                             answer: "Ipsum"
                         },
@@ -374,7 +374,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Reading comprehension",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -399,7 +399,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "to France"
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
                             answer: "by plane"
                         },
@@ -409,7 +409,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "because it's his birthday"
                         },
                         {
-                            id: 5, 
+                            id: 5,
                             question: "Who is joining you? (Peter, someone, I'm going)",
                             answer: "Peter"
                         },
@@ -419,7 +419,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Johnny's"
                         },
                         {
-                            id: 7, 
+                            id: 7,
                             question: "What book will you read? (That book, in 9 minutes, a manga)",
                             answer: "That book"
                         },
@@ -429,7 +429,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Japanese"
                         },
                         {
-                            id: 9, 
+                            id: 9,
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof"
                         },
@@ -520,7 +520,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Lorem, succes.",
                             answer: "Ipsum"
                         },
@@ -535,14 +535,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            id: 1,
+                            question: "Reffer to me as Tom",
+                            answer: "Refer to me as Tom"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "The animal was heartbroken efter the love of hiz live left him for an poodle",
+                            answer: "The animal was heartbroken after the love of his life left him for a poodle"
+                        },
+                        {
+                            id: 3,
+                            question: "This is quite an tricky question",
+                            answer: "This is quite a tricky question"
+                        },
+                        {
+                            id: 4,
+                            question: "It ccured to him that he wass in need of a byt of sleep",
+                            answer: "It occurred to him that we was in need of a bit of sleep"
+                        },
+                        {
+                            id: 5,
+                            question: "He did not do the dashes",
+                            answer: "He did not do the dishes"
+                        },
+                        {
+                            id: 6,
+                            question: "Englishman are quite exceptional at the art of speeking English fluently",
+                            answer: "Englishmen are quite exceptional at the art of speaking English fluently"
+                        },
+                        {
+                            id: 7,
+                            question: "The lattest news always apears at a instance on their website",
+                            answer: "The latest news always appears at an instance on their website"
+                        },
+                        {
+                            id: 8,
+                            question: "He drank to much wiskey",
+                            answer: "He drunk too much whiskey"
+                        },
+                        {
+                            id: 9,
+                            question: "Later that day, he had a sudden realization that the love of his life appared to be his bottle of rum",
+                            answer: "Later that day, he had a sudden realization that the love of his life appeared to be his bottle of rum"
+                        },
+                        {
+                            id: 10,
+                            question: "Dylan is rother annooiing, today",
+                            answer: "Dylan is rather annoying, today"
                         }
                     ]
                 },
@@ -550,7 +590,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Reading comprehension",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -575,7 +615,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "to France"
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
                             answer: "by plane"
                         },
@@ -585,7 +625,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "because it's his birthday"
                         },
                         {
-                            id: 5, 
+                            id: 5,
                             question: "Who is joining you? (Peter, someone, I'm going)",
                             answer: "Peter"
                         },
@@ -595,7 +635,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Johnny's"
                         },
                         {
-                            id: 7, 
+                            id: 7,
                             question: "What book will you read? (That book, in 9 minutes, a manga)",
                             answer: "That book"
                         },
@@ -605,12 +645,10 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Japanese"
                         },
                         {
-                            id: 9, 
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof"
                         },
                         {
-                            id: 10,
                             question: "On what date was your dog born? (a few days ago, 20 minutes from now on, January 1st)",
                             answer: "January 1st"
                         }
@@ -626,12 +664,10 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Word order",
                     questions: [
                         {
-                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
                         {
-                            id: 2,
                             question: "What time is it?",
                             answer: "High noon"
                         }
@@ -641,52 +677,42 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Quantifiers",
                     questions: [
                         {
-                            id: 1,
                             question: "How .... money have you got? (much/many)",
                             answer: "much"
                         },
                         {
-                            id: 2,
                             question: "He has .... money left. (a little/a few)",
                             answer: "a little"
                         },
                         {
-                            id: 3,
                             question: ".... time (much/many)",
                             answer: "much"
                         },
                         {
-                            id: 4,
                             question: ".... children (much/many)",
                             answer: "many"
                         },
                         {
-                            id: 5,
                             question: "There are two boys. .... is smiling. (each/every)",
                             answer: "each"
                         },
                         {
-                            id: 6,
                             question: "The students .... received a free copy of the magazine. (each/every)",
                             answer: "each"
                         },
                         {
-                            id: 7,
                             question: "Can I have .... of these apples? (some/any)",
                             answer: "some"
                         },
                         {
-                            id: 8,
                             question: "Have you got .... apples? (some/any)",
                             answer: "any"
                         },
                         {
-                            id: 9,
                             question: "There is .... wrong with our car. (something/anything)",
                             answer: "something"
                         },
                         {
-                            id: 10,
                             question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
                             answer: "somehow"
                         }
@@ -696,12 +722,10 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            id: 1, 
                             question: "Lorem, succes.",
                             answer: "Ipsum"
                         },
                         {
-                            id: 2,
                             question: "What time is it?",
                             answer: "High noon"
                         }
@@ -711,14 +735,44 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "Remco, unfortutanely, does not life in Rotterdam",
+                            answer: "Remco, unfortunately, does not live in Rotterdam"
                         },
                         {
-                            id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "Remco is a ferry vunny guy",
+                            answer: "Remco is a very funny guy"
+                        },
+                        {
+                            question: "The boot seels akros the sea",
+                            answer: "The boat sails across the sea"
+                        },
+                        {
+                            question: "The script will only be exekuted whenever Remcodedko wants it to",
+                            answer: "The script will only be executed whenever Remco wants it to"
+                        },
+                        {
+                            question: "Remco has found the missing PDF he wanted to lent Andy",
+                            answer: "Remco has found the missing PDF he wanted to lend Andy"
+                        },
+                        {
+                            question: "Saldy, Remco is not Jody Bernal",
+                            answer: "Sadly, Remco is not Jody Bernal"
+                        },
+                        {
+                            question: "Remco's programming skills are extraordinarily diversived",
+                            answer: "Remco's programming skills are extraordinarily diversive"
+                        },
+                        {
+                            question: "Remco has bought an license for Visual Studio 2009",
+                            answer: "Remco has bought a license for Visual Studio 2009"
+                        },
+                        {
+                            question: "Remco, supposedly, does not like wiating on his food and bear",
+                            answer: "Remco, supposedly, does not like waiting on his food and beer"
+                        },
+                        {
+                            question: "Remco likes to exercise quite a bit, as you can sea. Look at those bikeps.",
+                            answer: "Remco likes to exercise quite a bit, as you can see. Look at those biceps."
                         }
                     ]
                 },
@@ -726,7 +780,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Reading comprehension",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -751,7 +805,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "to France"
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
                             answer: "by plane"
                         },
@@ -761,7 +815,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "because it's his birthday"
                         },
                         {
-                            id: 5, 
+                            id: 5,
                             question: "Who is joining you? (Peter, someone, I'm going)",
                             answer: "Peter"
                         },
@@ -771,7 +825,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Johnny's"
                         },
                         {
-                            id: 7, 
+                            id: 7,
                             question: "What book will you read? (That book, in 9 minutes, a manga)",
                             answer: "That book"
                         },
@@ -781,7 +835,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Japanese"
                         },
                         {
-                            id: 9, 
+                            id: 9,
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof"
                         },
@@ -872,7 +926,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Lorem, succes.",
                             answer: "Ipsum"
                         },
@@ -887,7 +941,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -902,7 +956,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Reading comprehension",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -927,7 +981,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "to France"
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
                             answer: "by plane"
                         },
@@ -937,7 +991,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "because it's his birthday"
                         },
                         {
-                            id: 5, 
+                            id: 5,
                             question: "Who is joining you? (Peter, someone, I'm going)",
                             answer: "Peter"
                         },
@@ -947,7 +1001,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Johnny's"
                         },
                         {
-                            id: 7, 
+                            id: 7,
                             question: "What book will you read? (That book, in 9 minutes, a manga)",
                             answer: "That book"
                         },
@@ -957,7 +1011,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Japanese"
                         },
                         {
-                            id: 9, 
+                            id: 9,
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof"
                         },
@@ -1048,7 +1102,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Lorem, succes.",
                             answer: "Ipsum"
                         },
@@ -1063,7 +1117,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -1078,7 +1132,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Reading comprehension",
                     questions: [
                         {
-                            id: 1, 
+                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
@@ -1103,7 +1157,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "to France"
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
                             answer: "by plane"
                         },
@@ -1113,7 +1167,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "because it's his birthday"
                         },
                         {
-                            id: 5, 
+                            id: 5,
                             question: "Who is joining you? (Peter, someone, I'm going)",
                             answer: "Peter"
                         },
@@ -1123,7 +1177,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Johnny's"
                         },
                         {
-                            id: 7, 
+                            id: 7,
                             question: "What book will you read? (That book, in 9 minutes, a manga)",
                             answer: "That book"
                         },
@@ -1133,7 +1187,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Japanese"
                         },
                         {
-                            id: 9, 
+                            id: 9,
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof"
                         },

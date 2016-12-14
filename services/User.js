@@ -1,5 +1,7 @@
 'use strict';
 
+var Result = require('./Result.js');
+
 module.exports = class User {
     constructor() {
         this.collection = db.collection('users');
