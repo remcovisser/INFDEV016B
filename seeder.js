@@ -102,14 +102,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            id: 1,
+                            question: "I walket to the stor.",
+                            answer: "I walked to the store."
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "I have sleeped ferry well.",
+                            answer: "I have slept very well."
+                        },
+                        {
+                            id: 3,
+                            question: "Your annoying me quite a byte..",
+                            answer: "You're annoying me quite a bit..."
+                        },
+                        {
+                            id: 4,
+                            question: "The gras is greener on the otter side",
+                            answer: "The grass is greener on the other side"
+                        },
+                        {
+                            id: 5,
+                            question: "My mum cooks the tastoest foot",
+                            answer: "My mum cooks the tastiest food"
+                        },
+                        {
+                            id: 6,
+                            question: "Your keeb amasing me",
+                            answer: "You keep amazing me"
+                        },
+                        {
+                            id: 7,
+                            question: "The newspaperz are being spred",
+                            answer: "The newspapers are being spread"
+                        },
+                        {
+                            id: 8,
+                            question: "You're annoioing me quite a bit",
+                            answer: "You're annoying me quite a bit"
+                        },
+                        {
+                            id: 9,
+                            question: "Water you doing?",
+                            answer: "What are you doing?"
+                        },
+                        {
+                            id: 10,
+                            question: "You never cheese to amaze me",
+                            answer: "You never cease to amaze me"
                         }
                     ]
                 },
@@ -279,14 +319,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            id: 1,
+                            question: "He slepped me",
+                            answer: "He slapped me"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "It ated my foot",
+                            answer: "It ate my food"
+                        },
+                        {
+                            id: 3,
+                            question: "The footballpleyer waz injured",
+                            answer: "The footballplayer was injured"
+                        },
+                        {
+                            id: 4,
+                            question: "The oter ate a vish",
+                            answer: "The otter ate a fish"
+                        },
+                        {
+                            id: 5,
+                            question: "My dad steped on a Lego",
+                            answer: "My dad stepped on a Lego"
+                        },
+                        {
+                            id: 6,
+                            question: "This food tastes amasing",
+                            answer: "This food tastes amazing"
+                        },
+                        {
+                            id: 7,
+                            question: "The newspapers where not deliverd",
+                            answer: "The newspapers were not delivered"
+                        },
+                        {
+                            id: 8,
+                            question: "The lion chaset the dear",
+                            answer: "The lion chased the deer"
+                        },
+                        {
+                            id: 9,
+                            question: "It is a nice dey",
+                            answer: "It is a nice day"
+                        },
+                        {
+                            id: 10,
+                            question: "Dilan plays Pokemon Go",
+                            answer: "Dylan plays Pokemon Go"
                         }
                     ]
                 },
