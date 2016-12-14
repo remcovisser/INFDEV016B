@@ -535,14 +535,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            id: 1,
+                            question: "Reffer to me as Tom",
+                            answer: "Refer to me as Tom"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "The animal was heartbroken efter the love of hiz live left him for an poodle",
+                            answer: "The animal was heartbroken after the love of his life left him for a poodle"
+                        },
+                        {
+                            id: 3,
+                            question: "This is quite an tricky question",
+                            answer: "This is quite a tricky question"
+                        },
+                        {
+                            id: 4,
+                            question: "It ccured to him that he wass in need of a byt of sleep",
+                            answer: "It occurred to him that we was in need of a bit of sleep"
+                        },
+                        {
+                            id: 5,
+                            question: "He did not do the dashes",
+                            answer: "He did not do the dishes"
+                        },
+                        {
+                            id: 6,
+                            question: "Englishman are quite exceptional at the art of speeking English fluently",
+                            answer: "Englishmen are quite exceptional at the art of speaking English fluently"
+                        },
+                        {
+                            id: 7,
+                            question: "The lattest news always apears at a instance on their website",
+                            answer: "The latest news always appears at an instance on their website"
+                        },
+                        {
+                            id: 8,
+                            question: "He drank to much wiskey",
+                            answer: "He drunk too much whiskey"
+                        },
+                        {
+                            id: 9,
+                            question: "Later that day, he had a sudden realization that the love of his life appared to be his bottle of rum",
+                            answer: "Later that day, he had a sudden realization that the love of his life appeared to be his bottle of rum"
+                        },
+                        {
+                            id: 10,
+                            question: "Dylan is rother annooiing, today",
+                            answer: "Dylan is rather annoying, today"
                         }
                     ]
                 },
