@@ -42,11 +42,6 @@ module.exports = class Result {
             }
             db.collection('results').remove({'_id' : userId})
             db.collection('results').insert([data]);
-          } else {
-            var resC = new Result();
-            var seederData = resC.newResult(userId);
-    
-            db.collection('results').insert(seederData);
           }
       });
 
@@ -69,7 +64,7 @@ module.exports = class Result {
             seederData.push({
               _id : userId,
               levels: [ 
-                {'_id' : 1, 'name' : 'C1',
+                {'_id' : 1, 'name' : 'C2',
                  'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
@@ -140,7 +135,7 @@ module.exports = class Result {
                   }
                  ]
                 }, 
-                {'_id' : 2, 'name' : 'C2',
+                {'_id' : 2, 'name' : 'C1',
                 'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
