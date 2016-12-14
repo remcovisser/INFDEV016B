@@ -1,0 +1,29 @@
+<div class="container centered">
+    <h2>Your results</h2>
+    <div id="levels">
+    <!-- {"_id":"001",
+    "levels":[
+    {"_id":1,"name":"C1","description":"69",
+    "subjects":[
+    {"name":"Quantifiers",
+    "questions":[{"answer":"many","points":0}]}]}]} -->
+    {{#if results}}
+        {{#each results.levels}}
+            <h3>{{ name }}</h3>
+
+                {{#each subjects}}
+                    <h4>{{ name }}</h4>
+
+                    {{#each questions}}
+                        {{question}} : {{points}} points received
+                    {{/each}}
+
+                {{/each}}
+
+        {{/each}}
+    {{else}}
+        <h3>You don't have any results ....yet.</h3>
+    {{/if}}
+    
+
+</div>
