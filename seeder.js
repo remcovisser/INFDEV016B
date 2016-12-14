@@ -645,12 +645,10 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "Japanese"
                         },
                         {
-                            id: 9, 
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof"
                         },
                         {
-                            id: 10,
                             question: "On what date was your dog born? (a few days ago, 20 minutes from now on, January 1st)",
                             answer: "January 1st"
                         }
@@ -666,12 +664,10 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Word order",
                     questions: [
                         {
-                            id: 1,
                             question: "Rick, succes.",
                             answer: "NotLikeThis"
                         },
                         {
-                            id: 2,
                             question: "What time is it?",
                             answer: "High noon"
                         }
@@ -681,52 +677,42 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Quantifiers",
                     questions: [
                         {
-                            id: 1,
                             question: "How .... money have you got? (much/many)",
                             answer: "much"
                         },
                         {
-                            id: 2,
                             question: "He has .... money left. (a little/a few)",
                             answer: "a little"
                         },
                         {
-                            id: 3,
                             question: ".... time (much/many)",
                             answer: "much"
                         },
                         {
-                            id: 4,
                             question: ".... children (much/many)",
                             answer: "many"
                         },
                         {
-                            id: 5,
                             question: "There are two boys. .... is smiling. (each/every)",
                             answer: "each"
                         },
                         {
-                            id: 6,
                             question: "The students .... received a free copy of the magazine. (each/every)",
                             answer: "each"
                         },
                         {
-                            id: 7,
                             question: "Can I have .... of these apples? (some/any)",
                             answer: "some"
                         },
                         {
-                            id: 8,
                             question: "Have you got .... apples? (some/any)",
                             answer: "any"
                         },
                         {
-                            id: 9,
                             question: "There is .... wrong with our car. (something/anything)",
                             answer: "something"
                         },
                         {
-                            id: 10,
                             question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
                             answer: "somehow"
                         }
@@ -736,12 +722,10 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            id: 1, 
                             question: "Lorem, succes.",
                             answer: "Ipsum"
                         },
                         {
-                            id: 2,
                             question: "What time is it?",
                             answer: "High noon"
                         }
@@ -751,14 +735,44 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1, 
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "Remco, unfortutanely, does not life in Rotterdam",
+                            answer: "Remco, unfortunately, does not live in Rotterdam"
                         },
                         {
-                            id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "Remco is a ferry vunny guy",
+                            answer: "Remco is a very funny guy"
+                        },
+                        {
+                            question: "The boot seels akros the sea",
+                            answer: "The boat sails across the sea"
+                        },
+                        {
+                            question: "The script will only be exekuted whenever Remcodedko wants it to",
+                            answer: "The script will only be executed whenever Remco wants it to"
+                        },
+                        {
+                            question: "Remco has found the missing PDF he wanted to lent Andy",
+                            answer: "Remco has found the missing PDF he wanted to lend Andy"
+                        },
+                        {
+                            question: "Saldy, Remco is not Jody Bernal",
+                            answer: "Sadly, Remco is not Jody Bernal"
+                        },
+                        {
+                            question: "Remco's programming skills are extraordinarily diversived",
+                            answer: "Remco's programming skills are extraordinarily diversive"
+                        },
+                        {
+                            question: "Remco has bought an license for Visual Studio 2009",
+                            answer: "Remco has bought a license for Visual Studio 2009"
+                        },
+                        {
+                            question: "Remco, supposedly, does not like wiating on his food and bear",
+                            answer: "Remco, supposedly, does not like waiting on his food and beer"
+                        },
+                        {
+                            question: "Remco likes to exercise quite a bit, as you can sea. Look at those bikeps.",
+                            answer: "Remco likes to exercise quite a bit, as you can see. Look at those biceps."
                         }
                     ]
                 },
