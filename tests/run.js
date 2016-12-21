@@ -49,6 +49,35 @@ describe('Unit tests', function(){
             .match(/[a-z]/)
     });
 
+    // Check of de betaling gelukt is (hier altijd mislukt)
+    it('Payment failed?', function(){
+        var paymentData = {
+            price: 20.00,
+            username: 'test',
+            status: 'failed'
+        };
+
+        if(paymentData.status == 'failed'){
+            return false;
+        }else{
+            return true;
+        }
+    });
+
+    it('Payment succeeded', function(){
+        var paymentData = {
+            price: 20.00,
+            username: 'test',
+            status: 'success',
+        }
+
+        if(paymentData.status == 'success'){
+            return true;
+        }else{
+            return false;
+        }
+    });
+
     it('Is it a valid student number?', function(){
         // the given student number
         var studentnumber = 123;
