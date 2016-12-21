@@ -54,13 +54,11 @@ describe('Unit tests', function(){
         var paymentData = {
             price: 20.00,
             username: 'test',
-            status: 'failed'
+            status: false,
         };
 
-        if(paymentData.status == 'failed'){
+        if(!payment.status){
             return false;
-        }else{
-            return true;
         }
     });
 
@@ -69,13 +67,11 @@ describe('Unit tests', function(){
         var paymentData = {
             price: 20.00,
             username: 'test',
-            status: 'success',
+            success:true
         }
 
-        if(paymentData.status == 'success'){
+        if(payment.success){
             return true;
-        }else{
-            return false;
         }
     });
 
