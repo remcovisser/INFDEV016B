@@ -51,6 +51,7 @@ describe('Unit tests', function(){
 
 
     it('Question saved?', function(){
+        
         var questionData = {
             level: "C1",
             subject: "Spelling",
@@ -60,7 +61,9 @@ describe('Unit tests', function(){
             userId: 3
         };
 
-        test.number(questionData.userId);
+        test
+            .number(questionData.userId)
+            .string(questionData.answer);
 
     });
   
