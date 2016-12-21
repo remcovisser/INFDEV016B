@@ -57,10 +57,10 @@ module.exports = class Result {
         })
       }
 
-      newResult(userId) {
+      newResult(username) {
         var seederData = [];
             seederData.push({
-              _id : userId,
+              _id : username,
               levels: [
                 {'_id' : 1, 'name' : 'C2',
                  'subjects' : [
@@ -184,9 +184,6 @@ module.exports = class Result {
                 }
               ]
             });
-
             return seederData;
       }
-
-
 };
