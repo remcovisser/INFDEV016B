@@ -61,20 +61,6 @@ describe('Unit tests', function(){
         };
 
         test.number(questionData.userId);
-        
-    });
-
-    it('Question saved?', function(){
-        var questionData = {
-            level: "C1",
-            subject: "Spelling",
-            question: 5,
-            points: 1,
-            answer: "TOPKEK",
-            userId: 'x'
-        };
-
-        test.number(questionData.userId);
 
     });
   
