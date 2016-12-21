@@ -36,7 +36,7 @@ describe('Unit tests', function(){
     // });
 
     // if(unit-test-name)
-    it('Is it a string?', function(payment){
+    it('Is it a string?', function(){
         // just for example of tested value
         var string = "Lol nee.";
         // Use the test object to check whether the value is..
@@ -49,30 +49,33 @@ describe('Unit tests', function(){
             .match(/[a-z]/)
     });
 
-    // Check of de betaling mislukt is (hier altijd mislukt) UNIT TEST VOOR PROJECT 5-6
-    it('Payment failed?', function(payment){
-        var paymentData = {
-            price: 20.00,
-            username: 'test',
-            status: false,
+
+    it('Question saved?', function(){
+        var questionData = {
+            level: "C1",
+            subject: "Spelling",
+            question: 5,
+            points: 1,
+            answer: "TOPKEK",
+            userId: 3
         };
 
-        if(!payment.status){
-            return false;
-        }
+        test.number(questionData.userId);
+        
     });
 
-    // Check of de betaling gelukt is (hier altijd mislukt) UNIT TEST VOOR PROJECT 5-6
-    it('Payment succeeded', function(payment){
-        var paymentData = {
-            price: 20.00,
-            username: 'test',
-            success:true
-        }
+    it('Question saved?', function(){
+        var questionData = {
+            level: "C1",
+            subject: "Spelling",
+            question: 5,
+            points: 1,
+            answer: "TOPKEK",
+            userId: 'x'
+        };
 
-        if(payment.success){
-            return true;
-        }
+        test.number(questionData.userId);
+
     });
 
     it('Is it a valid student number?', function(){
