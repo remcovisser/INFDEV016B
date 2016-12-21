@@ -49,32 +49,6 @@ describe('Unit tests', function(){
             .match(/[a-z]/)
     });
 
-    // Check of de betaling mislukt is (hier altijd mislukt) UNIT TEST VOOR PROJECT 5-6
-    it('Payment failed?', function(payment){
-        var paymentData = {
-            price: 20.00,
-            username: 'test',
-            status: false,
-        };
-
-        if(!payment.status){
-            return false;
-        }
-    });
-
-    // Check of de betaling gelukt is (hier altijd mislukt) UNIT TEST VOOR PROJECT 5-6
-    it('Payment succeeded', function(payment){
-        var paymentData = {
-            price: 20.00,
-            username: 'test',
-            success:true
-        }
-
-        if(payment.success){
-            return true;
-        }
-    });
-
     it('Is it a valid student number?', function(){
         // the given student number
         var studentnumber = 123;
