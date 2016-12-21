@@ -36,7 +36,7 @@ describe('Unit tests', function(){
     });
 
     // if(unit-test-name)
-    it('Is it a string?', function(){
+    it('Is it a string?', function(payment){
         // just for example of tested value
         var string = "Lol nee.";
         // Use the test object to check whether the value is..
@@ -49,8 +49,8 @@ describe('Unit tests', function(){
             .match(/[a-z]/)
     });
 
-    // Check of de betaling gelukt is (hier altijd mislukt)
-    it('Payment failed?', function(){
+    // Check of de betaling mislukt is (hier altijd mislukt) UNIT TEST VOOR PROJECT 5-6
+    it('Payment failed?', function(payment){
         var paymentData = {
             price: 20.00,
             username: 'test',
@@ -64,7 +64,8 @@ describe('Unit tests', function(){
         }
     });
 
-    it('Payment succeeded', function(){
+    // Check of de betaling gelukt is (hier altijd mislukt) UNIT TEST VOOR PROJECT 5-6
+    it('Payment succeeded', function(payment){
         var paymentData = {
             price: 20.00,
             username: 'test',
