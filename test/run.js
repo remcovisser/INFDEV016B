@@ -36,7 +36,7 @@ describe('Unit tests', function(){
     // });
 
     // if(unit-test-name)
-    it('Is it a string?', function(payment){
+    it('Is it a string?', function(){
         // just for example of tested value
         var string = "Lol nee.";
         // Use the test object to check whether the value is..
@@ -49,6 +49,35 @@ describe('Unit tests', function(){
             .match(/[a-z]/)
     });
 
+
+    it('Question saved?', function(){
+        var questionData = {
+            level: "C1",
+            subject: "Spelling",
+            question: 5,
+            points: 1,
+            answer: "TOPKEK",
+            userId: 3
+        };
+
+        test.number(questionData.userId);
+        
+    });
+
+    it('Question saved?', function(){
+        var questionData = {
+            level: "C1",
+            subject: "Spelling",
+            question: 5,
+            points: 1,
+            answer: "TOPKEK",
+            userId: 'x'
+        };
+
+        test.number(questionData.userId);
+
+    });
+  
     it('Is it a valid student number?', function(){
         // the given student number
         var studentnumber = 123;
