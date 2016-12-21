@@ -10,7 +10,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
 
     db.collection('exercises').insertMany([
         {
-            name: 'C1',
+            name: 'A1',
             description: 'This is the most basic level english.',
             subjects: [
                 {
@@ -227,7 +227,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
         },
 
         {
-            name: 'C2',
+            name: 'A2',
             description: 'This is a beginner level english.',
             subjects: [
                 {
@@ -849,7 +849,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
             ]
         },
         {
-            name: 'A2',
+            name: 'C1',
             description: '....',
             subjects: [
                 {
@@ -1051,7 +1051,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
             ]
         },
         {
-            name: 'A1',
+            name: 'C2',
             description: '..',
             subjects: [
                 {
