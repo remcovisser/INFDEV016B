@@ -44,7 +44,7 @@ module.exports = class User {
             // Create new result record in database.
             var resC = new Result();
             var seederData = resC.newResult(username);
-            db.collection('results').insertOne(seederData);
+            db.collection('results').insert(seederData);
 
             // Create new user
             that.collection.insertOne({
