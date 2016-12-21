@@ -54,8 +54,7 @@ router.get('/:id/:subject/:question_id', User.isAuthenticated, function(req,res,
                 }
             }
         }
-
-        res.render('exercise', { title: level.name, level: level, currentQuestion: currentQuestion});
+        res.render('exercise', { title: level.name, level: level, currentQuestion: currentQuestion, question_id: qId});
     });
 });
 
