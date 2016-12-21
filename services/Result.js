@@ -48,13 +48,11 @@ module.exports = class Result {
       callback("test");
     }
 
-
     findResults(value, callback) {
         this.collection.find({ _id: value }).toArray(function(err, data) {
             if (data.length == 0) {
                 return callback(false);
             }
-
             return callback(data[0]);
         })
       }

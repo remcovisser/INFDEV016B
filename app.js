@@ -25,6 +25,7 @@ require('./routes/bootstrap');
 
 // Connect to database
 global.ObjectId = mongodb.ObjectId;
+
 mongodb.MongoClient.connect('mongodb://localhost:27017/EnglishPractise', function(err, _db) {
     if (err) {
         console.error(err.toString());
