@@ -1,5 +1,7 @@
 'use strict';
 
+var Result = require('./Result.js');
+
 module.exports = class User {
     constructor() {
         this.collection = db.collection('users');
@@ -39,10 +41,16 @@ module.exports = class User {
                 return;
             }
 
+            // Create new result record in database.
+            var resC = new Result();
+            var seederData = resC.newResult(username);
+            db.collection('results').insertOne(seederData);
+
             // Create new user
             that.collection.insertOne({
                 username: username
             }, function(err, res) {
+                
                 callback(res.ops[0]);
             });
         });
