@@ -21,22 +21,22 @@ describe('Unit tests', function(){
     // Compare de data in de onderstaande functie met data die je ontvangt (als parameter(s))
     // Als het goed is return je true, anders false.
     // Dit is dus unit testing
-    it('Is logged in?', function(username, password){
-        var userData = {
-            username: 12345,
-            password: 'not_encrypted_password',
-        };
+    // it('Is logged in?', function(username, password){
+    //     var userData = {
+    //         username: 12345,
+    //         password: 'not_encrypted_password',
+    //     };
 
-        if(username == userData.username && password == userData.password) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    });
+    //     if(username == userData.username && password == userData.password) {
+    //         return true;
+    //     }
+    //     else {
+    //         return false;
+    //     }
+    // });
 
     // if(unit-test-name)
-    it('Is it a string?', function(){
+    it('Is it a string?', function(payment){
         // just for example of tested value
         var string = "Lol nee.";
         // Use the test object to check whether the value is..
@@ -47,6 +47,32 @@ describe('Unit tests', function(){
             .startsWith('Lol')
             //contains just letters..
             .match(/[a-z]/)
+    });
+
+    // Check of de betaling mislukt is (hier altijd mislukt) UNIT TEST VOOR PROJECT 5-6
+    it('Payment failed?', function(payment){
+        var paymentData = {
+            price: 20.00,
+            username: 'test',
+            status: false,
+        };
+
+        if(!payment.status){
+            return false;
+        }
+    });
+
+    // Check of de betaling gelukt is (hier altijd mislukt) UNIT TEST VOOR PROJECT 5-6
+    it('Payment succeeded', function(payment){
+        var paymentData = {
+            price: 20.00,
+            username: 'test',
+            success:true
+        }
+
+        if(payment.success){
+            return true;
+        }
     });
 
     it('Is it a valid student number?', function(){

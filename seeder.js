@@ -941,14 +941,40 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "This egg tastes exceptional",
+                            answer: "This egg tastes exceptional"
                         },
                         {
-                            id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "It reely starting to bug me",
+                            answer: "It really starts to bug me"
+                        },
+                        {
+                            question: "The fish I have caught today are quite scrumtious",
+                            answer: "The fish I have caught today are quite scrumptious"
+                        },
+                        {
+                            question: "Dora, the fox is right behind that mounten",
+                            answer: "Dora, the fox is right behind that mountain"
+                        },
+                        {
+                            question: "Jody Bernal should improve his singin, reely",
+                            answer: "Jody Bernal should improve his singing, really"
+                        },
+                        {
+                            question: "The people who construct these exercise are exceptional programmars and amazing human beans",
+                            answer: "The people who constructed these exercises are exceptional programmers and amazing human beings"
+                        },
+                        {
+                            question: "My bicep hurt vrom the exercise I did yesterday",
+                            answer: "My biceps hurt from the exercises I did yesterday"
+                        },
+                        {
+                            question: "My favourite club is Ajax",
+                            answer: "My favourite club is Feyenoord"
+                        },
+                        {
+                            question: "My favourite club is Sparta Rotterdam",
+                            answer: "My favourite club is Feyenoord"
                         }
                     ]
                 },
