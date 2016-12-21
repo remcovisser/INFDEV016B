@@ -941,7 +941,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            question: "This egg tastes exceptional",
+                            question: "This egg tastes eggceptional",
                             answer: "This egg tastes exceptional"
                         },
                         {
