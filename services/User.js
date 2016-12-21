@@ -41,7 +41,6 @@ module.exports = class User {
                 return;
             }
 
-            // Create new user
             that.collection.insertOne({
                 username: username
             }, function(err, res) {
