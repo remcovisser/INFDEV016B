@@ -1000,53 +1000,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "When are you leaving (yesterday / in 9 o'clock / at 9 o'clock)?",
-                            answer: "At 9 o'clock"
+                            question: "When ... the race begin??",
+                            answer: "does"
                         },
                         {
                             id: 2,
-                            question: "Where are you going? (by train, to France, in 9 minutes)",
-                            answer: "to France"
+                            question: "... you sell fish?",
+                            answer: "Do"
                         },
                         {
                             id: 3,
-                            question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
-                            answer: "by plane"
+                            question: "... plays the trumpet?",
+                            answer: "Who"
                         },
                         {
                             id: 4,
-                            question: "Why are you going? (by plane, because it's his birthday, im bored)",
-                            answer: "because it's his birthday"
+                            question: "where ... the plane fly to?",
+                            answer: "did"
                         },
                         {
                             id: 5,
-                            question: "Who is joining you? (Peter, someone, I'm going)",
-                            answer: "Peter"
+                            question: "... you have a brother?",
+                            answer: "Do"
                         },
                         {
                             id: 6,
-                            question: "Whose suitcase is that? (Johnny's, my dog's, hers)",
-                            answer: "Johnny's"
+                            question: "... the man know how to drive the car?",
+                            answer: "Does"
                         },
                         {
                             id: 7,
-                            question: "What book will you read? (That book, in 9 minutes, a manga)",
-                            answer: "That book"
+                            question: "... it time to go home?",
+                            answer: "Is"
                         },
                         {
                             id: 8,
-                            question: "What language are you studying? (France, Greece, Japanese)",
-                            answer: "Japanese"
+                            question: "... Mike play volleyball?",
+                            answer: "Does"
                         },
                         {
                             id: 9,
-                            question: "What is your dog's name? (You are my dog, Woof, Dad)",
-                            answer: "Woof"
+                            question: "... you fly a plane?",
+                            answer: "Can"
                         },
                         {
                             id: 10,
-                            question: "On what date was your dog born? (a few days ago, 20 minutes from now on, January 1st)",
-                            answer: "January 1st"
+                            question: "When ... you attend the festival last year?",
+                            answer: "did"
                         }
                     ]
                 }
