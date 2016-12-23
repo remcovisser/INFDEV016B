@@ -7,7 +7,7 @@ var express = require('express'),
 /* The the results of the question */
 router.get('/:level/:subject/:question/:points/:answer', User.isAuthenticated, function(req,res,next) {
   var result = new Result();
-  result.save(req.params.level, req.params.subject, req.params.question, req.params.points, req.params.answer, req.cookies.userId, function(message) {
+  result.save(req.params.level, req.params.subject, req.params.question, req.params.points, req.params.answer, app.locals.currentUser.username, function(message) {
       res.send('Saved');
   });
   res.send('Failed to save');

@@ -41,16 +41,14 @@ module.exports = class User {
                 return;
             }
 
-            // Create new result record in database.
-            var resC = new Result();
-            var seederData = resC.newResult(username);
-            db.collection('results').insert(seederData);
-
-            // Create new user
             that.collection.insertOne({
                 username: username
             }, function(err, res) {
-                
+                // Create new result record in database.
+                var result = new Result();
+                var seederData = result.newResult(username);
+                db.collection('results').insert(seederData);
+
                 callback(res.ops[0]);
             });
         });

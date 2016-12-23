@@ -8,7 +8,7 @@ module.exports = class Result {
     save(level, subject, question, points, answer, userId, callback) {
       this.findResults(userId, function(data) {
           if(data) {
-
+            console.log(data);
             var lvls = data.levels;
             // Loop through levels
             for (var i = 0; i < lvls.length; i++) {
@@ -30,14 +30,14 @@ module.exports = class Result {
 
                           if(qID == question) {
                             subjQA[l].answer = answer;
-                            subjQA[l].points = points;  
+                            subjQA[l].points = points;
                           }
 
                         }
 
                       }
                     }
-                    
+
                 }
             }
             db.collection('results').remove({'_id' : userId})
@@ -57,11 +57,11 @@ module.exports = class Result {
         })
       }
 
-      newResult(userId) {
+      newResult(username) {
         var seederData = [];
             seederData.push({
-              _id : userId,
-              levels: [ 
+              _id : username,
+              levels: [
                 {'_id' : 1, 'name' : 'C2',
                  'subjects' : [
                    {'name' : 'Word order'},
@@ -83,7 +83,7 @@ module.exports = class Result {
                             points: 0
                         },
                         {
-                            id: 3, 
+                            id: 3,
                             question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
                             answer: "by plane",
                             points: 0
@@ -95,7 +95,7 @@ module.exports = class Result {
                             points: 0
                         },
                         {
-                            id: 5, 
+                            id: 5,
                             question: "Who is joining you? (Peter, someone, I'm going)",
                             answer: "Peter",
                             points: 0
@@ -107,7 +107,7 @@ module.exports = class Result {
                             points: 0
                         },
                         {
-                            id: 7, 
+                            id: 7,
                             question: "What book will you read? (That book, in 9 minutes, a manga)",
                             answer: "That book",
                             points: 0
@@ -119,7 +119,7 @@ module.exports = class Result {
                             points: 0
                         },
                         {
-                            id: 9, 
+                            id: 9,
                             question: "What is your dog's name? (You are my dog, Woof, Dad)",
                             answer: "Woof",
                             points: 0
@@ -132,7 +132,7 @@ module.exports = class Result {
                       }]
                   }
                  ]
-                }, 
+                },
                 {'_id' : 2, 'name' : 'C1',
                 'subjects' : [
                    {'name' : 'Word order'},
@@ -141,8 +141,8 @@ module.exports = class Result {
                    {'name' : 'Spelling'},
                    {'name' : 'Reading comprehension'},
                    {'name' : 'Questions'}
-                 ] 
-                }, 
+                 ]
+                },
                 {'_id' : 3, 'name' : 'B2',
                 'subjects' : [
                    {'name' : 'Word order'},
@@ -152,7 +152,7 @@ module.exports = class Result {
                    {'name' : 'Reading comprehension'},
                    {'name' : 'Questions'}
                  ]
-                }, 
+                },
                 {'_id' : 4, 'name' : 'B1',
                 'subjects' : [
                    {'name' : 'Word order'},
@@ -161,7 +161,7 @@ module.exports = class Result {
                    {'name' : 'Spelling'},
                    {'name' : 'Reading comprehension'},
                    {'name' : 'Questions'}
-                 ] }, 
+                 ] },
                 {'_id' : 5, 'name' : 'A2',
                 'subjects' : [
                     {'name' : 'Word order'},
@@ -170,8 +170,8 @@ module.exports = class Result {
                     {'name' : 'Spelling'},
                     {'name' : 'Reading comprehension'},
                     {'name' : 'Questions'}
-                  ] 
-                }, 
+                  ]
+                },
                 {'_id' : 6, 'name' : 'A1',
                 'subjects' : [
                     {'name' : 'Word order'},
@@ -184,9 +184,6 @@ module.exports = class Result {
                 }
               ]
             });
-
             return seederData;
       }
-
-
 };
