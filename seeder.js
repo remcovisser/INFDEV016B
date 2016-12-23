@@ -606,51 +606,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "When are you leaving (yesterday / in 9 o'clock / at 9 o'clock)?",
-                            answer: "At 9 o'clock"
+                            question: "(What, Why, Where, How, When) is the weather like today?",
+                            answer: "What"
                         },
                         {
                             id: 2,
-                            question: "Where are you going? (by train, to France, in 9 minutes)",
-                            answer: "to France"
+                            question: "(What, Why, Where, How, When) don't you like pears?",
+                            answer: "Why"
                         },
                         {
                             id: 3,
-                            question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
-                            answer: "by plane"
+                            question: "(What, Why, Where, How, When) is the flying vehicle called?",
+                            answer: "What"
                         },
                         {
                             id: 4,
-                            question: "Why are you going? (by plane, because it's his birthday, im bored)",
-                            answer: "because it's his birthday"
+                            question: "(What, Why, Where, How, When) is my shirt",
+                            answer: "Where"
                         },
                         {
                             id: 5,
-                            question: "Who is joining you? (Peter, someone, I'm going)",
-                            answer: "Peter"
+                            question: "(What, Why, Where, How, When) do they get to school?",
+                            answer: "How"
                         },
                         {
                             id: 6,
-                            question: "Whose suitcase is that? (Johnny's, my dog's, hers)",
-                            answer: "Johnny's"
+                            question: "(What, Why, Where, How, When) does your father go to work?",
+                            answer: "When"
                         },
                         {
                             id: 7,
-                            question: "What book will you read? (That book, in 9 minutes, a manga)",
-                            answer: "That book"
+                            question: "(What, Why, Where, How, When) does your father work?",
+                            answer: "Where"
                         },
                         {
                             id: 8,
-                            question: "What language are you studying? (France, Greece, Japanese)",
-                            answer: "Japanese"
+                            question: "(What, Why, Where, How, When) is his job?",
+                            answer: "What"
                         },
                         {
-                            question: "What is your dog's name? (You are my dog, Woof, Dad)",
-                            answer: "Woof"
+                            id: 9,
+                            question: "(What, Why, Where, How, When) do you like your coffee?",
+                            answer: "How"
                         },
                         {
-                            question: "On what date was your dog born? (a few days ago, 20 minutes from now on, January 1st)",
-                            answer: "January 1st"
+                            id: 10,
+                            question: "(What, Why, Where, How, When) is the point of making this dumb project?",
+                            answer: "What"
                         }
                     ]
                 }
