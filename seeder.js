@@ -174,7 +174,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         {
                             id: 1,
                             question: "When are you leaving (yesterday / in 9 o'clock / at 9 o'clock)?",
-                            answer: "At 9 o'clock"
+                            answer: "at 9 o'clock"
                         },
                         {
                             id: 2,
@@ -390,53 +390,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "When are you leaving (yesterday / in 9 o'clock / at 9 o'clock)?",
-                            answer: "At 9 o'clock"
+                            question: "(what, when, why) do you like the most?",
+                            answer: "what"
                         },
                         {
                             id: 2,
-                            question: "Where are you going? (by train, to France, in 9 minutes)",
-                            answer: "to France"
+                            question: "(where, when, what) does Bill get up in the morning?",
+                            answer: "when"
                         },
                         {
                             id: 3,
-                            question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
-                            answer: "by plane"
+                            question: "(why, when, how) don't you go by bus, Max?",
+                            answer: "why"
                         },
                         {
                             id: 4,
-                            question: "Why are you going? (by plane, because it's his birthday, im bored)",
-                            answer: "because it's his birthday"
+                            question: "(how, where, what) hobbies do you have?",
+                            answer: "what"
                         },
                         {
                             id: 5,
-                            question: "Who is joining you? (Peter, someone, I'm going)",
-                            answer: "Peter"
+                            question: "(what, where, how) do they go to every week?",
+                            answer: "where"
                         },
                         {
                             id: 6,
-                            question: "Whose suitcase is that? (Johnny's, my dog's, hers)",
-                            answer: "Johnny's"
+                            question: "(when, how, what) old is Mike?",
+                            answer: "how"
                         },
                         {
                             id: 7,
-                            question: "What book will you read? (That book, in 9 minutes, a manga)",
-                            answer: "That book"
+                            question: "(what, when, how) is Susan's birthday?",
+                            answer: "when"
                         },
                         {
                             id: 8,
-                            question: "What language are you studying? (France, Greece, Japanese)",
-                            answer: "Japanese"
+                            question: "(why, where, what) are my exercise books?",
+                            answer: "where"
                         },
                         {
                             id: 9,
-                            question: "What is your dog's name? (You are my dog, Woof, Dad)",
-                            answer: "Woof"
+                            question: "(who, what, why) are you doing at the moment, Peter?",
+                            answer: "what"
                         },
                         {
                             id: 10,
-                            question: "On what date was your dog born? (a few days ago, 20 minutes from now on, January 1st)",
-                            answer: "January 1st"
+                            question: "(what, where, why) do they live?",
+                            answer: "where"
                         }
                     ]
                 }

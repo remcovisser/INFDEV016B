@@ -62,7 +62,7 @@ module.exports = class Result {
             seederData.push({
               _id : username,
               levels: [
-                {'_id' : 1, 'name' : 'C2',
+                {'_id' : 1, 'name' : 'A1',
                  'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
@@ -133,7 +133,78 @@ module.exports = class Result {
                   }
                  ]
                 },
-                {'_id' : 2, 'name' : 'C1',
+                {'_id' : 2, 'name' : 'A2',
+                'subjects' : [
+                   {'name' : 'Word order'},
+                   {'name' : 'Quantifiers'},
+                   {'name' : 'Capitalization'},
+                   {'name' : 'Spelling'},
+                   {'name' : 'Reading comprehension'},
+                   {'name' : 'Questions',
+                    'questions' : [{
+                            id: 1,
+                            question: "(what, when, why) do you like the most?",
+                            answer: "what",
+                            points: 0
+                        },
+                        {
+                            id: 2,
+                            question: "(where, when, what) does Bill get up in the morning?",
+                            answer: "when",
+                            points: 0
+                        },
+                        {
+                            id: 3,
+                            question: "(why, when, how) don't you go by bus, Max?",
+                            answer: "why",
+                            points: 0
+                        },
+                        {
+                            id: 4,
+                            question: "(how, where, what) hobbies do you have?",
+                            answer: "what",
+                            points: 0
+                        },
+                        {
+                            id: 5,
+                            question: "(what, where, how) do they go to every week?",
+                            answer: "where",
+                            points: 0
+                        },
+                        {
+                            id: 6,
+                            question: "(when, how, what) old is Mike?",
+                            answer: "how",
+                            points: 0
+                        },
+                        {
+                            id: 7,
+                            question: "(what, when, how) is Susan's birthday?",
+                            answer: "when",
+                            points: 0
+                        },
+                        {
+                            id: 8,
+                            question: "(why, where, what) are my exercise books?",
+                            answer: "where",
+                            points: 0
+                        },
+                        {
+                            id: 9,
+                            question: "(who, what, why) are you doing at the moment, Peter?",
+                            answer: "what",
+                            points: 0
+                        },
+                        {
+                            id: 10,
+                            question: "(what, where, why) do they live?",
+                            answer: "where",
+                            points: 0
+                        }]
+                  }
+                 ]
+                },
+                {'_id' : 3, 'name' : 'B1',
                 'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
@@ -143,17 +214,7 @@ module.exports = class Result {
                    {'name' : 'Questions'}
                  ]
                 },
-                {'_id' : 3, 'name' : 'B2',
-                'subjects' : [
-                   {'name' : 'Word order'},
-                   {'name' : 'Quantifiers'},
-                   {'name' : 'Capitalization'},
-                   {'name' : 'Spelling'},
-                   {'name' : 'Reading comprehension'},
-                   {'name' : 'Questions'}
-                 ]
-                },
-                {'_id' : 4, 'name' : 'B1',
+                {'_id' : 4, 'name' : 'B2',
                 'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
@@ -162,7 +223,7 @@ module.exports = class Result {
                    {'name' : 'Reading comprehension'},
                    {'name' : 'Questions'}
                  ] },
-                {'_id' : 5, 'name' : 'A2',
+                {'_id' : 5, 'name' : 'A1',
                 'subjects' : [
                     {'name' : 'Word order'},
                     {'name' : 'Quantifiers'},
@@ -172,7 +233,7 @@ module.exports = class Result {
                     {'name' : 'Questions'}
                   ]
                 },
-                {'_id' : 6, 'name' : 'A1',
+                {'_id' : 6, 'name' : 'A2',
                 'subjects' : [
                     {'name' : 'Word order'},
                     {'name' : 'Quantifiers'},
