@@ -62,7 +62,7 @@ module.exports = class Result {
             seederData.push({
               _id : username,
               levels: [
-                {'_id' : 1, 'name' : 'C2',
+                {'_id' : 1, 'name' : 'A1',
                  'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
@@ -133,53 +133,358 @@ module.exports = class Result {
                   }
                  ]
                 },
-                {'_id' : 2, 'name' : 'C1',
+                {'_id' : 2, 'name' : 'A2',
                 'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
                    {'name' : 'Capitalization'},
                    {'name' : 'Spelling'},
                    {'name' : 'Reading comprehension'},
-                   {'name' : 'Questions'}
+                   {'name' : 'Questions',
+                    'questions' : [{
+                            id: 1,
+                            question: "(what, when, why) do you like the most?",
+                            answer: "what",
+                            points: 0
+                        },
+                        {
+                            id: 2,
+                            question: "(where, when, what) does Bill get up in the morning?",
+                            answer: "when",
+                            points: 0
+                        },
+                        {
+                            id: 3,
+                            question: "(why, when, how) don't you go by bus, Max?",
+                            answer: "why",
+                            points: 0
+                        },
+                        {
+                            id: 4,
+                            question: "(how, where, what) hobbies do you have?",
+                            answer: "what",
+                            points: 0
+                        },
+                        {
+                            id: 5,
+                            question: "(what, where, how) do they go to every week?",
+                            answer: "where",
+                            points: 0
+                        },
+                        {
+                            id: 6,
+                            question: "(when, how, what) old is Mike?",
+                            answer: "how",
+                            points: 0
+                        },
+                        {
+                            id: 7,
+                            question: "(what, when, how) is Susan's birthday?",
+                            answer: "when",
+                            points: 0
+                        },
+                        {
+                            id: 8,
+                            question: "(why, where, what) are my exercise books?",
+                            answer: "where",
+                            points: 0
+                        },
+                        {
+                            id: 9,
+                            question: "(who, what, why) are you doing at the moment, Peter?",
+                            answer: "what",
+                            points: 0
+                        },
+                        {
+                            id: 10,
+                            question: "(what, where, why) do they live?",
+                            answer: "where",
+                            points: 0
+                        }]
+                  }
                  ]
                 },
-                {'_id' : 3, 'name' : 'B2',
+                {'_id' : 3, 'name' : 'B1',
                 'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
                    {'name' : 'Capitalization'},
                    {'name' : 'Spelling'},
                    {'name' : 'Reading comprehension'},
-                   {'name' : 'Questions'}
+                   {'name' : 'Questions',
+                   'questions' : [{
+                            id: 1,
+                            question: "(What, Why, Where, How, When) is the weather like today?",
+                            answer: "What",
+                            points: 0
+                        },
+                        {
+                            id: 2,
+                            question: "(What, Why, Where, How, When) don't you like pears?",
+                            answer: "Why",
+                            points: 0
+                        },
+                        {
+                            id: 3,
+                            question: "(What, Why, Where, How, When) is the flying vehicle called?",
+                            answer: "What",
+                            points: 0
+                        },
+                        {
+                            id: 4,
+                            question: "(What, Why, Where, How, When) is my shirt",
+                            answer: "Where",
+                            points: 0
+                        },
+                        {
+                            id: 5,
+                            question: "(What, Why, Where, How, When) do they get to school?",
+                            answer: "How",
+                            points: 0
+                        },
+                        {
+                            id: 6,
+                            question: "(What, Why, Where, How, When) does your father go to work?",
+                            answer: "When",
+                            points: 0
+                        },
+                        {
+                            id: 7,
+                            question: "(What, Why, Where, How, When) does your father work?",
+                            answer: "Where",
+                            points: 0
+                        },
+                        {
+                            id: 8,
+                            question: "(What, Why, Where, How, When) is his job?",
+                            answer: "What",
+                            points: 0
+                        },
+                        {
+                            id: 9,
+                            question: "(What, Why, Where, How, When) do you like your coffee?",
+                            answer: "How",
+                            points: 0
+                        },
+                        {
+                            id: 10,
+                            question: "(What, Why, Where, How, When) is the point of making this dumb project?",
+                            answer: "What",
+                            points: 0
+                        }]
+                    }
                  ]
                 },
-                {'_id' : 4, 'name' : 'B1',
+                {'_id' : 4, 'name' : 'B2',
                 'subjects' : [
                    {'name' : 'Word order'},
                    {'name' : 'Quantifiers'},
                    {'name' : 'Capitalization'},
                    {'name' : 'Spelling'},
                    {'name' : 'Reading comprehension'},
-                   {'name' : 'Questions'}
+                   {'name' : 'Questions',
+                    'questions': [{
+                            id: 1,
+                            question: "(Did, Does, Do) you know where we have to go?",
+                            answer: "Do",
+                            points: 0
+                        },
+                        {
+                            id: 2,
+                            question: "(Did, Does, Do) your father make breakfast often",
+                            answer: "Does",
+                            points: 0
+                        },
+                        {
+                            id: 3,
+                            question: "(Did, Does, Do) you upload pictures?",
+                            answer: "Do",
+                            points: 0
+                        },
+                        {
+                            id: 4,
+                            question: "(Did, Does, Do) you go on holiday last year?",
+                            answer: "Did",
+                            points: 0
+                        },
+                        {
+                            id: 5,
+                            question: "(Did, Does, Do) he care?",
+                            answer: "Does",
+                            points: 0
+                        },
+                        {
+                            id: 6,
+                            question: "I think he (Did, Does, Do).",
+                            answer: "does",
+                            points: 0
+                        },
+                        {
+                            id: 7,
+                            question: "(Did, Does, Do) you learn how to cook?",
+                            answer: "Did",
+                            points: 0
+                        },
+                        {
+                            id: 8,
+                            question: "What (Did, Does, Do) you do after school?",
+                            answer: "do",
+                            points: 0
+                        },
+                        {
+                            id: 9,
+                            question: "(Did, Does, Do) your cats climb trees?",
+                            answer: "Do",
+                            points: 0
+                        },
+                        {
+                            id: 10,
+                            question: "(Did, Does, Do) your friend visit museums?",
+                            answer: "Does",
+                            points: 0
+                        }
+                    ]}
                  ] },
-                {'_id' : 5, 'name' : 'A2',
+                {'_id' : 5, 'name' : 'A1',
                 'subjects' : [
                     {'name' : 'Word order'},
                     {'name' : 'Quantifiers'},
                     {'name' : 'Capitalization'},
                     {'name' : 'Spelling'},
                     {'name' : 'Reading comprehension'},
-                    {'name' : 'Questions'}
+                    {'name' : 'Questions',
+                    'questions' : [{
+                            id: 1,
+                            question: "When ... the race begin??",
+                            answer: "does",
+                            points: 0
+                        },
+                        {
+                            id: 2,
+                            question: "... you sell fish?",
+                            answer: "Do",
+                            points: 0
+                        },
+                        {
+                            id: 3,
+                            question: "... plays the trumpet?",
+                            answer: "Who",
+                            points: 0
+                        },
+                        {
+                            id: 4,
+                            question: "where ... the plane fly to?",
+                            answer: "did",
+                            points: 0
+                        },
+                        {
+                            id: 5,
+                            question: "... you have a brother?",
+                            answer: "Do",
+                            points: 0
+                        },
+                        {
+                            id: 6,
+                            question: "... the man know how to drive the car?",
+                            answer: "Does",
+                            points: 0
+                        },
+                        {
+                            id: 7,
+                            question: "... it time to go home?",
+                            answer: "Is",
+                            points: 0
+                        },
+                        {
+                            id: 8,
+                            question: "... Mike play volleyball?",
+                            answer: "Does",
+                            points: 0
+                        },
+                        {
+                            id: 9,
+                            question: "... you fly a plane?",
+                            answer: "Can",
+                            points: 0
+                        },
+                        {
+                            id: 10,
+                            question: "When ... you attend the festival last year?",
+                            answer: "did",
+                            points: 0
+                        }] 
+                    }
                   ]
                 },
-                {'_id' : 6, 'name' : 'A1',
+                {'_id' : 6, 'name' : 'A2',
                 'subjects' : [
                     {'name' : 'Word order'},
                     {'name' : 'Quantifiers'},
                     {'name' : 'Capitalization'},
                     {'name' : 'Spelling'},
                     {'name' : 'Reading comprehension'},
-                    {'name' : 'Questions'}
+                    {'name' : 'Questions',
+                     'questions': [{
+                            id: 1,
+                            question: "(old, how, you, are)?",
+                            answer: "How old are you?",
+                            points: 0
+                        },
+                        {
+                            id: 2,
+                            question: "(your, what, is, name)?",
+                            answer: "What is your name?",
+                            points: 0
+                        },
+                        {
+                            id: 3,
+                            question: "(today, what, day, it, is)?",
+                            answer: "What day is it today?",
+                            points: 0
+                        },
+                        {
+                            id: 4,
+                            question: "(where, from, you, are)?",
+                            answer: "Where are you from?",
+                            points: 0
+                        },
+                        {
+                            id: 5,
+                            question: "(time, is, what, it)?",
+                            answer: "What time is it?",
+                            points: 0
+                        },
+                        {
+                            id: 6,
+                            question: "(what, are, hobbies, your)",
+                            answer: "What are your hobbies?",
+                            points: 0
+                        },
+                        {
+                            id: 7,
+                            question: "(your, birthday, mom's, when, is)",
+                            answer: "When is your mom's birthday?",
+                            points: 0
+                        },
+                        {
+                            id: 8,
+                            question: "(your, best, who, is, friend)?",
+                            answer: "Who is your best friend?",
+                            points: 0
+                        },
+                        {
+                            id: 9,
+                            question: "(Andy, potatoes, like, does)",
+                            answer: "Does Andy like potatoes?",
+                            points: 0
+                        },
+                        {
+                            id: 10,
+                            question: "(subject, do, you, what, like)?",
+                            answer: "What subject do you like?",
+                            points: 0
+                        }]
+                    }
                  ]
                 }
               ]
