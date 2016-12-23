@@ -798,53 +798,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "When are you leaving (yesterday / in 9 o'clock / at 9 o'clock)?",
-                            answer: "At 9 o'clock"
+                            question: "(Did, Does, Do) you know where we have to go?",
+                            answer: "Do"
                         },
                         {
                             id: 2,
-                            question: "Where are you going? (by train, to France, in 9 minutes)",
-                            answer: "to France"
+                            question: "(Did, Does, Do) your father make breakfast often",
+                            answer: "Does"
                         },
                         {
                             id: 3,
-                            question: "How will you go there? (tomorrow / by plane / in 6 minutes)",
-                            answer: "by plane"
+                            question: "(Did, Does, Do) you upload pictures?",
+                            answer: "Do"
                         },
                         {
                             id: 4,
-                            question: "Why are you going? (by plane, because it's his birthday, im bored)",
-                            answer: "because it's his birthday"
+                            question: "(Did, Does, Do) you go on holiday last year?",
+                            answer: "Did"
                         },
                         {
                             id: 5,
-                            question: "Who is joining you? (Peter, someone, I'm going)",
-                            answer: "Peter"
+                            question: "(Did, Does, Do) he care?",
+                            answer: "Does"
                         },
                         {
                             id: 6,
-                            question: "Whose suitcase is that? (Johnny's, my dog's, hers)",
-                            answer: "Johnny's"
+                            question: "I think he (Did, Does, Do).",
+                            answer: "does"
                         },
                         {
                             id: 7,
-                            question: "What book will you read? (That book, in 9 minutes, a manga)",
-                            answer: "That book"
+                            question: "(Did, Does, Do) you learn how to cook?",
+                            answer: "Did"
                         },
                         {
                             id: 8,
-                            question: "What language are you studying? (France, Greece, Japanese)",
-                            answer: "Japanese"
+                            question: "What (Did, Does, Do) you do after school?",
+                            answer: "do"
                         },
                         {
                             id: 9,
-                            question: "What is your dog's name? (You are my dog, Woof, Dad)",
-                            answer: "Woof"
+                            question: "(Did, Does, Do) your cats climb trees?",
+                            answer: "Do"
                         },
                         {
                             id: 10,
-                            question: "On what date was your dog born? (a few days ago, 20 minutes from now on, January 1st)",
-                            answer: "January 1st"
+                            question: "(Did, Does, Do) your friend visit museums?",
+                            answer: "Does"
                         }
                     ]
                 }
