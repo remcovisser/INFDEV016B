@@ -786,12 +786,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Word order",
                     questions: [
                         {
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            id: 1,
+                            question: "go now home will I ",
+                            answer: "I will go home now"
                         },
                         {
-                            question: "What time is it?",
-                            answer: "High noon"
+                            id: 2,
+                            question: "give the present tomorrow we him will",
+                            answer: "we will give him the present tomorrow"
+                        },
+                        {
+                            id: 3,
+                            question: "her met last night at we the station",
+                            answer: "we met her at the station last night"
+                        },
+                        {
+                            id: 4,
+                            question: "was last week he in hospital",
+                            answer: "he was in hospital last week"
+                        },
+                        {
+                            id: 5,
+                            question: "in Greece spend I will next year my holiday",
+                            answer: "I will spend my holiday in Greece next year"
+                        },
+                        {
+                            id: 6,
+                            question: "must at five o'clock leave we the house",
+                            answer: "we must leave the house at five o'clock"
+                        },
+                        {
+                            id: 7,
+                            question: "the library take I the book will today to",
+                            answer: "I will take the book to the library today"
+                        },
+                        {
+                            id: 8,
+                            question: "my mum breakfast in the morning made",
+                            answer: "my mum made breakfast in the morning"
+                        },
+                        {
+                            id: 9,
+                            question: "tonight want to the cinema to go we",
+                            answer: "we want to go to the cinema tonight"
+                        },
+                        {
+                            id: 10,
+                            question: "wrote last week they at school a test",
+                            answer: "they wrote a test at school last week"
                         }
                     ]
                 },
