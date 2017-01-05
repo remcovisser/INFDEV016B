@@ -531,13 +531,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "She is in great form because (every week / goes / she / to the gym)",
+                            answer: "she goes to the gym every week"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "I think (likes / Susan / you)",
+                            answer: "Susan likes you"
+                        },
+                        {
+                            id: 3,
+                            question: "I can't talk to you because (time / do not have / I / now)",
+                            answer: "I do not have time now"
+                        },
+                        {
+                            id: 4,
+                            question: "We are glad that (at home / did not leave / we / our umbrella ",
+                            answer: "we did not leave our umbrella at home"
+                        },
+                        {
+                            id: 5,
+                            question: "I will miss him when (to Chicago / moves / he) ",
+                            answer: "he moves to Chicago"
+                        },
+                        {
+                            id: 6,
+                            question: "They don't know where (have left / the key / they)",
+                            answer: "they have left the key"
+                        },
+                        {
+                            id: 7,
+                            question: "Ring me if (have / you / a problem)",
+                            answer: "you have a problem"
+                        },
+                        {
+                            id: 8,
+                            question: "I'd like to know why (her holiday / does not spend / she / in France)",
+                            answer: "she does not spend her holiday in France"
+                        },
+                        {
+                            id: 9,
+                            question: "They told him that (wanted to play / they / tennis)",
+                            answer: "they wanted to play tennis"
+                        },
+                        {
+                            id: 10,
+                            question: "He was reading the paper while (she / in the garden / was working)",
+                            answer: "she was working in the garden"
                         }
                     ]
                 },
