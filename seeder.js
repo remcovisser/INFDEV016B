@@ -1021,13 +1021,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "We were in London (last week) <Reorder sentence to fit adverb>",
+                            answer: "We were in London last week"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "He walks his dog (rarely) <Reorder sentence to fit adverb>",
+                            answer: "He rarely walks his dog"
+                        },
+                        {
+                            id: 3,
+                            question: "She waited (patiently)  <Reorder sentence to fit adverb>",
+                            answer: "She waited patiently"
+                        },
+                        {
+                            id: 4,
+                            question: "My father goes fishing (always) <Reorder sentence to fit adverb>",
+                            answer: "My father always goes fishing"
+                        },
+                        {
+                            id: 5,
+                            question: "Your bedroom is (upstairs)  <Reorder sentence to fit adverb>",
+                            answer: "Your bedroom is upstairs"
+                        },
+                        {
+                            id: 6,
+                            question: "We don't go skiing (in summer)  <Reorder sentence to fit adverb>",
+                            answer: "We don't go skiing in summer"
+                        },
+                        {
+                            id: 7,
+                            question: "Cats can hear. (well)  <Reorder sentence to fit adverb>",
+                            answer: "Cats can hear well"
+                        },
+                        {
+                            id: 8,
+                            question: "I saw him. (there)  <Reorder sentence to fit adverb>",
+                            answer: "I saw him there"
+                        },
+                        {
+                            id: 9,
+                            question: "The girl speaks English. (fluently)  <Reorder sentence to fit adverb>",
+                            answer: "The girl speaks English fluently"
+                        },
+                        {
+                            id: 10,
+                            question: "I have seen that film. (never) / (before) <Reorder sentence to fit adverb>",
+                            answer: "I have never seen that film before"
                         }
                     ]
                 },
