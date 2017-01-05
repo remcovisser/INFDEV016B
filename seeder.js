@@ -1263,14 +1263,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "We went to the cinema yesterday. OR We went yesterday to the cinema.",
+                            answer: "We went to the cinema yesterday."
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
-                        }
+                            question: "We often go to the cinema. OR We go often to the cinema.",
+                            answer: "We often go to the cinema."
+                        },
+                        {
+                            id: 3,
+                            question: "Next Tuesday I will go to the cinema. OR I will go to the cinema next Tuesday.",
+                            answer: "Next Tuesday I will go to the cinema."
+                        },
+                        {
+                            id: 4,
+                            question: "They never go to the cinema. OR They go to the cinema never.",
+                            answer:  "They never go to the cinema"
+                        },
+                        {
+                            id: 5,
+                            question: "She goes every Sunday to the cinema. OR She goes to the cinema every Sunday.",
+                            answer: "She goes to the cinema every Sunday."
+                        },
+                        {
+                            id: 6,
+                            question: "I seldom am at the cinema. OR I am seldom at the cinema.",
+                            answer: "I am seldom at the cinema."
+                        },
+                        {
+                            id: 7,
+                            question: "I don't go to the cinema every week. OR I don't go every week to the cinema.",
+                            answer: "I don't go to the cinema every week."
+                        },
+                        {
+                            id: 8,
+                            question: "Francis does not always go to the cinema. OR Francis does not go to the cinema always.",
+                            answer: "Francis does not always go to the cinema."
+                        },
+                        {
+                            id: 9,
+                            question: "Do frequently you go to the cinema? OR Do you frequently go to the cinema?",
+                            answer: "Do you frequently go to the cinema?"
+                        },
+                        {
+                            id: 10,
+                            question: "My friends didn't go to the cinema on Friday. OR On Friday my friends didn't go to the cinema.",
+                            answer: "My friends didn't go to the cinema on Friday."
+                        },
                     ]
                 },
                 {
