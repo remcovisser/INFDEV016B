@@ -275,13 +275,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "our holiday will at home we not spend next year",
+                            answer: "we will not spend our holiday at home next year"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "did I him see not last night at the disco",
+                            answer: "I did not see him at the disco last night"
+                        },
+                        {
+                            id: 3,
+                            question: "to a party not we tonight going are",
+                            answer:"we are not going to a party tonight"
+                        },
+                        {
+                            id: 4,
+                            question: "will a letter not next week send you she",
+                            answer:"she will not send you a letter next week."
+                        },
+                        {
+                            id: 5,
+                            question: "not the truth did he tell you",
+                            answer:"he did not tell you the truth"
+                        },
+                        {
+                            id: 6,
+                            question: "to the cinema we want not do tonight to go",
+                            answer:"we do not want to go to the cinema tonight"
+                        },
+                        {
+                            id: 7,
+                            question: "play in the bar did he last week not the piano",
+                            answer:"he did not play the piano in the bar last week"
+                        },
+                        {
+                            id: 8,
+                            question: "not now she in England is",
+                            answer:"she is not in England now"
+                        },
+                        {
+                            id: 9,
+                            question: "eat in winter ice-cream do not I",
+                            answer:"I do not eat ice-cream in winter"
+                        },
+                        {
+                            id: 10,
+                            question: "right now have not we time do",
+                            answer:"we do not have time right now"
                         }
                     ]
                 },
