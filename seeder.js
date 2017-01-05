@@ -18,13 +18,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "walk to my home I",
+                            answer: "I walk to my home"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "you do have money?",
+                            answer: "do you have money?"
+                        },
+                        {
+                            id: 3,
+                            question: "much how money does it cost?",
+                            answer: "how much money does it cost"
+                        },
+                        {
+                            id: 4,
+                            question: "he the fire put out",
+                            answer: "he put out the fire"
+                        },
+                        {
+                            id: 5,
+                            question: "a car he drives today",
+                            answer: "he drives a car today"
+                        },
+                        {
+                            id: 6,
+                            question: "bee watch out for the",
+                            answer: "watch out for the bee"
+                        },
+                        {
+                            id: 7,
+                            question: "dangerous drinking is",
+                            answer: "drinking is dangerous"
+                        },
+                        {
+                            id: 8,
+                            question: "the hole beware of",
+                            answer: "beware of the hole"
+                        },
+                        {
+                            id: 9,
+                            question: "to school Peter walks",
+                            answer: "Peter walks to school"
+                        },
+                        {
+                            id: 10,
+                            question: "pay for food he does?",
+                            answer: "does he pay for food?"
                         }
                     ]
                 },
