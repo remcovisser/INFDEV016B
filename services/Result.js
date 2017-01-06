@@ -6,6 +6,8 @@ module.exports = class Result {
     }
 
     save(level, subject, question, points, answer, userId, callback) {
+        var that = this;
+
         this.findResults(userId, function(data) {
             if (data) {
                 var lvls = data.levels;
@@ -42,8 +44,9 @@ module.exports = class Result {
                 }
 
                 // Update results table
-                db.collection('results').removeOne({ '_id': userId });
-                db.collection('results').insertMany([data]);
+                that.collection.removeOne({ '_id': userId }).then(() => {
+                    that.collection.insertOne(data);
+                });
 
                 callback(true);
             } else {
