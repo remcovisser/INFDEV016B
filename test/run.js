@@ -16,7 +16,7 @@ documentation: http://unitjs.com/
 
 // Our unit tests
 describe('Unit tests', function(){
-    
+
     // goede unit test voorbeeld:
     // Compare de data in de onderstaande functie met data die je ontvangt (als parameter(s))
     // Als het goed is return je true, anders false.
@@ -63,7 +63,7 @@ describe('Unit tests', function(){
         test.number(questionData.userId);
 
     });
-  
+
     it('Is it a valid student number?', function(){
         // the given student number
         var studentnumber = 123;
@@ -74,13 +74,13 @@ describe('Unit tests', function(){
 
     it('Are our levels (including) valid?', function(){
         // our levels
-        var levels = 
-        { 
-            name: "Level 1", 
-            subjects: 
-            { 
-                name: "Grammar", 
-                questions: 
+        var levels =
+        {
+            name: "Level 1",
+            subjects:
+            {
+                name: "Grammar",
+                questions:
                 [
                     {
                         question_id : 21,
@@ -99,7 +99,7 @@ describe('Unit tests', function(){
                     }
 
                 ]
-            } 
+            }
         };
 
         // Use the check object whether it has the values
@@ -132,5 +132,24 @@ describe('Unit tests', function(){
                             ]
                             )
     })
+
+
+
+
+    // Unit test for checking if an answer is correctAnswer
+    it('TestCorrectAnswer', function() {
+      function _TestCorrectAnswer(userAnswer) {
+        var correctAnswer = 1;
+        var result;
+        if(correctAnswer == userAnswer) {
+           return true;
+        } else {
+          return false;
+        }
+      }
+
+      test.must(_TestCorrectAnswer(0)).be.false();
+      test.must(_TestCorrectAnswer(1)).be.true();
+    });
 
 });
