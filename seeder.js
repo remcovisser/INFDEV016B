@@ -243,7 +243,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "brown"
                         },
                         {
-                            id: 1,
+                            id: 2,
                             question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's wings?",
                             answer: "brown"
                         },
@@ -254,6 +254,36 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
 						{
                             id: 4,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+                            answer: "yellow"
+                        },
+						{
+                            id: 5,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+                            answer: "yellow"
+                        },
+						{
+                            id: 6,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+                            answer: "yellow"
+                        },
+						{
+                            id: 7,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+                            answer: "yellow"
+                        },
+						{
+                            id: 8,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+                            answer: "yellow"
+                        },
+						{
+                            id: 9,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+                            answer: "yellow"
+                        },
+						{
+                            id: 10,
                             question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
                             answer: "yellow"
                         }
@@ -561,6 +591,36 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
 						{
                             id: 4,
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+                            answer: "painter"
+                        },
+						{
+                            id: 5,
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+                            answer: "painter"
+                        },
+						{
+                            id: 6,
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+                            answer: "painter"
+                        },
+						{
+                            id: 7,
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+                            answer: "painter"
+                        },
+						{
+                            id: 8,
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+                            answer: "painter"
+                        },
+						{
+                            id: 9,
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+                            answer: "painter"
+                        },
+						{
+                            id: 10,
                             question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
                             answer: "painter"
                         }
@@ -874,6 +934,31 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             id: 5,
                             question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
                             answer: "yes"
+                        },
+						{
+                            id: 6,
+                            question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+                            answer: "yes"
+                        },
+						{
+                            id: 7,
+                            question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+                            answer: "yes"
+                        },
+						{
+                            id: 8,
+                            question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+                            answer: "yes"
+                        },
+						{
+                            id: 9,
+                            question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+                            answer: "yes"
+                        },
+						{
+                            id: 10,
+                            question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+                            answer: "yes"
                         }
                     ]
                 },
@@ -1158,6 +1243,36 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
 						{
                             id: 4,
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+                            answer: "women"
+                        },
+						{
+                            id: 5,
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+                            answer: "women"
+                        },
+						{
+                            id: 6,
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+                            answer: "women"
+                        },
+						{
+                            id: 7,
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+                            answer: "women"
+                        },
+						{
+                            id: 8,
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+                            answer: "women"
+                        },
+						{
+                            id: 9,
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+                            answer: "women"
+                        },
+						{
+                            id: 10,
                             question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
                             answer: "women"
                         }
@@ -1450,6 +1565,36 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
 						{
                             id: 4,
+                            question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+                            answer: "iron oxide"
+                        },
+						{
+                            id: 5,
+                            question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+                            answer: "iron oxide"
+                        },
+						{
+                            id: 6,
+                            question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+                            answer: "iron oxide"
+                        },
+						{
+                            id: 7,
+                            question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+                            answer: "iron oxide"
+                        },
+						{
+                            id: 8,
+                            question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+                            answer: "iron oxide"
+                        },
+						{
+                            id: 9,
+                            question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+                            answer: "iron oxide"
+                        },
+						{
+                            id: 10,
                             question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
                             answer: "iron oxide"
                         }
@@ -1751,6 +1896,41 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
 						{
                             id: 3,
+                            question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+                            answer: "less"
+                        },
+						{
+                            id: 4,
+                            question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+                            answer: "less"
+                        },
+						{
+                            id: 5,
+                            question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+                            answer: "less"
+                        },
+						{
+                            id: 6,
+                            question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+                            answer: "less"
+                        },
+						{
+                            id: 7,
+                            question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+                            answer: "less"
+                        },
+						{
+                            id: 8
+                            question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+                            answer: "less"
+                        },
+						{
+                            id: 9,
+                            question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+                            answer: "less"
+                        },
+						{
+                            id: 10,
                             question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
                             answer: "less"
                         }
