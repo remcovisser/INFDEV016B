@@ -327,6 +327,7 @@ module.exports = class Result {
                         }
                     ]
                 },
+
                 {
                     '_id': 3, 'name': 'B1',
                     'subjects': [
@@ -427,6 +428,61 @@ module.exports = class Result {
                                     answer: "What",
                                     points: 0
                                 }]
+                        },
+                        {
+                            name: "Spelling",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "He slepped me",
+                                    answer: "He slapped me"
+                                },
+                                {
+                                    id: 2,
+                                    question: "It ated my foot",
+                                    answer: "It ate my food"
+                                },
+                                {
+                                    id: 3,
+                                    question: "The footballpleyer waz injured",
+                                    answer: "The footballplayer was injured"
+                                },
+                                {
+                                    id: 4,
+                                    question: "The oter ate a vish",
+                                    answer: "The otter ate a fish"
+                                },
+                                {
+                                    id: 5,
+                                    question: "My dad steped on a Lego",
+                                    answer: "My dad stepped on a Lego"
+                                },
+                                {
+                                    id: 6,
+                                    question: "This food tastes amasing",
+                                    answer: "This food tastes amazing"
+                                },
+                                {
+                                    id: 7,
+                                    question: "The newspapers where not deliverd",
+                                    answer: "The newspapers were not delivered"
+                                },
+                                {
+                                    id: 8,
+                                    question: "The lion chaset the dear",
+                                    answer: "The lion chased the deer"
+                                },
+                                {
+                                    id: 9,
+                                    question: "It is a nice dey",
+                                    answer: "It is a nice day"
+                                },
+                                {
+                                    id: 10,
+                                    question: "Dilan plays Pokemon Go",
+                                    answer: "Dylan plays Pokemon Go"
+                                }
+                            ]
                         }
                     ]
                 },
