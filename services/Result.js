@@ -2247,7 +2247,7 @@ module.exports = class Result {
                                     points: 0
 								},
 								{
-									id: 8
+									id: 8,
 									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
 									answer: "less",
                                     points: 0
