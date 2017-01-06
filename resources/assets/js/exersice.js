@@ -41,7 +41,7 @@ $(function() {
     if(secondUrlPart < 11) {
       var url = firstUrlPart + "/" + secondUrlPart;
     } else {
-      var url = firstUrlPart + "/result";
+      var url = "/results";
     }
     window.location.replace(url);
   });

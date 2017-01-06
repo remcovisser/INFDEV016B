@@ -17,7 +17,7 @@ module.exports = class User {
         try {
             var object = ObjectId(id);
         }
-        catch(e) {
+        catch (e) {
             return callback(false);
         }
 
@@ -41,13 +41,12 @@ module.exports = class User {
                 return;
             }
 
-            that.collection.insertOne({
-                username: username
-            }, function(err, res) {
+            that.collection.insertOne({ username: username }, function(err, res) {
                 // Create new result record in database.
                 var result = new Result();
                 var seederData = result.newResult(username);
-                db.collection('results').insert(seederData);
+                db.collection('results').insertMany(seederData);
+                console.log('insert user results');
 
                 callback(res.ops[0]);
             });

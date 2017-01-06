@@ -1,15 +1,20 @@
 <div class="container centered">
     <h3>Your progress</h3>
+
     <div class="progress_bar">
         <span></span>
     </div>
+
     <h2>{{currentQuestion.question}}</h2>
-    <input type="text" id="answer" /><span>
-    <br />
-    <button type="button" id="check">Check</button>
-    <button type="button" class="hidden" id="next">Next</button>
-    <br />
-    <span class="hidden" id="correctAswerContainer">The correct answer is: <span id="correctAnswer">{{currentQuestion.answer}}</span>
+    <form action="#" onsubmit="return false">
+        <input id="answer" autofocus />
+        <br />
+        <button type="submit" id="check">Check</button>
+        <button type="button" class="hidden" id="next">Next</button>
+        <br />
+    </form>
+
+    <span class="hidden" id="correctAswerContainer">The correct answer is: <span id="correctAnswer">{{currentQuestion.answer}}</span></span>
 </div>
 
 <span class="hidden">

@@ -18,13 +18,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "walk to my home I",
+                            answer: "I walk to my home"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "you do have money?",
+                            answer: "do you have money?"
+                        },
+                        {
+                            id: 3,
+                            question: "much how money does it cost?",
+                            answer: "how much money does it cost"
+                        },
+                        {
+                            id: 4,
+                            question: "he the fire put out",
+                            answer: "he put out the fire"
+                        },
+                        {
+                            id: 5,
+                            question: "a car he drives today",
+                            answer: "he drives a car today"
+                        },
+                        {
+                            id: 6,
+                            question: "bee watch out for the",
+                            answer: "watch out for the bee"
+                        },
+                        {
+                            id: 7,
+                            question: "dangerous drinking is",
+                            answer: "drinking is dangerous"
+                        },
+                        {
+                            id: 8,
+                            question: "the hole beware of",
+                            answer: "beware of the hole"
+                        },
+                        {
+                            id: 9,
+                            question: "to school Peter walks",
+                            answer: "Peter walks to school"
+                        },
+                        {
+                            id: 10,
+                            question: "pay for food he does?",
+                            answer: "does he pay for food?"
                         }
                     ]
                 },
@@ -235,13 +275,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "our holiday will at home we not spend next year",
+                            answer: "we will not spend our holiday at home next year"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "did I him see not last night at the disco",
+                            answer: "I did not see him at the disco last night"
+                        },
+                        {
+                            id: 3,
+                            question: "to a party not we tonight going are",
+                            answer:"we are not going to a party tonight"
+                        },
+                        {
+                            id: 4,
+                            question: "will a letter not next week send you she",
+                            answer:"she will not send you a letter next week."
+                        },
+                        {
+                            id: 5,
+                            question: "not the truth did he tell you",
+                            answer:"he did not tell you the truth"
+                        },
+                        {
+                            id: 6,
+                            question: "to the cinema we want not do tonight to go",
+                            answer:"we do not want to go to the cinema tonight"
+                        },
+                        {
+                            id: 7,
+                            question: "play in the bar did he last week not the piano",
+                            answer:"he did not play the piano in the bar last week"
+                        },
+                        {
+                            id: 8,
+                            question: "not now she in England is",
+                            answer:"she is not in England now"
+                        },
+                        {
+                            id: 9,
+                            question: "eat in winter ice-cream do not I",
+                            answer:"I do not eat ice-cream in winter"
+                        },
+                        {
+                            id: 10,
+                            question: "right now have not we time do",
+                            answer:"we do not have time right now"
                         }
                     ]
                 },
@@ -451,13 +531,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "She is in great form because (every week / goes / she / to the gym)",
+                            answer: "she goes to the gym every week"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "I think (likes / Susan / you)",
+                            answer: "Susan likes you"
+                        },
+                        {
+                            id: 3,
+                            question: "I can't talk to you because (time / do not have / I / now)",
+                            answer: "I do not have time now"
+                        },
+                        {
+                            id: 4,
+                            question: "We are glad that (at home / did not leave / we / our umbrella ",
+                            answer: "we did not leave our umbrella at home"
+                        },
+                        {
+                            id: 5,
+                            question: "I will miss him when (to Chicago / moves / he) ",
+                            answer: "he moves to Chicago"
+                        },
+                        {
+                            id: 6,
+                            question: "They don't know where (have left / the key / they)",
+                            answer: "they have left the key"
+                        },
+                        {
+                            id: 7,
+                            question: "Ring me if (have / you / a problem)",
+                            answer: "you have a problem"
+                        },
+                        {
+                            id: 8,
+                            question: "I'd like to know why (her holiday / does not spend / she / in France)",
+                            answer: "she does not spend her holiday in France"
+                        },
+                        {
+                            id: 9,
+                            question: "They told him that (wanted to play / they / tennis)",
+                            answer: "they wanted to play tennis"
+                        },
+                        {
+                            id: 10,
+                            question: "He was reading the paper while (she / in the garden / was working)",
+                            answer: "she was working in the garden"
                         }
                     ]
                 },
@@ -666,12 +786,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Word order",
                     questions: [
                         {
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            id: 1,
+                            question: "go now home will I ",
+                            answer: "I will go home now"
                         },
                         {
-                            question: "What time is it?",
-                            answer: "High noon"
+                            id: 2,
+                            question: "give the present tomorrow we him will",
+                            answer: "we will give him the present tomorrow"
+                        },
+                        {
+                            id: 3,
+                            question: "her met last night at we the station",
+                            answer: "we met her at the station last night"
+                        },
+                        {
+                            id: 4,
+                            question: "was last week he in hospital",
+                            answer: "he was in hospital last week"
+                        },
+                        {
+                            id: 5,
+                            question: "in Greece spend I will next year my holiday",
+                            answer: "I will spend my holiday in Greece next year"
+                        },
+                        {
+                            id: 6,
+                            question: "must at five o'clock leave we the house",
+                            answer: "we must leave the house at five o'clock"
+                        },
+                        {
+                            id: 7,
+                            question: "the library take I the book will today to",
+                            answer: "I will take the book to the library today"
+                        },
+                        {
+                            id: 8,
+                            question: "my mum breakfast in the morning made",
+                            answer: "my mum made breakfast in the morning"
+                        },
+                        {
+                            id: 9,
+                            question: "tonight want to the cinema to go we",
+                            answer: "we want to go to the cinema tonight"
+                        },
+                        {
+                            id: 10,
+                            question: "wrote last week they at school a test",
+                            answer: "they wrote a test at school last week"
                         }
                     ]
                 },
@@ -859,13 +1021,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "We were in London (last week) <Reorder sentence to fit adverb>",
+                            answer: "We were in London last week"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "He walks his dog (rarely) <Reorder sentence to fit adverb>",
+                            answer: "He rarely walks his dog"
+                        },
+                        {
+                            id: 3,
+                            question: "She waited (patiently)  <Reorder sentence to fit adverb>",
+                            answer: "She waited patiently"
+                        },
+                        {
+                            id: 4,
+                            question: "My father goes fishing (always) <Reorder sentence to fit adverb>",
+                            answer: "My father always goes fishing"
+                        },
+                        {
+                            id: 5,
+                            question: "Your bedroom is (upstairs)  <Reorder sentence to fit adverb>",
+                            answer: "Your bedroom is upstairs"
+                        },
+                        {
+                            id: 6,
+                            question: "We don't go skiing (in summer)  <Reorder sentence to fit adverb>",
+                            answer: "We don't go skiing in summer"
+                        },
+                        {
+                            id: 7,
+                            question: "Cats can hear. (well)  <Reorder sentence to fit adverb>",
+                            answer: "Cats can hear well"
+                        },
+                        {
+                            id: 8,
+                            question: "I saw him. (there)  <Reorder sentence to fit adverb>",
+                            answer: "I saw him there"
+                        },
+                        {
+                            id: 9,
+                            question: "The girl speaks English. (fluently)  <Reorder sentence to fit adverb>",
+                            answer: "The girl speaks English fluently"
+                        },
+                        {
+                            id: 10,
+                            question: "I have seen that film. (never) / (before) <Reorder sentence to fit adverb>",
+                            answer: "I have never seen that film before"
                         }
                     ]
                 },
@@ -1061,14 +1263,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "We went to the cinema yesterday. OR We went yesterday to the cinema.",
+                            answer: "We went to the cinema yesterday."
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
-                        }
+                            question: "We often go to the cinema. OR We go often to the cinema.",
+                            answer: "We often go to the cinema."
+                        },
+                        {
+                            id: 3,
+                            question: "Next Tuesday I will go to the cinema. OR I will go to the cinema next Tuesday.",
+                            answer: "Next Tuesday I will go to the cinema."
+                        },
+                        {
+                            id: 4,
+                            question: "They never go to the cinema. OR They go to the cinema never.",
+                            answer:  "They never go to the cinema"
+                        },
+                        {
+                            id: 5,
+                            question: "She goes every Sunday to the cinema. OR She goes to the cinema every Sunday.",
+                            answer: "She goes to the cinema every Sunday."
+                        },
+                        {
+                            id: 6,
+                            question: "I seldom am at the cinema. OR I am seldom at the cinema.",
+                            answer: "I am seldom at the cinema."
+                        },
+                        {
+                            id: 7,
+                            question: "I don't go to the cinema every week. OR I don't go every week to the cinema.",
+                            answer: "I don't go to the cinema every week."
+                        },
+                        {
+                            id: 8,
+                            question: "Francis does not always go to the cinema. OR Francis does not go to the cinema always.",
+                            answer: "Francis does not always go to the cinema."
+                        },
+                        {
+                            id: 9,
+                            question: "Do frequently you go to the cinema? OR Do you frequently go to the cinema?",
+                            answer: "Do you frequently go to the cinema?"
+                        },
+                        {
+                            id: 10,
+                            question: "My friends didn't go to the cinema on Friday. OR On Friday my friends didn't go to the cinema.",
+                            answer: "My friends didn't go to the cinema on Friday."
+                        },
                     ]
                 },
                 {
@@ -1145,14 +1387,44 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Spelling",
                     questions: [
                         {
-                            id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "How much wood wood a wouldchuck chuck if a wouldchuck could chuck would?",
+                            answer: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?"
                         },
                         {
-                            id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "They love eachother deerly",
+                            answer: "They love each other dearly"
+                        },
+                        {
+                            question: "This is the sea, as you can sea",
+                            answer: "This is the sea, as you can see"
+                        },
+                        {
+                            question: "The tiger rooms freely within the borders of these forest",
+                            answer: "The tiger roams freely within the borders of these forests"
+                        },
+                        {
+                            question: "I wanted to eat a few loaves of brood",
+                            answer: "I wanted to eat a few loaves of bread"
+                        },
+                        {
+                            question: "My new phoon just came in",
+                            answer: "My new phone just came in"
+                        },
+                        {
+                            question: "This subject is extremly hard",
+                            answer: "This subject is extremely hard"
+                        },
+                        {
+                            question: "My new neibor is quite friendly",
+                            answer: "My new neighbour is quite friendly"
+                        },
+                        {
+                            question: "Remco is a programin genius",
+                            answer: "Remco is a programming genius"
+                        },
+                        {
+                            question: "Remco's work is always need",
+                            answer: "Remco's work ia always neat"
                         }
                     ]
                 },
@@ -1234,3 +1506,4 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
         process.exit();
     });
 });
+0
