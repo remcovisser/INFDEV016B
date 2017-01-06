@@ -14,6 +14,12 @@ router.post('/process-login', User.isGuest, function(req, res, next) {
     var username = req.body.username;
     if (username == '') {
         res.redirect('/?errors[username]=required');
+        return;
+    }
+
+    if (!User.validateUsername(username)) {
+        res.redirect('/?errors[username]=numbers_only');
+        return;
     }
 
     user.authenticate(username, function(result) {

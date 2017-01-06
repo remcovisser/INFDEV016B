@@ -1,4 +1,6 @@
 var test = require('unit.js');
+const User = require('./../services/User');
+
 
 /* You can use...
 
@@ -132,5 +134,10 @@ describe('Unit tests', function(){
                             ]
                             )
     })
+
+    it('Only student numbers are allowed to log-in', function() {
+        var username = 'Unit123';
+        test.must(User.validateUsername(username)).be.false();
+    });
 
 });
