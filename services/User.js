@@ -46,12 +46,16 @@ module.exports = class User {
                 var result = new Result();
                 var seederData = result.newResult(username);
                 db.collection('results').insertMany(seederData);
-                console.log('insert user results');
 
                 callback(res.ops[0]);
             });
         });
     }
+
+    static validateUsername(name) {
+        return /^[0-9]+$/.test(name);
+    }
+
 
     static isGuest(req, res, next) {
         // Check if auth cookie is defined

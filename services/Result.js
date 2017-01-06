@@ -62,6 +62,10 @@ module.exports = class Result {
         });
     }
 
+    static validateAnswer(correct, given) {
+        return correct == given;
+    }
+
     findResults(value, callback) {
         this.collection.find({ _id: value }).toArray(function(err, data) {
             if (data.length == 0) {

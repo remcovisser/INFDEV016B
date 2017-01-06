@@ -21,14 +21,13 @@ describe('Integration tests', function(){
     })
 
     it('Can we find results of this user?', function(done){
-        
+
         var resC = new Result();
         var result = resC.findResults("2030", function(rtn){
             test.object(rtn);
             done();
         });
-        
+
     });
 });
 });
-
