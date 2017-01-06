@@ -81,7 +81,6 @@ module.exports = class Result {
                     'name': 'A1',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -363,7 +362,6 @@ module.exports = class Result {
                     '_id': 2, 'name': 'A2',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -581,7 +579,6 @@ module.exports = class Result {
                     '_id': 3, 'name': 'B1',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -868,7 +865,6 @@ module.exports = class Result {
                     '_id': 4, 'name': 'B2',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -1141,7 +1137,6 @@ module.exports = class Result {
                     '_id': 5, 'name': 'C1',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -1412,7 +1407,6 @@ module.exports = class Result {
                     '_id': 6, 'name': 'C2',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
                         {
                             'name': 'Capitalization',
                             'questions': [
