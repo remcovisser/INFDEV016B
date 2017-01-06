@@ -146,6 +146,61 @@ module.exports = class Result {
                                     answer: "January 1st",
                                     points: 0
                                 }]
+                        },
+                        {
+                            name: "Spelling",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "I walket to the stor.",
+                                    answer: "I walked to the store."
+                                },
+                                {
+                                    id: 2,
+                                    question: "I have sleeped ferry well.",
+                                    answer: "I have slept very well."
+                                },
+                                {
+                                    id: 3,
+                                    question: "Your annoying me quite a byte..",
+                                    answer: "You're annoying me quite a bit..."
+                                },
+                                {
+                                    id: 4,
+                                    question: "The gras is greener on the otter side",
+                                    answer: "The grass is greener on the other side"
+                                },
+                                {
+                                    id: 5,
+                                    question: "My mum cooks the tastoest foot",
+                                    answer: "My mum cooks the tastiest food"
+                                },
+                                {
+                                    id: 6,
+                                    question: "Your keeb amasing me",
+                                    answer: "You keep amazing me"
+                                },
+                                {
+                                    id: 7,
+                                    question: "The newspaperz are being spred",
+                                    answer: "The newspapers are being spread"
+                                },
+                                {
+                                    id: 8,
+                                    question: "You're annoioing me quite a bit",
+                                    answer: "You're annoying me quite a bit"
+                                },
+                                {
+                                    id: 9,
+                                    question: "Water you doing?",
+                                    answer: "What are you doing?"
+                                },
+                                {
+                                    id: 10,
+                                    question: "You never cheese to amaze me",
+                                    answer: "You never cease to amaze me"
+                                }
+                            ]
                         }
                     ]
                 },
