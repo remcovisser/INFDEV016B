@@ -63,7 +63,7 @@ module.exports = class Result {
     }
 
     static validateAnswer(correct, given) {
-        return correct == given;
+        return correct == given
     }
 
     findResults(value, callback) {

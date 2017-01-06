@@ -53,9 +53,8 @@ module.exports = class User {
     }
 
     static validateUsername(name) {
-        return /^[0-9]+$/.test(name);
+        return /^[0-9]+$/.test(name)
     }
-
 
     static isGuest(req, res, next) {
         // Check if auth cookie is defined
