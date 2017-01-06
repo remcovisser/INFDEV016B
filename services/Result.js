@@ -80,7 +80,70 @@ module.exports = class Result {
                     '_id': 1,
                     'name': 'A1',
                     'subjects': [
-                        { 'name': 'Word order' },
+                        {
+                            'name': 'Word order',
+                            'questions': [
+                                {
+                                    id: 1,
+                                    question: "walk to my home I",
+                                    answer: "I walk to my home",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "you do have money?",
+                                    answer: "do you have money?",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "much how money does it cost?",
+                                    answer: "how much money does it cost",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "he the fire put out",
+                                    answer: "he put out the fire",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "a car he drives today",
+                                    answer: "he drives a car today",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "bee watch out for sothe",
+                                    answer: "watch out for the bee",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "dangerous drinking is",
+                                    answer: "drinking is dangerous",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "the hole beware of",
+                                    answer: "beware of the hole",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "to school Peter walks",
+                                    answer: "Peter walks to school",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "pay for food he does?",
+                                    answer: "does he pay for food?"
+                                }
+                            ]
+                        },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -214,7 +277,7 @@ module.exports = class Result {
                         { 'name': 'Spelling' },
                         {
                             'name': 'Reading comprehension',
-                            'questions': 
+                            'questions':
 							[
 								{
 									id: 1,
@@ -307,52 +370,62 @@ module.exports = class Result {
                                 {
                                     id: 1,
                                     question: "I walket to the stor.",
-                                    answer: "I walked to the store."
+                                    answer: "I walked to the store.",
+                                    points: 0
                                 },
                                 {
                                     id: 2,
                                     question: "I have sleeped ferry well.",
-                                    answer: "I have slept very well."
+                                    answer: "I have slept very well.",
+                                    points: 0
                                 },
                                 {
                                     id: 3,
                                     question: "Your annoying me quite a byte..",
-                                    answer: "You're annoying me quite a bit..."
+                                    answer: "You're annoying me quite a bit...",
+                                    points: 0
                                 },
                                 {
                                     id: 4,
                                     question: "The gras is greener on the otter side",
-                                    answer: "The grass is greener on the other side"
+                                    answer: "The grass is greener on the other side",
+                                    points: 0
                                 },
                                 {
                                     id: 5,
                                     question: "My mum cooks the tastoest foot",
-                                    answer: "My mum cooks the tastiest food"
+                                    answer: "My mum cooks the tastiest food",
+                                    points: 0
                                 },
                                 {
                                     id: 6,
                                     question: "Your keeb amasing me",
-                                    answer: "You keep amazing me"
+                                    answer: "You keep amazing me",
+                                    points: 0
                                 },
                                 {
                                     id: 7,
                                     question: "The newspaperz are being spred",
-                                    answer: "The newspapers are being spread"
+                                    answer: "The newspapers are being spread",
+                                    points: 0
                                 },
                                 {
                                     id: 8,
                                     question: "You're annoioing me quite a bit",
-                                    answer: "You're annoying me quite a bit"
+                                    answer: "You're annoying me quite a bit",
+                                    points: 0
                                 },
                                 {
                                     id: 9,
                                     question: "Water you doing?",
-                                    answer: "What are you doing?"
+                                    answer: "What are you doing?",
+                                    points: 0
                                 },
                                 {
                                     id: 10,
                                     question: "You never cheese to amaze me",
-                                    answer: "You never cease to amaze me"
+                                    answer: "You never cease to amaze me",
+                                    points: 0
                                 }
                             ]
                         }
@@ -482,10 +555,74 @@ module.exports = class Result {
                             }
                         ]
                         },
-                        { 'name': 'Spelling' },
+                        {
+                            name: "Spelling",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "He slepped me",
+                                    answer: "He slapped me",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "It ated my foot",
+                                    answer: "It ate my food",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "The footballpleyer waz injured",
+                                    answer: "The footballplayer was injured",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "The oter ate a vish",
+                                    answer: "The otter ate a fish",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "My dad steped on a Lego",
+                                    answer: "My dad stepped on a Lego",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "This food tastes amasing",
+                                    answer: "This food tastes amazing",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "The newspapers where not deliverd",
+                                    answer: "The newspapers were not delivered",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "The lion chaset the dear",
+                                    answer: "The lion chased the deer",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "It is a nice dey",
+                                    answer: "It is a nice day",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "Dilan plays Pokemon Go",
+                                    answer: "Dylan plays Pokemon Go",
+                                    points: 0
+                                }
+                            ]
+                        },
                         {
                             'name': 'Reading comprehension',
-                            'questions': 
+                            'questions':
 							[
 								{
 									id: 1,
@@ -712,7 +849,7 @@ module.exports = class Result {
                         { 'name': 'Spelling' },
                         {
                             'name': 'Reading comprehension',
-                            'questions': 
+                            'questions':
 							[
 								{
 									id: 1,
@@ -988,7 +1125,7 @@ module.exports = class Result {
                         { 'name': 'Spelling' },
                         {
                             'name': 'Reading comprehension',
-                            'questions': 
+                            'questions':
 							[
 								{
 									id: 1,
@@ -1269,7 +1406,7 @@ module.exports = class Result {
                         { 'name': 'Spelling' },
                         {
                             'name': 'Reading comprehension',
-                            'questions': 
+                            'questions':
 							[
 								{
 									id: 1,
@@ -1537,28 +1674,6 @@ module.exports = class Result {
                             }
                         ]
                         },
-                        { 'name': 'Spelling' },
-                        {
-                            'name': 'Reading comprehension',
-                            'questions': 
-							[
-								{
-									id: 1,
-									question: "William Henry Gates III (Bill) was born on October 28, 1955, in Seattle, Washington. Bill was the second of three children in an upper-middle class family. He enjoyed playing games with the family and was very competitive. He also loved to read. Bill became bored in public school so his family sent him to Lakeside School, a private school, where he excelled in math and science and did well in drama and English. In what classes did Gates excel?",
-									answer: "math and science"
-								},
-								{
-									id: 2,
-									question: "Bill Gates is one of the richest men in the world. In 2012, his $61 billion dollars in assets made him the world's second richest man according to Forbes Magazine. In 2006, Gates announced that he would cut back his involvement at Microsoft to spend more time on philanthropy and his foundation. The Bill and Melinda Gates Foundation supports many causes including the quest to eradicate Polio, fighting AIDS, malaria and tuberculosis; providing vaccinations for children; and even reinventing the toilet among many other things. Was Gates the first or second richest man in the world?",
-									answer: "second"
-								},
-								{
-									id: 3,
-									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
-									answer: "less"
-								}
-							]
-                        },
                         {
                             'name': 'Questions',
                             'questions': [{
@@ -1626,40 +1741,64 @@ module.exports = class Result {
                             name: "Spelling",
                             questions: [
                                 {
-                                    question: "This egg tastes eggceptional",
-                                    answer: "This egg tastes exceptional"
+                                    id: 1,
+                                    question: "How much wood wood a wouldchuck chuck if a wouldchuck could chuck would?",
+                                    answer: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+                                    points: 0
                                 },
                                 {
-                                    question: "It reely starting to bug me",
-                                    answer: "It really starts to bug me"
+                                    id: 2,
+                                    question: "They love eachother deerly",
+                                    answer: "They love each other dearly",
+                                    points: 0
                                 },
                                 {
-                                    question: "The fish I have caught today are quite scrumtious",
-                                    answer: "The fish I have caught today are quite scrumptious"
+                                    id: 3,
+                                    question: "This is the sea, as you can sea",
+                                    answer: "This is the sea, as you can see",
+                                    points: 0
                                 },
                                 {
-                                    question: "Dora, the fox is right behind that mounten",
-                                    answer: "Dora, the fox is right behind that mountain"
+                                    id: 4,
+                                    question: "The tiger rooms freely within the borders of these forest",
+                                    answer: "The tiger roams freely within the borders of these forests",
+                                    points: 0
                                 },
                                 {
-                                    question: "Jody Bernal should improve his singin, reely",
-                                    answer: "Jody Bernal should improve his singing, really"
+                                    id: 5,
+                                    question: "I wanted to eat a few loaves of brood",
+                                    answer: "I wanted to eat a few loaves of bread",
+                                    points: 0
                                 },
                                 {
-                                    question: "The people who construct these exercise are exceptional programmars and amazing human beans",
-                                    answer: "The people who constructed these exercises are exceptional programmers and amazing human beings"
+                                    id: 6,
+                                    question: "My new phoon just came in",
+                                    answer: "My new phone just came in",
+                                    points: 0
                                 },
                                 {
-                                    question: "My bicep hurt vrom the exercise I did yesterday",
-                                    answer: "My biceps hurt from the exercises I did yesterday"
+                                    id: 7,
+                                    question: "This subject is extremly hard",
+                                    answer: "This subject is extremely hard",
+                                    points: 0
                                 },
                                 {
-                                    question: "My favourite club is Ajax",
-                                    answer: "My favourite club is Feyenoord"
+                                    id: 8,
+                                    question: "My new neibor is quite friendly",
+                                    answer: "My new neighbour is quite friendly",
+                                    points: 0
                                 },
                                 {
-                                    question: "My favourite club is Sparta Rotterdam",
-                                    answer: "My favourite club is Feyenoord"
+                                    id: 9,
+                                    question: "Remco is a programin genius",
+                                    answer: "Remco is a programming genius",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "Remco's work is always need",
+                                    answer: "Remco's work ia always neat",
+                                    points: 0
                                 }
                             ]
                         }
