@@ -77,11 +77,76 @@ module.exports = class Result {
             _id: username,
             levels: [
                 {
-                    '_id': 1, 'name': 'A1',
+                    '_id': 1,
+                    'name': 'A1',
                     'subjects': [
                         { 'name': 'Word order' },
                         { 'name': 'Quantifiers' },
-                        { 'name': 'Capitalization' },
+                        {
+                            'name': 'Capitalization',
+                            'questions': [
+                                {
+                                    id: 1,
+                                    question: "We saw the Brooklyn ... (bridge)",
+                                    answer: "Bridge",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "We're going to Germany in ... (june)",
+                                    answer: "June",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "We spent our holidays in the Dominican ... (republic)",
+                                    answer: "Republic",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                                    answer: "Math",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "I'm starting my job in ... (may)",
+                                    answer: "May",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "We often go to the beach in the ... (summer)",
+                                    answer: "summer",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "I love learning ... (french)",
+                                    answer: "French",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "The ... man was cooking dinner (jamaican)",
+                                    answer: "Jamaican",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "I'm pretty bad at ... (math)",
+                                    answer: "math",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "I saw ... Brown in the lobby (senator)",
+                                    answer: "Senator",
+                                    points: 0
+                                }
+                            ]
+                        },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
                         {
@@ -154,7 +219,61 @@ module.exports = class Result {
                     'subjects': [
                         { 'name': 'Word order' },
                         { 'name': 'Quantifiers' },
-                        { 'name': 'Capitalization' },
+                        {
+                            'name': 'Capitalization',
+                            'questions': [
+                                {
+                                    id: 1,
+                                    question: "I love learning ... (english)",
+                                    answer: "English"
+                                },
+                                {
+                                    id: 2,
+                                    question: "We saw the Brooklyn ... (bridge)",
+                                    answer: "Bridge"
+                                },
+                                {
+                                    id: 3,
+                                    question: "We're going to Germany in ... (june)",
+                                    answer: "June"
+                                },
+                                {
+                                    id: 4,
+                                    question: "We spent our holidays in the Dominican ... (republic)",
+                                    answer: "Republic"
+                                },
+                                {
+                                    id: 5,
+                                    question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                                    answer: "Math"
+                                },
+                                {
+                                    id: 6,
+                                    question: "I'm starting my job in ... (may)",
+                                    answer: "May"
+                                },
+                                {
+                                    id: 7,
+                                    question: "We often go to the beach in the ... (summer)",
+                                    answer: "summer"
+                                },
+                                {
+                                    id: 8,
+                                    question: "The ... man was cooking dinner (jamaican)",
+                                    answer: "Jamaican"
+                                },
+                                {
+                                    id: 9,
+                                    question: "I'm pretty bad at ... (math)",
+                                    answer: "math"
+                                },
+                                {
+                                    id: 10,
+                                    question: "I saw ... Brown in the lobby (senator)",
+                                    answer: "Senator"
+                                }
+                            ]
+                        },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
                         {
@@ -227,7 +346,71 @@ module.exports = class Result {
                     'subjects': [
                         { 'name': 'Word order' },
                         { 'name': 'Quantifiers' },
-                        { 'name': 'Capitalization' },
+                        {
+                            'name': 'Capitalization',
+                            'questions': [
+                                {
+                                    id: 1,
+                                    question: "We're going to Germany in ... (june)",
+                                    answer: "June",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "I love learning ... (english)",
+                                    answer: "English",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "We saw the Brooklyn ... (bridge)",
+                                    answer: "Bridge",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "We spent our holidays in the Dominican ... (republic)",
+                                    answer: "Republic",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                                    answer: "Math",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "I'm starting my job in ... (may)",
+                                    answer: "May",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "We often go to the beach in the ... (summer)",
+                                    answer: "summer",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "The ... man was cooking dinner (jamaican)",
+                                    answer: "Jamaican",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "I'm pretty bad at ... (math)",
+                                    answer: "math",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "I saw ... Brown in the lobby (senator)",
+                                    answer: "Senator",
+                                    points: 0
+                                }
+                            ]
+                        },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
                         {
@@ -300,7 +483,71 @@ module.exports = class Result {
                     'subjects': [
                         { 'name': 'Word order' },
                         { 'name': 'Quantifiers' },
-                        { 'name': 'Capitalization' },
+                        {
+                            'name': 'Capitalization',
+                            'questions': [
+                                {
+                                    id: 1,
+                                    question: "I'm starting my job in ... (may)",
+                                    answer: "May",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "We're going to Germany in ... (june)",
+                                    answer: "June",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "I love learning ... (english)",
+                                    answer: "English",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "We saw the Brooklyn ... (bridge)",
+                                    answer: "Bridge",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "We spent our holidays in the Dominican ... (republic)",
+                                    answer: "Republic",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                                    answer: "Math",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "We often go to the beach in the ... (summer)",
+                                    answer: "summer",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "The ... man was cooking dinner (jamaican)",
+                                    answer: "Jamaican",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "I'm pretty bad at ... (math)",
+                                    answer: "math",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "I saw ... Brown in the lobby (senator)",
+                                    answer: "Senator",
+                                    points: 0
+                                }
+                            ]
+                        },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
                         {
@@ -374,7 +621,70 @@ module.exports = class Result {
                     'subjects': [
                         { 'name': 'Word order' },
                         { 'name': 'Quantifiers' },
-                        { 'name': 'Capitalization' },
+                        {
+                            'name': 'Capitalization',
+                            'questions': [
+                                {
+                                    id: 1,
+                                    question: "We often go to the beach in the ... (summer)",
+                                    answer: "summer",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "I'm starting my job in ... (may)",
+                                    answer: "May",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "We're going to Germany in ... (june)",
+                                    answer: "June",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "I love learning ... (english)",
+                                    answer: "English",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "We saw the Brooklyn ... (bridge)",
+                                    answer: "Bridge",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "We spent our holidays in the Dominican ... (republic)",
+                                    answer: "Republic",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                                    answer: "Math",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "The ... man was cooking dinner (jamaican)",
+                                    answer: "Jamaican",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "I'm pretty bad at ... (math)",
+                                    answer: "math",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "I saw ... Brown in the lobby (senator)",
+                                    answer: "Senator"
+                                }
+                            ]
+                        },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
                         {
@@ -447,7 +757,71 @@ module.exports = class Result {
                     'subjects': [
                         { 'name': 'Word order' },
                         { 'name': 'Quantifiers' },
-                        { 'name': 'Capitalization' },
+                        {
+                            'name': 'Capitalization',
+                            'questions': [
+                                {
+                                    id: 1,
+                                    question: "How .... money have you got? (much/many)",
+                                    answer: "much",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "He has .... money left. (a little/a few)",
+                                    answer: "a little",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: ".... time (much/many)",
+                                    answer: "much",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: ".... children (much/many)",
+                                    answer: "many",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "There are two boys. .... is smiling. (each/every)",
+                                    answer: "each",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "The students .... received a free copy of the magazine. (each/every)",
+                                    answer: "each",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "Can I have .... of these apples? (some/any)",
+                                    answer: "some",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "Have you got .... apples? (some/any)",
+                                    answer: "any",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "There is .... wrong with our car. (something/anything)",
+                                    answer: "something",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
+                                    answer: "somehow",
+                                    points: 0
+                                }
+                            ]
+                        },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
                         {

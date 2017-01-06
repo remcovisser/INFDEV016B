@@ -43,7 +43,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
                         {
                             id: 6,
-                            question: "bee watch out for the",
+                            question: "bee watch out for sothe",
                             answer: "watch out for the bee"
                         },
                         {
@@ -128,13 +128,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Lorem, succes.",
-                            answer: "Ipsum"
+                            question: "We saw the Brooklyn ... (bridge)",
+                            answer: "Bridge"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "We're going to Germany in ... (june)",
+                            answer: "June"
+                        },
+                        {
+                            id: 3,
+                            question: "We spent our holidays in the Dominican ... (republic)",
+                            answer: "Republic"
+                        },
+                        {
+                            id: 4,
+                            question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                            answer: "Math"
+                        },
+                        {
+                            id: 5,
+                            question: "I'm starting my job in ... (may)",
+                            answer: "May"
+                        },
+                        {
+                            id: 6,
+                            question: "We often go to the beach in the ... (summer)",
+                            answer: "summer"
+                        },
+                        {
+                            id: 7,
+                            question: "I love learning ... (french)",
+                            answer: "French"
+                        },
+                        {
+                            id: 8,
+                            question: "The ... man was cooking dinner (jamaican)",
+                            answer: "Jamaican"
+                        },
+                        {
+                            id: 9,
+                            question: "I'm pretty bad at ... (math)",
+                            answer: "math"
+                        },
+                        {
+                            id: 10,
+                            question: "I saw ... Brown in the lobby (senator)",
+                            answer: "Senator"
                         }
                     ]
                 },
@@ -385,13 +425,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Lorem, succes.",
-                            answer: "Ipsum"
+                            question: "I love learning ... (english)",
+                            answer: "English"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "We saw the Brooklyn ... (bridge)",
+                            answer: "Bridge"
+                        },
+                        {
+                            id: 3,
+                            question: "We're going to Germany in ... (june)",
+                            answer: "June"
+                        },
+                        {
+                            id: 4,
+                            question: "We spent our holidays in the Dominican ... (republic)",
+                            answer: "Republic"
+                        },
+                        {
+                            id: 5,
+                            question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                            answer: "Math"
+                        },
+                        {
+                            id: 6,
+                            question: "I'm starting my job in ... (may)",
+                            answer: "May"
+                        },
+                        {
+                            id: 7,
+                            question: "We often go to the beach in the ... (summer)",
+                            answer: "summer"
+                        },
+                        {
+                            id: 8,
+                            question: "The ... man was cooking dinner (jamaican)",
+                            answer: "Jamaican"
+                        },
+                        {
+                            id: 9,
+                            question: "I'm pretty bad at ... (math)",
+                            answer: "math"
+                        },
+                        {
+                            id: 10,
+                            question: "I saw ... Brown in the lobby (senator)",
+                            answer: "Senator"
                         }
                     ]
                 },
@@ -641,13 +721,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Lorem, succes.",
-                            answer: "Ipsum"
+                            question: "We're going to Germany in ... (june)",
+                            answer: "June"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "I love learning ... (english)",
+                            answer: "English"
+                        },
+                        {
+                            id: 3,
+                            question: "We saw the Brooklyn ... (bridge)",
+                            answer: "Bridge"
+                        },
+                        {
+                            id: 4,
+                            question: "We spent our holidays in the Dominican ... (republic)",
+                            answer: "Republic"
+                        },
+                        {
+                            id: 5,
+                            question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                            answer: "Math"
+                        },
+                        {
+                            id: 6,
+                            question: "I'm starting my job in ... (may)",
+                            answer: "May"
+                        },
+                        {
+                            id: 7,
+                            question: "We often go to the beach in the ... (summer)",
+                            answer: "summer"
+                        },
+                        {
+                            id: 8,
+                            question: "The ... man was cooking dinner (jamaican)",
+                            answer: "Jamaican"
+                        },
+                        {
+                            id: 9,
+                            question: "I'm pretty bad at ... (math)",
+                            answer: "math"
+                        },
+                        {
+                            id: 10,
+                            question: "I saw ... Brown in the lobby (senator)",
+                            answer: "Senator"
                         }
                     ]
                 },
@@ -886,12 +1006,54 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Capitalization",
                     questions: [
                         {
-                            question: "Lorem, succes.",
-                            answer: "Ipsum"
+                            id: 1,
+                            question: "I'm starting my job in ... (may)",
+                            answer: "May"
                         },
                         {
-                            question: "What time is it?",
-                            answer: "High noon"
+                            id: 2,
+                            question: "We're going to Germany in ... (june)",
+                            answer: "June"
+                        },
+                        {
+                            id: 3,
+                            question: "I love learning ... (english)",
+                            answer: "English"
+                        },
+                        {
+                            id: 4,
+                            question: "We saw the Brooklyn ... (bridge)",
+                            answer: "Bridge"
+                        },
+                        {
+                            id: 5,
+                            question: "We spent our holidays in the Dominican ... (republic)",
+                            answer: "Republic"
+                        },
+                        {
+                            id: 6,
+                            question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                            answer: "Math"
+                        },
+                        {
+                            id: 7,
+                            question: "We often go to the beach in the ... (summer)",
+                            answer: "summer"
+                        },
+                        {
+                            id: 8,
+                            question: "The ... man was cooking dinner (jamaican)",
+                            answer: "Jamaican"
+                        },
+                        {
+                            id: 9,
+                            question: "I'm pretty bad at ... (math)",
+                            answer: "math"
+                        },
+                        {
+                            id: 10,
+                            question: "I saw ... Brown in the lobby (senator)",
+                            answer: "Senator"
                         }
                     ]
                 },
@@ -1131,13 +1293,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Lorem, succes.",
-                            answer: "Ipsum"
+                            question: "We often go to the beach in the ... (summer)",
+                            answer: "summer"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "I'm starting my job in ... (may)",
+                            answer: "May"
+                        },
+                        {
+                            id: 3,
+                            question: "We're going to Germany in ... (june)",
+                            answer: "June"
+                        },
+                        {
+                            id: 4,
+                            question: "I love learning ... (english)",
+                            answer: "English"
+                        },
+                        {
+                            id: 5,
+                            question: "We saw the Brooklyn ... (bridge)",
+                            answer: "Bridge"
+                        },
+                        {
+                            id: 6,
+                            question: "We spent our holidays in the Dominican ... (republic)",
+                            answer: "Republic"
+                        },
+                        {
+                            id: 7,
+                            question: "One of the courses that I have to take next year is \"... 3\" (math)",
+                            answer: "Math"
+                        },
+                        {
+                            id: 8,
+                            question: "The ... man was cooking dinner (jamaican)",
+                            answer: "Jamaican"
+                        },
+                        {
+                            id: 9,
+                            question: "I'm pretty bad at ... (math)",
+                            answer: "math"
+                        },
+                        {
+                            id: 10,
+                            question: "I saw ... Brown in the lobby (senator)",
+                            answer: "Senator"
                         }
                     ]
                 },
@@ -1369,17 +1571,57 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     ]
                 },
                 {
-                    name: "Capitalization",
+                    name: "Quantifiers",
                     questions: [
                         {
                             id: 1,
-                            question: "Lorem, succes.",
-                            answer: "Ipsum"
+                            question: "There is .... wrong with our car. (something/anything)",
+                            answer: "something"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "How .... money have you got? (much/many)",
+                            answer: "much"
+                        },
+                        {
+                            id: 3,
+                            question: "He has .... money left. (a little/a few)",
+                            answer: "a little"
+                        },
+                        {
+                            id: 4,
+                            question: ".... time (much/many)",
+                            answer: "much"
+                        },
+                        {
+                            id: 5,
+                            question: ".... children (much/many)",
+                            answer: "many"
+                        },
+                        {
+                            id: 6,
+                            question: "There are two boys. .... is smiling. (each/every)",
+                            answer: "each"
+                        },
+                        {
+                            id: 7,
+                            question: "The students .... received a free copy of the magazine. (each/every)",
+                            answer: "each"
+                        },
+                        {
+                            id: 8,
+                            question: "Can I have .... of these apples? (some/any)",
+                            answer: "some"
+                        },
+                        {
+                            id: 9,
+                            question: "Have you got .... apples? (some/any)",
+                            answer: "any"
+                        },
+                        {
+                            id: 10,
+                            question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
+                            answer: "somehow"
                         }
                     ]
                 },
