@@ -44,11 +44,18 @@ module.exports = class Result {
                 }
 
                 // Update results table
-                that.collection.removeOne({ '_id': userId }).then(() => {
-                    that.collection.insertOne(data);
-                });
+                that.collection.removeOne({ '_id': userId })
+                    .then(() => {
+                        return that.collection.insertOne(data);
+                    })
+                    .then(() => {
+                        callback(true);
+                    })
+                    .catch(() => {
+                        callback(false);
+                    });
 
-                callback(true);
+
             } else {
                 callback(false)
             }
