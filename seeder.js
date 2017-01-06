@@ -198,13 +198,23 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's body?",
+                            answer: "brown"
                         },
                         {
-                            id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            id: 1,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's wings?",
+                            answer: "brown"
+                        },
+						{
+                            id: 3,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's head?",
+                            answer: "white"
+                        },
+						{
+                            id: 4,
+                            question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+                            answer: "yellow"
                         }
                     ]
                 },
@@ -455,13 +465,23 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my fathers profession?",
+                            answer: "contruction worker"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my brothers profession?",
+                            answer: "brother"
+                        },
+						{
+                            id: 3,
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my sisters profession?",
+                            answer: "doctor"
+                        },
+						{
+                            id: 4,
+                            question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+                            answer: "painter"
                         }
                     ]
                 },
@@ -701,8 +721,8 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
                         {
                             id: 10,
-                            question: "Dylan is rother annooiing, today",
-                            answer: "Dylan is rather annoying, today"
+                            question: "Andy is rother annooiing, today",
+                            answer: "Andy is rather annoying, today"
                         }
                     ]
                 },
@@ -711,13 +731,28 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "White polar bears live on the north pole, eat fish and sleep 14 hours a day. How many hours a day are white polar bears active?",
+                            answer: "10"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "Brown polar bears live on the south pole, eat fish and sleep 13 hours a day. Do brown and white polar bears eat the same food?",
+                            answer: "yes"
+                        },
+						{
+                            id: 3,
+                            question: "Pinguins live on the north pole, eat fish and sleep 10 hours a day. Do pinguins have more in common with white or with brown polar bears?",
+                            answer: "white"
+                        },
+						{
+                            id: 4,
+                            question: "Fish live everywhere, eat sea plants and sleep 9 hours a day. Do fish eat the same food as pinguins?",
+                            answer: "no"
+                        },
+						{
+                            id: 5,
+                            question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+                            answer: "yes"
                         }
                     ]
                 },
@@ -945,13 +980,23 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Who was in charge of the home? (man/woman)",
+                            answer: "woman"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. What was the task of the man?",
+                            answer: "providing"
+                        },
+						{
+                            id: 3,
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. What did Sioux men feed their families?",
+                            answer: "buffalo"
+                        },
+						{
+                            id: 4,
+                            question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+                            answer: "women"
                         }
                     ]
                 },
@@ -1187,13 +1232,23 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "Mars has an extremely thin atmosphere. 95% of it is carbon dioxide, 3% is nitrogen, 1.6% is argon, and the remainder consists of traces of oxygen and water. The atmosphere of Mars is dominated by?",
+                            answer: "carbon dioxide"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "Mars is also home to Olympus Mons, the highest discovered mountain in the solar system. A person standing on the surface of Mars (in any location in which the mountain was visible) would have no chance of viewing the top. With the peak at 88,600 feet, Olympus Mons is about three times as high as Mount Everest, the highest peak on Earth. What is the name of the largest mountain in the solar system?",
+                            answer: "Olympus Mons"
+                        },
+						{
+                            id: 3,
+                            question: "It takes Mars 687 days to orbit the sun? Is this longer or shorter than earth?",
+                            answer: "longer"
+                        },
+						{
+                            id: 4,
+                            question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+                            answer: "iron oxide"
                         }
                     ]
                 },
@@ -1433,13 +1488,18 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "Rick, succes.",
-                            answer: "NotLikeThis"
+                            question: "William Henry Gates III (Bill) was born on October 28, 1955, in Seattle, Washington. Bill was the second of three children in an upper-middle class family. He enjoyed playing games with the family and was very competitive. He also loved to read. Bill became bored in public school so his family sent him to Lakeside School, a private school, where he excelled in math and science and did well in drama and English. In what classes did Gates excel?",
+                            answer: "math and science"
                         },
                         {
                             id: 2,
-                            question: "What time is it?",
-                            answer: "High noon"
+                            question: "Bill Gates is one of the richest men in the world. In 2012, his $61 billion dollars in assets made him the world's second richest man according to Forbes Magazine. In 2006, Gates announced that he would cut back his involvement at Microsoft to spend more time on philanthropy and his foundation. The Bill and Melinda Gates Foundation supports many causes including the quest to eradicate Polio, fighting AIDS, malaria and tuberculosis; providing vaccinations for children; and even reinventing the toilet among many other things. Was Gates the first or second richest man in the world?",
+                            answer: "second"
+                        },
+						{
+                            id: 3,
+                            question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+                            answer: "less"
                         }
                     ]
                 },
