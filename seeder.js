@@ -330,33 +330,33 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "How .... money have you got? (much/many)",
-                            answer: "much"
+                            question: "I have .... good idea (a/an)",
+                            answer: "a"
                         },
                         {
                             id: 2,
-                            question: "He has .... money left. (a little/a few)",
-                            answer: "a little"
+                            question: "That's an interesting job! (a/an)",
+                            answer: "an"
                         },
                         {
                             id: 3,
-                            question: ".... time (much/many)",
-                            answer: "much"
+                            question: ".... time (a little/a bit)",
+                            answer: "a little"
                         },
                         {
                             id: 4,
-                            question: ".... children (much/many)",
-                            answer: "many"
+                            question: ".... houses (a few/a little)",
+                            answer: "a few"
                         },
                         {
                             id: 5,
-                            question: "There are two boys. .... is smiling. (each/every)",
-                            answer: "each"
+                            question: ".... of the students has three books.. (Each/Every)",
+                            answer: "Each"
                         },
                         {
                             id: 6,
-                            question: "The students .... received a free copy of the magazine. (each/every)",
-                            answer: "each"
+                            question: "There is .... bus every 2 hours. (a/an)",
+                            answer: "a"
                         },
                         {
                             id: 7,
@@ -365,18 +365,18 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
                         {
                             id: 8,
-                            question: "Have you got .... apples? (some/any)",
-                            answer: "any"
+                            question: "How .... players are in a handball team? (many/any)",
+                            answer: "many"
                         },
                         {
                             id: 9,
-                            question: "There is .... wrong with our car. (something/anything)",
-                            answer: "something"
+                            question: "How much pocket money do you get per week? (much/many)",
+                            answer: "much"
                         },
                         {
                             id: 10,
-                            question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
-                            answer: "somehow"
+                            question: "I've got .... in my eye (something/someway/anyway)",
+                            answer: "something"
                         }
                     ]
                 },
@@ -586,53 +586,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "How .... money have you got? (much/many)",
-                            answer: "much"
-                        },
-                        {
-                            id: 2,
-                            question: "He has .... money left. (a little/a few)",
-                            answer: "a little"
-                        },
-                        {
-                            id: 3,
-                            question: ".... time (much/many)",
-                            answer: "much"
-                        },
-                        {
-                            id: 4,
-                            question: ".... children (much/many)",
-                            answer: "many"
-                        },
-                        {
-                            id: 5,
-                            question: "There are two boys. .... is smiling. (each/every)",
-                            answer: "each"
-                        },
-                        {
-                            id: 6,
-                            question: "The students .... received a free copy of the magazine. (each/every)",
-                            answer: "each"
-                        },
-                        {
-                            id: 7,
-                            question: "Can I have .... of these apples? (some/any)",
+                            question: "We need .... bananas.? (some/many)",
                             answer: "some"
                         },
                         {
-                            id: 8,
-                            question: "Have you got .... apples? (some/any)",
+                            id: 2,
+                            question: "You can't buy .... posters in this shop. (some/any)",
                             answer: "any"
                         },
                         {
+                            id: 3,
+                            question: "They have found .... gold in that old mine. (some/none)",
+                            answer: "some"
+                        },
+                        {
+                            id: 4,
+                            question: "* Do the Smiths have .... yellow van? (a/an)",
+                            answer: "a"
+                        },
+                        {
+                            id: 5,
+                            question: ".... cheese (A little/A few)",
+                            answer: "A little"
+                        },
+                        {
+                            id: 6,
+                            question: ".... cars. (A few/A little)",
+                            answer: "A few"
+                        },
+                        {
+                            id: 7,
+                            question: "There are four worksheets - please take one of .... (each/some)",
+                            answer: "each"
+                        },
+                        {
+                            id: 8,
+                            question: "We enjoyed .... minute of our holidays. (every/any)",
+                            answer: "every"
+                        },
+                        {
                             id: 9,
-                            question: "There is .... wrong with our car. (something/anything)",
-                            answer: "something"
+                            question: "How .... time is left? (much/many)",
+                            answer: "much"
                         },
                         {
                             id: 10,
-                            question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
-                            answer: "somehow"
+                            question: "How .... sisters does Ella have? (many/much)",
+                            answer: "many"
                         }
                     ]
                 },
@@ -841,44 +841,44 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     name: "Quantifiers",
                     questions: [
                         {
-                            question: "How .... money have you got? (much/many)",
-                            answer: "much"
+                            question: "We haven't heard .... about Peter. Is he ill? (anything/something)",
+                            answer: "anything"
                         },
                         {
-                            question: "He has .... money left. (a little/a few)",
-                            answer: "a little"
+                            question: "Do you live .... near Mandy? (anywhere/somewhere)",
+                            answer: "anywhere"
                         },
                         {
-                            question: ".... time (much/many)",
-                            answer: "much"
+                            question: "Peter has bought .... new books. (some/none)",
+                            answer: "some"
                         },
                         {
-                            question: ".... children (much/many)",
-                            answer: "many"
+                            question: "She always takes .... sugar with her coffee. (some/any)",
+                            answer: "some"
                         },
                         {
                             question: "There are two boys. .... is smiling. (each/every)",
                             answer: "each"
                         },
                         {
-                            question: "The students .... received a free copy of the magazine. (each/every)",
-                            answer: "each"
+                            question: "Look! He's having .... sandwiches. (some/ever)",
+                            answer: "some"
                         },
                         {
                             question: "Can I have .... of these apples? (some/any)",
                             answer: "some"
                         },
                         {
-                            question: "Have you got .... apples? (some/any)",
-                            answer: "any"
+                            question: "He always likes .... piece of chocolate. (a/an)",
+                            answer: "a"
                         },
                         {
-                            question: "There is .... wrong with our car. (something/anything)",
-                            answer: "something"
+                            question: ".... little money (A/An)",
+                            answer: "A"
                         },
                         {
-                            question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
-                            answer: "somehow"
+                            question: ".... children (A few/A little)",
+                            answer: "A few"
                         }
                     ]
                 },
@@ -1076,28 +1076,28 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "How .... money have you got? (much/many)",
-                            answer: "much"
+                            question: "They .... have their own e-mail address. (each/some)",
+                            answer: "each"
                         },
                         {
                             id: 2,
-                            question: "He has .... money left. (a little/a few)",
-                            answer: "a little"
+                            question: "We lost $20 .... (each/some)",
+                            answer: "each"
                         },
                         {
                             id: 3,
-                            question: ".... time (much/many)",
-                            answer: "much"
+                            question: "There are .... apples on the table. (some/any)",
+                            answer: "some"
                         },
                         {
                             id: 4,
-                            question: ".... children (much/many)",
-                            answer: "many"
+                            question: "Pam does not have .... pencils on her desk. (any/many)",
+                            answer: "any"
                         },
                         {
                             id: 5,
-                            question: "There are two boys. .... is smiling. (each/every)",
-                            answer: "each"
+                            question: "Would you like .... milk with your cookies? (some/any)",
+                            answer: "some"
                         },
                         {
                             id: 6,
@@ -1106,7 +1106,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
                         {
                             id: 7,
-                            question: "Can I have .... of these apples? (some/any)",
+                            question: "* How about .... grapes? (some/any)",
                             answer: "some"
                         },
                         {
@@ -1116,13 +1116,13 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                         },
                         {
                             id: 9,
-                            question: "There is .... wrong with our car. (something/anything)",
-                            answer: "something"
+                            question: ".... coffee (A little/Some)",
+                            answer: "A little"
                         },
                         {
                             id: 10,
-                            question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
-                            answer: "somehow"
+                            question: "They're open .... day except Sunday. (every/none)",
+                            answer: "every"
                         }
                     ]
                 },
@@ -1318,53 +1318,53 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     questions: [
                         {
                             id: 1,
-                            question: "How .... money have you got? (much/many)",
-                            answer: "much"
-                        },
-                        {
-                            id: 2,
-                            question: "He has .... money left. (a little/a few)",
-                            answer: "a little"
-                        },
-                        {
-                            id: 3,
-                            question: ".... time (much/many)",
-                            answer: "much"
-                        },
-                        {
-                            id: 4,
-                            question: ".... children (much/many)",
+                            question: "How .... bikes were stolen last year? (many/much)",
                             answer: "many"
                         },
                         {
+                            id: 2,
+                            question: "How .... coffee do your parents drink per day? (many/much)",
+                            answer: "much"
+                        },
+                        {
+                            id: 3,
+                            question: "Don't worry. .... can tell you where the post-office in this town is. (Anyone/Someone)",
+                            answer: "Anyone"
+                        },
+                        {
+                            id: 4,
+                            question: "I don't know .... about it. (anything/something)",
+                            answer: "anything"
+                        },
+                        {
                             id: 5,
-                            question: "There are two boys. .... is smiling. (each/every)",
-                            answer: "each"
-                        },
-                        {
-                            id: 6,
-                            question: "The students .... received a free copy of the magazine. (each/every)",
-                            answer: "each"
-                        },
-                        {
-                            id: 7,
-                            question: "Can I have .... of these apples? (some/any)",
+                            question: "There are some apples on the table. (some/none)",
                             answer: "some"
                         },
                         {
-                            id: 8,
-                            question: "Have you got .... apples? (some/any)",
+                            id: 6,
+                            question: "Pam does not have ..... pencils on her desk. (any/some)",
                             answer: "any"
                         },
                         {
+                            id: 7,
+                            question: "He always likes .... piece of chocolate. (a/an)",
+                            answer: "a"
+                        },
+                        {
+                            id: 8,
+                            question: "I have ..... homework to do for tomorrow. (some/none)",
+                            answer: "some"
+                        },
+                        {
                             id: 9,
-                            question: "There is .... wrong with our car. (something/anything)",
+                            question: "My teacher asked me .... (something/nothing)",
                             answer: "something"
                         },
                         {
                             id: 10,
-                            question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
-                            answer: "somehow"
+                            question: "Can I have .... to drink? (something/nothing)",
+                            answer: "something"
                         }
                     ]
                 },

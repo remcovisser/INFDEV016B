@@ -80,7 +80,71 @@ module.exports = class Result {
                     '_id': 1, 'name': 'A1',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
+                        {
+                          'name': 'Quantifiers',
+                          'questions': [
+                            {
+                                id: 1,
+                                question: "How .... money have you got? (much/many)",
+                                answer: "much",
+                                points: 0
+                            },
+                            {
+                                id: 2,
+                                question: "He has .... money left. (a little/a few)",
+                                answer: "a little",
+                                points: 0
+                            },
+                            {
+                                id: 3,
+                                question: ".... time (much/many)",
+                                answer: "much",
+                                points: 0
+                            },
+                            {
+                                id: 4,
+                                question: ".... children (much/many)",
+                                answer: "many",
+                                points: 0
+                            },
+                            {
+                                id: 5,
+                                question: "There are two boys. .... is smiling. (each/every)",
+                                answer: "each",
+                                points: 0
+                            },
+                            {
+                                id: 6,
+                                question: "The students .... received a free copy of the magazine. (each/every)",
+                                answer: "each",
+                                points: 0
+                            },
+                            {
+                                id: 7,
+                                question: "Can I have .... of these apples? (some/any)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 8,
+                                question: "Have you got .... apples? (some/any)",
+                                answer: "any",
+                                points: 0
+                            },
+                            {
+                                id: 9,
+                                question: "There is .... wrong with our car. (something/anything)",
+                                answer: "something",
+                                points: 0
+                            },
+                            {
+                                id: 10,
+                                question: "She looked ill, ..... . (somehow/anyhow/someway/anyway)",
+                                answer: "somehow",
+                                points: 0
+                            }
+                        ]
+                        },
                         { 'name': 'Capitalization' },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
@@ -153,7 +217,71 @@ module.exports = class Result {
                     '_id': 2, 'name': 'A2',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
+                        {
+                          'name': 'Quantifiers',
+                          'questions': [
+                            {
+                                id: 1,
+                                question: "I have .... good idea (a/an)",
+                                answer: "a",
+                                points: 0
+                            },
+                            {
+                                id: 2,
+                                question: "That's an interesting job! (a/an)",
+                                answer: "an",
+                                points: 0
+                            },
+                            {
+                                id: 3,
+                                question: ".... time (a little/a bit)",
+                                answer: "a little",
+                                points: 0
+                            },
+                            {
+                                id: 4,
+                                question: ".... houses (a few/a little)",
+                                answer: "a few",
+                                points: 0
+                            },
+                            {
+                                id: 5,
+                                question: ".... of the students has three books.. (Each/Every)",
+                                answer: "Each",
+                                points: 0
+                            },
+                            {
+                                id: 6,
+                                question: "There is .... bus every 2 hours. (a/an)",
+                                answer: "a",
+                                points: 0
+                            },
+                            {
+                                id: 7,
+                                question: "Can I have .... of these apples? (some/any)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 8,
+                                question: "How .... players are in a handball team? (many/any)",
+                                answer: "many",
+                                points: 0
+                            },
+                            {
+                                id: 9,
+                                question: "How much pocket money do you get per week? (much/many)",
+                                answer: "much",
+                                points: 0
+                            },
+                            {
+                                id: 10,
+                                question: "I've got .... in my eye (something/someway/anyway)",
+                                answer: "something",
+                                points: 0
+                            }
+                        ]
+                        },
                         { 'name': 'Capitalization' },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
@@ -226,7 +354,71 @@ module.exports = class Result {
                     '_id': 3, 'name': 'B1',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
+                        {
+                          'name': 'Quantifiers',
+                          'questions': [
+                            {
+                                id: 1,
+                                question: "We need .... bananas.? (some/many)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 2,
+                                question: "You can't buy .... posters in this shop. (some/any)",
+                                answer: "any",
+                                points: 0
+                            },
+                            {
+                                id: 3,
+                                question: "They have found .... gold in that old mine. (some/none)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 4,
+                                question: "* Do the Smiths have .... yellow van? (a/an)",
+                                answer: "a",
+                                points: 0
+                            },
+                            {
+                                id: 5,
+                                question: ".... cheese (A little/A few)",
+                                answer: "A little",
+                                points: 0
+                            },
+                            {
+                                id: 6,
+                                question: ".... cars. (A few/A little)",
+                                answer: "A few",
+                                points: 0
+                            },
+                            {
+                                id: 7,
+                                question: "There are four worksheets - please take one of .... (each/some)",
+                                answer: "each",
+                                points: 0
+                            },
+                            {
+                                id: 8,
+                                question: "We enjoyed .... minute of our holidays. (every/any)",
+                                answer: "every",
+                                points: 0
+                            },
+                            {
+                                id: 9,
+                                question: "How .... time is left? (much/many)",
+                                answer: "much",
+                                points: 0
+                            },
+                            {
+                                id: 10,
+                                question: "How .... sisters does Ella have? (many/much)",
+                                answer: "many",
+                                points: 0
+                            }
+                        ]
+                        },
                         { 'name': 'Capitalization' },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
@@ -299,7 +491,61 @@ module.exports = class Result {
                     '_id': 4, 'name': 'B2',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
+                        {
+                          'name': 'Quantifiers',
+                          'questions': [
+                            {
+                                question: "We haven't heard .... about Peter. Is he ill? (anything/something)",
+                                answer: "anything",
+                                points: 0
+                            },
+                            {
+                                question: "Do you live .... near Mandy? (anywhere/somewhere)",
+                                answer: "anywhere",
+                                points: 0
+                            },
+                            {
+                                question: "Peter has bought .... new books. (some/none)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                question: "She always takes .... sugar with her coffee. (some/any)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                question: "There are two boys. .... is smiling. (each/every)",
+                                answer: "each",
+                                points: 0
+                            },
+                            {
+                                question: "Look! He's having .... sandwiches. (some/ever)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                question: "Can I have .... of these apples? (some/any)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                question: "He always likes .... piece of chocolate. (a/an)",
+                                answer: "a",
+                                points: 0
+                            },
+                            {
+                                question: ".... little money (A/An)",
+                                answer: "A",
+                                points: 0
+                            },
+                            {
+                                question: ".... children (A few/A little)",
+                                answer: "A few",
+                                points: 0
+                            }
+                        ]
+                        },
                         { 'name': 'Capitalization' },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
@@ -373,7 +619,71 @@ module.exports = class Result {
                     '_id': 5, 'name': 'A1',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
+                        {
+                          'name': 'Quantifiers',
+                          'questions': [
+                            {
+                                id: 1,
+                                question: "They .... have their own e-mail address. (each/some)",
+                                answer: "each",
+                                points: 0
+                            },
+                            {
+                                id: 2,
+                                question: "We lost $20 .... (each/some)",
+                                answer: "each",
+                                points: 0
+                            },
+                            {
+                                id: 3,
+                                question: "There are .... apples on the table. (some/any)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 4,
+                                question: "Pam does not have .... pencils on her desk. (any/many)",
+                                answer: "any",
+                                points: 0
+                            },
+                            {
+                                id: 5,
+                                question: "Would you like .... milk with your cookies? (some/any)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 6,
+                                question: "The students .... received a free copy of the magazine. (each/every)",
+                                answer: "each",
+                                points: 0
+                            },
+                            {
+                                id: 7,
+                                question: "* How about .... grapes? (some/any)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 8,
+                                question: "Have you got .... apples? (some/any)",
+                                answer: "any",
+                                points: 0
+                            },
+                            {
+                                id: 9,
+                                question: ".... coffee (A little/Some)",
+                                answer: "A little",
+                                points: 0
+                            },
+                            {
+                                id: 10,
+                                question: "They're open .... day except Sunday. (every/none)",
+                                answer: "every",
+                                points: 0
+                            }
+                        ]
+                        },
                         { 'name': 'Capitalization' },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
@@ -446,7 +756,71 @@ module.exports = class Result {
                     '_id': 6, 'name': 'A2',
                     'subjects': [
                         { 'name': 'Word order' },
-                        { 'name': 'Quantifiers' },
+                        {
+                          'name': 'Quantifiers',
+                          'questions': [
+                            {
+                                id: 1,
+                                question: "How .... bikes were stolen last year? (many/much)",
+                                answer: "many",
+                                points: 0
+                            },
+                            {
+                                id: 2,
+                                question: "How .... coffee do your parents drink per day? (many/much)",
+                                answer: "much",
+                                points: 0
+                            },
+                            {
+                                id: 3,
+                                question: "Don't worry. .... can tell you where the post-office in this town is. (Anyone/Someone)",
+                                answer: "Anyone",
+                                points: 0
+                            },
+                            {
+                                id: 4,
+                                question: "I don't know .... about it. (anything/something)",
+                                answer: "anything",
+                                points: 0
+                            },
+                            {
+                                id: 5,
+                                question: "There are some apples on the table. (some/none)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 6,
+                                question: "Pam does not have ..... pencils on her desk. (any/some)",
+                                answer: "any",
+                                points: 0
+                            },
+                            {
+                                id: 7,
+                                question: "He always likes .... piece of chocolate. (a/an)",
+                                answer: "a",
+                                points: 0
+                            },
+                            {
+                                id: 8,
+                                question: "I have ..... homework to do for tomorrow. (some/none)",
+                                answer: "some",
+                                points: 0
+                            },
+                            {
+                                id: 9,
+                                question: "My teacher asked me .... (something/nothing)",
+                                answer: "something",
+                                points: 0
+                            },
+                            {
+                                id: 10,
+                                question: "Can I have .... to drink? (something/nothing)",
+                                answer: "something",
+                                points: 0
+                            }
+                        ]
+                        },
                         { 'name': 'Capitalization' },
                         { 'name': 'Spelling' },
                         { 'name': 'Reading comprehension' },
