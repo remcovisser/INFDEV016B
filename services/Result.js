@@ -80,7 +80,71 @@ module.exports = class Result {
                     '_id': 1,
                     'name': 'A1',
                     'subjects': [
-                        { 'name': 'Word order' },
+                        {
+                            'name': 'Word order',
+                            'questions': [
+                                {
+                                    id: 1,
+                                    question: "walk to my home I",
+                                    answer: "I walk to my home",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "you do have money?",
+                                    answer: "do you have money?",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "much how money does it cost?",
+                                    answer: "how much money does it cost",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "he the fire put out",
+                                    answer: "he put out the fire",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "a car he drives today",
+                                    answer: "he drives a car today",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "bee watch out for sothe",
+                                    answer: "watch out for the bee",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "dangerous drinking is",
+                                    answer: "drinking is dangerous",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "the hole beware of",
+                                    answer: "beware of the hole",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "to school Peter walks",
+                                    answer: "Peter walks to school",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "pay for food he does?",
+                                    answer: "does he pay for food?",
+                                    points: 0
+                                }
+                            ]
+                        },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -219,22 +283,62 @@ module.exports = class Result {
 								{
 									id: 1,
 									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's body?",
-									answer: "brown"
+									answer: "brown",
+                                    points: 0
 								},
 								{
-									id: 1,
+									id: 2,
 									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's wings?",
-									answer: "brown"
+									answer: "brown",
+                                    points: 0
 								},
 								{
 									id: 3,
 									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's head?",
-									answer: "white"
+									answer: "white",
+                                    points: 0
 								},
 								{
 									id: 4,
 									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
-									answer: "yellow"
+									answer: "yellow",
+                                    points: 0
+								},
+								{
+									id: 5,
+									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+									answer: "yellow",
+                                    points: 0
+								},
+								{
+									id: 6,
+									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+									answer: "yellow",
+                                    points: 0
+								},
+								{
+									id: 7,
+									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+									answer: "yellow",
+                                    points: 0
+								},
+								{
+									id: 8,
+									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+									answer: "yellow",
+                                    points: 0
+								},
+								{
+									id: 9,
+									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+									answer: "yellow",
+                                    points: 0
+								},
+								{
+									id: 10,
+									question: "The Bald Eagle is a majestic bird. The adult bird has a brown body, brown wings, white head, and large, hooked yellow bill. What color is the Bald Eagle's bill?",
+									answer: "yellow",
+                                    points: 0
 								}
 							]
                         },
@@ -307,52 +411,62 @@ module.exports = class Result {
                                 {
                                     id: 1,
                                     question: "I walket to the stor.",
-                                    answer: "I walked to the store."
+                                    answer: "I walked to the store.",
+                                    points: 0
                                 },
                                 {
                                     id: 2,
                                     question: "I have sleeped ferry well.",
-                                    answer: "I have slept very well."
+                                    answer: "I have slept very well.",
+                                    points: 0
                                 },
                                 {
                                     id: 3,
                                     question: "Your annoying me quite a byte..",
-                                    answer: "You're annoying me quite a bit..."
+                                    answer: "You're annoying me quite a bit...",
+                                    points: 0
                                 },
                                 {
                                     id: 4,
                                     question: "The gras is greener on the otter side",
-                                    answer: "The grass is greener on the other side"
+                                    answer: "The grass is greener on the other side",
+                                    points: 0
                                 },
                                 {
                                     id: 5,
                                     question: "My mum cooks the tastoest foot",
-                                    answer: "My mum cooks the tastiest food"
+                                    answer: "My mum cooks the tastiest food",
+                                    points: 0
                                 },
                                 {
                                     id: 6,
                                     question: "Your keeb amasing me",
-                                    answer: "You keep amazing me"
+                                    answer: "You keep amazing me",
+                                    points: 0
                                 },
                                 {
                                     id: 7,
                                     question: "The newspaperz are being spred",
-                                    answer: "The newspapers are being spread"
+                                    answer: "The newspapers are being spread",
+                                    points: 0
                                 },
                                 {
                                     id: 8,
                                     question: "You're annoioing me quite a bit",
-                                    answer: "You're annoying me quite a bit"
+                                    answer: "You're annoying me quite a bit",
+                                    points: 0
                                 },
                                 {
                                     id: 9,
                                     question: "Water you doing?",
-                                    answer: "What are you doing?"
+                                    answer: "What are you doing?",
+                                    points: 0
                                 },
                                 {
                                     id: 10,
                                     question: "You never cheese to amaze me",
-                                    answer: "You never cease to amaze me"
+                                    answer: "You never cease to amaze me",
+                                    points: 0
                                 }
                             ]
                         }
@@ -361,7 +475,71 @@ module.exports = class Result {
                 {
                     '_id': 2, 'name': 'A2',
                     'subjects': [
-                        { 'name': 'Word order' },
+                        { 
+                            name: "Word order",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "our holiday will at home we not spend next year",
+                                    answer: "we will not spend our holiday at home next year",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "did I him see not last night at the disco",
+                                    answer: "I did not see him at the disco last night",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "to a party not we tonight going are",
+                                    answer:"we are not going to a party tonight",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "will a letter not next week send you she",
+                                    answer:"she will not send you a letter next week.",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "not the truth did he tell you",
+                                    answer:"he did not tell you the truth",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "to the cinema we want not do tonight to go",
+                                    answer:"we do not want to go to the cinema tonight",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "play in the bar did he last week not the piano",
+                                    answer:"he did not play the piano in the bar last week",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "not now she in England is",
+                                    answer:"she is not in England now",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "eat in winter ice-cream do not I",
+                                    answer:"I do not eat ice-cream in winter",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "right now have not we time do",
+                                    answer:"we do not have time right now",
+                                    points: 0
+                                }
+                            ] 
+                        },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -482,7 +660,71 @@ module.exports = class Result {
                             }
                         ]
                         },
-                        { 'name': 'Spelling' },
+                        {
+                            name: "Spelling",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "He slepped me",
+                                    answer: "He slapped me",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "It ated my foot",
+                                    answer: "It ate my food",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "The footballpleyer waz injured",
+                                    answer: "The footballplayer was injured",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "The oter ate a vish",
+                                    answer: "The otter ate a fish",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "My dad steped on a Lego",
+                                    answer: "My dad stepped on a Lego",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "This food tastes amasing",
+                                    answer: "This food tastes amazing",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "The newspapers where not deliverd",
+                                    answer: "The newspapers were not delivered",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "The lion chaset the dear",
+                                    answer: "The lion chased the deer",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "It is a nice dey",
+                                    answer: "It is a nice day",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "Andy plays Pokemon Go",
+                                    answer: "Andry plays Pokemon Go",
+                                    points: 0
+                                }
+                            ]
+                        },
                         {
                             'name': 'Reading comprehension',
                             'questions':
@@ -490,22 +732,62 @@ module.exports = class Result {
 								{
 									id: 1,
 									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my fathers profession?",
-									answer: "contruction worker"
+									answer: "contruction worker",
+                                    points: 0
 								},
 								{
 									id: 2,
 									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my brothers profession?",
-									answer: "brother"
+									answer: "brother",
+                                    points: 0
 								},
 								{
 									id: 3,
 									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my sisters profession?",
-									answer: "doctor"
+									answer: "doctor",
+                                    points: 0
 								},
 								{
 									id: 4,
 									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
-									answer: "painter"
+									answer: "painter",
+                                    points: 0
+								},
+								{
+									id: 5,
+									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+									answer: "painter",
+                                    points: 0
+								},
+								{
+									id: 6,
+									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+									answer: "painter",
+                                    points: 0
+								},
+								{
+									id: 7,
+									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+									answer: "painter",
+                                    points: 0
+								},
+								{
+									id: 8,
+									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+									answer: "painter",
+                                    points: 0
+								},
+								{
+									id: 9,
+									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+									answer: "painter",
+                                    points: 0
+								},
+								{
+									id: 10,
+									question: "My father is a construction worker, my brother is an engineer, my sister is a doctor and my mom is a painter. What is my moms profession?",
+									answer: "painter",
+                                    points: 0
 								}
 							]
                         },
@@ -578,7 +860,71 @@ module.exports = class Result {
                 {
                     '_id': 3, 'name': 'B1',
                     'subjects': [
-                        { 'name': 'Word order' },
+                        {   
+                            name: "Word order",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "She is in great form because (every week / goes / she / to the gym)",
+                                    answer: "she goes to the gym every week",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "I think (likes / Susan / you)",
+                                    answer: "Susan likes you",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "I can't talk to you because (time / do not have / I / now)",
+                                    answer: "I do not have time now",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "We are glad that (at home / did not leave / we / our umbrella ",
+                                    answer: "we did not leave our umbrella at home",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "I will miss him when (to Chicago / moves / he) ",
+                                    answer: "he moves to Chicago",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "They don't know where (have left / the key / they)",
+                                    answer: "they have left the key",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "Ring me if (have / you / a problem)",
+                                    answer: "you have a problem",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "I'd like to know why (her holiday / does not spend / she / in France)",
+                                    answer: "she does not spend her holiday in France",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "They told him that (wanted to play / they / tennis)",
+                                    answer: "they wanted to play tennis",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "He was reading the paper while (she / in the garden / was working)",
+                                    answer: "she was working in the garden",
+                                    points: 0
+                                }
+                            ] 
+                        },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -717,27 +1063,62 @@ module.exports = class Result {
 								{
 									id: 1,
 									question: "White polar bears live on the north pole, eat fish and sleep 14 hours a day. How many hours a day are white polar bears active?",
-									answer: "10"
+									answer: "10",
+                                    points: 0
 								},
 								{
 									id: 2,
 									question: "Brown polar bears live on the south pole, eat fish and sleep 13 hours a day. Do brown and white polar bears eat the same food?",
-									answer: "yes"
+									answer: "yes",
+                                    points: 0
 								},
 								{
 									id: 3,
 									question: "Pinguins live on the north pole, eat fish and sleep 10 hours a day. Do pinguins have more in common with white or with brown polar bears?",
-									answer: "white"
+									answer: "white",
+                                    points: 0
 								},
 								{
 									id: 4,
 									question: "Fish live everywhere, eat sea plants and sleep 9 hours a day. Do fish eat the same food as pinguins?",
-									answer: "no"
+									answer: "no",
+                                    points: 0
 								},
 								{
 									id: 5,
 									question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
-									answer: "yes"
+									answer: "yes",
+                                    points: 0
+								},
+								{
+									id: 6,
+									question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+									answer: "yes",
+                                    points: 0
+								},
+								{
+									id: 7,
+									question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+									answer: "yes",
+                                    points: 0
+								},
+								{
+									id: 8,
+									question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+									answer: "yes",
+                                    points: 0
+								},
+								{
+									id: 9,
+									question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+									answer: "yes",
+                                    points: 0
+								},
+								{
+									id: 10,
+									question: "Sea plants are endangered by the things that humans throw into the ocean. If all the sea plants die, does that affect the animals mentioned before?",
+									answer: "yes",
+                                    points: 0
 								}
 							]
                         },
@@ -864,7 +1245,71 @@ module.exports = class Result {
                 {
                     '_id': 4, 'name': 'B2',
                     'subjects': [
-                        { 'name': 'Word order' },
+                        { 
+                            name: "Word order",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "go now home will I ",
+                                    answer: "I will go home now",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "give the present tomorrow we him will",
+                                    answer: "we will give him the present tomorrow",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "her met last night at we the station",
+                                    answer: "we met her at the station last night",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "was last week he in hospital",
+                                    answer: "he was in hospital last week",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "in Greece spend I will next year my holiday",
+                                    answer: "I will spend my holiday in Greece next year",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "must at five o'clock leave we the house",
+                                    answer: "we must leave the house at five o'clock",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "the library take I the book will today to",
+                                    answer: "I will take the book to the library today",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "my mum breakfast in the morning made",
+                                    answer: "my mum made breakfast in the morning",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "tonight want to the cinema to go we",
+                                    answer: "we want to go to the cinema tonight",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "wrote last week they at school a test",
+                                    answer: "they wrote a test at school last week",
+                                    points: 0
+                                }
+                            ] 
+                        },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -1003,22 +1448,62 @@ module.exports = class Result {
 								{
 									id: 1,
 									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Who was in charge of the home? (man/woman)",
-									answer: "woman"
+									answer: "woman",
+                                    points: 0
 								},
 								{
 									id: 2,
 									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. What was the task of the man?",
-									answer: "providing"
+									answer: "providing",
+                                    points: 0
 								},
 								{
 									id: 3,
 									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. What did Sioux men feed their families?",
-									answer: "buffalo"
+									answer: "buffalo",
+                                    points: 0
 								},
 								{
 									id: 4,
 									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
-									answer: "women"
+									answer: "women",
+                                    points: 0
+								},
+								{
+									id: 5,
+									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+									answer: "women",
+                                    points: 0
+								},
+								{
+									id: 6,
+									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+									answer: "women",
+                                    points: 0
+								},
+								{
+									id: 7,
+									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+									answer: "women",
+                                    points: 0
+								},
+								{
+									id: 8,
+									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+									answer: "women",
+                                    points: 0
+								},
+								{
+									id: 9,
+									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+									answer: "women",
+                                    points: 0
+								},
+								{
+									id: 10,
+									question: "In the Sioux culture, men were the providers and women tended to the home and cooked. In fact, in Sioux culture, the home belonged to the woman, and she was in charge of every aspect involved in caring for and maintaining the home. Since there were often more women in a village than men, many Sioux men had several families and killed enough buffalo to feed them all. Where there more men or women in Sioux villages?",
+									answer: "women",
+                                    points: 0
 								}
 							]
                         },
@@ -1146,7 +1631,71 @@ module.exports = class Result {
                 {
                     '_id': 5, 'name': 'C1',
                     'subjects': [
-                        { 'name': 'Word order' },
+                        { 
+                            name: "Word order",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "We were in London (last week) <Reorder sentence to fit adverb>",
+                                    answer: "We were in London last week",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "He walks his dog (rarely) <Reorder sentence to fit adverb>",
+                                    answer: "He rarely walks his dog",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "She waited (patiently)  <Reorder sentence to fit adverb>",
+                                    answer: "She waited patiently",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "My father goes fishing (always) <Reorder sentence to fit adverb>",
+                                    answer: "My father always goes fishing",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "Your bedroom is (upstairs)  <Reorder sentence to fit adverb>",
+                                    answer: "Your bedroom is upstairs",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "We don't go skiing (in summer)  <Reorder sentence to fit adverb>",
+                                    answer: "We don't go skiing in summer",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "Cats can hear. (well)  <Reorder sentence to fit adverb>",
+                                    answer: "Cats can hear well",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "I saw him. (there)  <Reorder sentence to fit adverb>",
+                                    answer: "I saw him there",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "The girl speaks English. (fluently)  <Reorder sentence to fit adverb>",
+                                    answer: "The girl speaks English fluently",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "I have seen that film. (never) / (before) <Reorder sentence to fit adverb>",
+                                    answer: "I have never seen that film before",
+                                    points: 0
+                                }
+                            ]
+                        },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -1284,22 +1833,62 @@ module.exports = class Result {
 								{
 									id: 1,
 									question: "Mars has an extremely thin atmosphere. 95% of it is carbon dioxide, 3% is nitrogen, 1.6% is argon, and the remainder consists of traces of oxygen and water. The atmosphere of Mars is dominated by?",
-									answer: "carbon dioxide"
+									answer: "carbon dioxide",
+                                    points: 0
 								},
 								{
 									id: 2,
 									question: "Mars is also home to Olympus Mons, the highest discovered mountain in the solar system. A person standing on the surface of Mars (in any location in which the mountain was visible) would have no chance of viewing the top. With the peak at 88,600 feet, Olympus Mons is about three times as high as Mount Everest, the highest peak on Earth. What is the name of the largest mountain in the solar system?",
-									answer: "Olympus Mons"
+									answer: "Olympus Mons",
+                                    points: 0
 								},
 								{
 									id: 3,
 									question: "It takes Mars 687 days to orbit the sun? Is this longer or shorter than earth?",
-									answer: "longer"
+									answer: "longer",
+                                    points: 0
 								},
 								{
 									id: 4,
 									question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
-									answer: "iron oxide"
+									answer: "iron oxide",
+                                    points: 0
+								},
+								{
+									id: 5,
+									question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+									answer: "iron oxide",
+                                    points: 0
+								},
+								{
+									id: 6,
+									question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+									answer: "iron oxide",
+                                    points: 0
+								},
+								{
+									id: 7,
+									question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+									answer: "iron oxide",
+                                    points: 0
+								},
+								{
+									id: 8,
+									question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+									answer: "iron oxide",
+                                    points: 0
+								},
+								{
+									id: 9,
+									question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+									answer: "iron oxide",
+                                    points: 0
+								},
+								{
+									id: 10,
+									question: "Mars, commonly referred to as the red planet, is the fourth planet from the sun. Its reddish color comes from the high amounts of iron oxide on its surface. The red color of Mars comes from where?",
+									answer: "iron oxide",
+                                    points: 0
 								}
 							]
                         },
@@ -1416,7 +2005,71 @@ module.exports = class Result {
                 {
                     '_id': 6, 'name': 'C2',
                     'subjects': [
-                        { 'name': 'Word order' },
+                        { 
+                            name: "Word order",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "We went to the cinema yesterday. OR We went yesterday to the cinema.",
+                                    answer: "We went to the cinema yesterday.",
+                                    points: 0
+                                },
+                                {
+                                    id: 2,
+                                    question: "We often go to the cinema. OR We go often to the cinema.",
+                                    answer: "We often go to the cinema.",
+                                    points: 0
+                                },
+                                {
+                                    id: 3,
+                                    question: "Next Tuesday I will go to the cinema. OR I will go to the cinema next Tuesday.",
+                                    answer: "Next Tuesday I will go to the cinema.",
+                                    points: 0
+                                },
+                                {
+                                    id: 4,
+                                    question: "They never go to the cinema. OR They go to the cinema never.",
+                                    answer:  "They never go to the cinema",
+                                    points: 0
+                                },
+                                {
+                                    id: 5,
+                                    question: "She goes every Sunday to the cinema. OR She goes to the cinema every Sunday.",
+                                    answer: "She goes to the cinema every Sunday.",
+                                    points: 0
+                                },
+                                {
+                                    id: 6,
+                                    question: "I seldom am at the cinema. OR I am seldom at the cinema.",
+                                    answer: "I am seldom at the cinema.",
+                                    points: 0
+                                },
+                                {
+                                    id: 7,
+                                    question: "I don't go to the cinema every week. OR I don't go every week to the cinema.",
+                                    answer: "I don't go to the cinema every week.",
+                                    points: 0
+                                },
+                                {
+                                    id: 8,
+                                    question: "Francis does not always go to the cinema. OR Francis does not go to the cinema always.",
+                                    answer: "Francis does not always go to the cinema.",
+                                    points: 0
+                                },
+                                {
+                                    id: 9,
+                                    question: "Do frequently you go to the cinema? OR Do you frequently go to the cinema?",
+                                    answer: "Do you frequently go to the cinema?",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "My friends didn't go to the cinema on Friday. OR On Friday my friends didn't go to the cinema.",
+                                    answer: "My friends didn't go to the cinema on Friday.",
+                                    points: 0
+                                },
+                            ]
+                        },
                         {
                             'name': 'Capitalization',
                             'questions': [
@@ -1547,25 +2200,69 @@ module.exports = class Result {
                             }
                         ]
                         },
-                        { 'name': 'Spelling' },
-                        {
+						{
                             'name': 'Reading comprehension',
                             'questions':
 							[
 								{
 									id: 1,
 									question: "William Henry Gates III (Bill) was born on October 28, 1955, in Seattle, Washington. Bill was the second of three children in an upper-middle class family. He enjoyed playing games with the family and was very competitive. He also loved to read. Bill became bored in public school so his family sent him to Lakeside School, a private school, where he excelled in math and science and did well in drama and English. In what classes did Gates excel?",
-									answer: "math and science"
+									answer: "math and science",
+                                    points: 0
 								},
 								{
 									id: 2,
 									question: "Bill Gates is one of the richest men in the world. In 2012, his $61 billion dollars in assets made him the world's second richest man according to Forbes Magazine. In 2006, Gates announced that he would cut back his involvement at Microsoft to spend more time on philanthropy and his foundation. The Bill and Melinda Gates Foundation supports many causes including the quest to eradicate Polio, fighting AIDS, malaria and tuberculosis; providing vaccinations for children; and even reinventing the toilet among many other things. Was Gates the first or second richest man in the world?",
-									answer: "second"
+									answer: "second",
+                                    points: 0
 								},
 								{
 									id: 3,
 									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
-									answer: "less"
+									answer: "less",
+                                    points: 0
+								},
+								{
+									id: 4,
+									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+									answer: "less",
+                                    points: 0
+								},
+								{
+									id: 5,
+									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+									answer: "less",
+                                    points: 0
+								},
+								{
+									id: 6,
+									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+									answer: "less",
+                                    points: 0
+								},
+								{
+									id: 7,
+									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+									answer: "less",
+                                    points: 0
+								},
+								{
+									id: 8,
+									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+									answer: "less",
+                                    points: 0
+								},
+								{
+									id: 9,
+									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+									answer: "less",
+                                    points: 0
+								},
+								{
+									id: 10,
+									question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
+									answer: "less",
+                                    points: 0
 								}
 							]
                         },
@@ -1636,40 +2333,64 @@ module.exports = class Result {
                             name: "Spelling",
                             questions: [
                                 {
-                                    question: "This egg tastes eggceptional",
-                                    answer: "This egg tastes exceptional"
+                                    id: 1,
+                                    question: "How much wood wood a wouldchuck chuck if a wouldchuck could chuck would?",
+                                    answer: "How much wood would a woodchuck chuck if a woodchuck could chuck wood?",
+                                    points: 0
                                 },
                                 {
-                                    question: "It reely starting to bug me",
-                                    answer: "It really starts to bug me"
+                                    id: 2,
+                                    question: "They love eachother deerly",
+                                    answer: "They love each other dearly",
+                                    points: 0
                                 },
                                 {
-                                    question: "The fish I have caught today are quite scrumtious",
-                                    answer: "The fish I have caught today are quite scrumptious"
+                                    id: 3,
+                                    question: "This is the sea, as you can sea",
+                                    answer: "This is the sea, as you can see",
+                                    points: 0
                                 },
                                 {
-                                    question: "Dora, the fox is right behind that mounten",
-                                    answer: "Dora, the fox is right behind that mountain"
+                                    id: 4,
+                                    question: "The tiger rooms freely within the borders of these forest",
+                                    answer: "The tiger roams freely within the borders of these forests",
+                                    points: 0
                                 },
                                 {
-                                    question: "Jody Bernal should improve his singin, reely",
-                                    answer: "Jody Bernal should improve his singing, really"
+                                    id: 5,
+                                    question: "I wanted to eat a few loaves of brood",
+                                    answer: "I wanted to eat a few loaves of bread",
+                                    points: 0
                                 },
                                 {
-                                    question: "The people who construct these exercise are exceptional programmars and amazing human beans",
-                                    answer: "The people who constructed these exercises are exceptional programmers and amazing human beings"
+                                    id: 6,
+                                    question: "My new phoon just came in",
+                                    answer: "My new phone just came in",
+                                    points: 0
                                 },
                                 {
-                                    question: "My bicep hurt vrom the exercise I did yesterday",
-                                    answer: "My biceps hurt from the exercises I did yesterday"
+                                    id: 7,
+                                    question: "This subject is extremly hard",
+                                    answer: "This subject is extremely hard",
+                                    points: 0
                                 },
                                 {
-                                    question: "My favourite club is Ajax",
-                                    answer: "My favourite club is Feyenoord"
+                                    id: 8,
+                                    question: "My new neibor is quite friendly",
+                                    answer: "My new neighbour is quite friendly",
+                                    points: 0
                                 },
                                 {
-                                    question: "My favourite club is Sparta Rotterdam",
-                                    answer: "My favourite club is Feyenoord"
+                                    id: 9,
+                                    question: "Remco is a programin genius",
+                                    answer: "Remco is a programming genius",
+                                    points: 0
+                                },
+                                {
+                                    id: 10,
+                                    question: "Remco's work is always need",
+                                    answer: "Remco's work ia always neat",
+                                    points: 0
                                 }
                             ]
                         }
