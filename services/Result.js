@@ -582,6 +582,61 @@ module.exports = class Result {
                                     points: 0
                                 }
                             ]
+                        },
+                        {
+                            name: "Spelling",
+                            questions: [
+                                {
+                                    id: 1,
+                                    question: "Reffer to me as Tom",
+                                    answer: "Refer to me as Tom"
+                                },
+                                {
+                                    id: 2,
+                                    question: "The animal was heartbroken efter the love of hiz live left him for an poodle",
+                                    answer: "The animal was heartbroken after the love of his life left him for a poodle"
+                                },
+                                {
+                                    id: 3,
+                                    question: "This is quite an tricky question",
+                                    answer: "This is quite a tricky question"
+                                },
+                                {
+                                    id: 4,
+                                    question: "It ccured to him that he wass in need of a byt of sleep",
+                                    answer: "It occurred to him that we was in need of a bit of sleep"
+                                },
+                                {
+                                    id: 5,
+                                    question: "He did not do the dashes",
+                                    answer: "He did not do the dishes"
+                                },
+                                {
+                                    id: 6,
+                                    question: "Englishman are quite exceptional at the art of speeking English fluently",
+                                    answer: "Englishmen are quite exceptional at the art of speaking English fluently"
+                                },
+                                {
+                                    id: 7,
+                                    question: "The lattest news always apears at a instance on their website",
+                                    answer: "The latest news always appears at an instance on their website"
+                                },
+                                {
+                                    id: 8,
+                                    question: "He drank to much wiskey",
+                                    answer: "He drunk too much whiskey"
+                                },
+                                {
+                                    id: 9,
+                                    question: "Later that day, he had a sudden realization that the love of his life appared to be his bottle of rum",
+                                    answer: "Later that day, he had a sudden realization that the love of his life appeared to be his bottle of rum"
+                                },
+                                {
+                                    id: 10,
+                                    question: "Andy is rother annooiing, today",
+                                    answer: "Andy is rather annoying, today"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -680,6 +735,51 @@ module.exports = class Result {
                                     answer: "did",
                                     points: 0
                                 }]
+                        },
+                        {
+                            name: "Spelling",
+                            questions: [
+                                {
+                                    question: "Remco, unfortutanely, does not life in Rotterdam",
+                                    answer: "Remco, unfortunately, does not live in Rotterdam"
+                                },
+                                {
+                                    question: "Remco is a ferry vunny guy",
+                                    answer: "Remco is a very funny guy"
+                                },
+                                {
+                                    question: "The boot seels akros the sea",
+                                    answer: "The boat sails across the sea"
+                                },
+                                {
+                                    question: "The script will only be exekuted whenever Remcodedko wants it to",
+                                    answer: "The script will only be executed whenever Remco wants it to"
+                                },
+                                {
+                                    question: "Remco has found the missing PDF he wanted to lent Andy",
+                                    answer: "Remco has found the missing PDF he wanted to lend Andy"
+                                },
+                                {
+                                    question: "Saldy, Remco is not Jody Bernal",
+                                    answer: "Sadly, Remco is not Jody Bernal"
+                                },
+                                {
+                                    question: "Remco's programming skills are extraordinarily diversived",
+                                    answer: "Remco's programming skills are extraordinarily diversive"
+                                },
+                                {
+                                    question: "Remco has bought an license for Visual Studio 2009",
+                                    answer: "Remco has bought a license for Visual Studio 2009"
+                                },
+                                {
+                                    question: "Remco, supposedly, does not like wiating on his food and bear",
+                                    answer: "Remco, supposedly, does not like waiting on his food and beer"
+                                },
+                                {
+                                    question: "Remco likes to exercise quite a bit, as you can sea. Look at those bikeps.",
+                                    answer: "Remco likes to exercise quite a bit, as you can see. Look at those biceps."
+                                }
+                            ]
                         }
                     ]
                 },
@@ -773,6 +873,47 @@ module.exports = class Result {
                                     answer: "What subject do you like?",
                                     points: 0
                                 }]
+                        },
+                        {
+                            name: "Spelling",
+                            questions: [
+                                {
+                                    question: "This egg tastes eggceptional",
+                                    answer: "This egg tastes exceptional"
+                                },
+                                {
+                                    question: "It reely starting to bug me",
+                                    answer: "It really starts to bug me"
+                                },
+                                {
+                                    question: "The fish I have caught today are quite scrumtious",
+                                    answer: "The fish I have caught today are quite scrumptious"
+                                },
+                                {
+                                    question: "Dora, the fox is right behind that mounten",
+                                    answer: "Dora, the fox is right behind that mountain"
+                                },
+                                {
+                                    question: "Jody Bernal should improve his singin, reely",
+                                    answer: "Jody Bernal should improve his singing, really"
+                                },
+                                {
+                                    question: "The people who construct these exercise are exceptional programmars and amazing human beans",
+                                    answer: "The people who constructed these exercises are exceptional programmers and amazing human beings"
+                                },
+                                {
+                                    question: "My bicep hurt vrom the exercise I did yesterday",
+                                    answer: "My biceps hurt from the exercises I did yesterday"
+                                },
+                                {
+                                    question: "My favourite club is Ajax",
+                                    answer: "My favourite club is Feyenoord"
+                                },
+                                {
+                                    question: "My favourite club is Sparta Rotterdam",
+                                    answer: "My favourite club is Feyenoord"
+                                }
+                            ]
                         }
                     ]
                 }
