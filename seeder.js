@@ -1920,7 +1920,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                             answer: "less"
                         },
 						{
-                            id: 8
+                            id: 8,
                             question: "In recent years, has Bill Gates become more or less involved with Microsoft?",
                             answer: "less"
                         },
