@@ -136,7 +136,7 @@ describe('Unit tests', function(){
 
 
 
-    // Unit test for checking if an answer is correctAnswer
+    // Check if an answer is the correct answer
     it('TestCorrectAnswer', function() {
       function _TestCorrectAnswer(userAnswer) {
         var correctAnswer = 1;
