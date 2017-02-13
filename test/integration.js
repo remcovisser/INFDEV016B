@@ -73,6 +73,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
             hippie(app)
                 .json()
                 .post('/process-login')
+                .use(persistCookies)
                 .send({
                     username: '0908765'
                 })
@@ -80,19 +81,16 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                 .expectHeader('location', '/levels')
                 .end((err, res, body) => {
                     if (err) throw err;
-                    Cookies = res.headers['set-cookie'].pop().split(';')[0];
                     done()
                 })
         });
 
         it('Check levels overview', done => {
 
-            let req = hippie(app)
-                .json()
-                .get('/levels');
-
-            req.cookies = Cookies;
-            req.expectStatus(200)
+            hippie(app)
+                .get('/levels')
+                .use(persistCookies)
+                .expectStatus(200)
                 .end((err, res, body) => {
                     if (err) throw err;
                     done()
@@ -100,3 +98,8 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
         })
     });
 });
+
+function persistCookies(opts, next) {
+    opts.jar = true;
+    next(opts);
+}
