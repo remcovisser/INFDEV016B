@@ -66,6 +66,41 @@ module.exports = class Result {
         return correct == given
     }
 
+    static validateExist(id) {
+        var existingNrs = [1,2,3,4,5];
+        if(id in existingNrs) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    static validateSave(obj) {
+
+        var existingIds = [1,2,3,4,5];
+        var existingLvls = [1,2,3,4,5];
+        var existingSubjs = [1,2,3,4,5];
+        var existingQs = [1,2,3,4,5];
+
+        if(!obj === Object(obj)) {
+            return false;
+        }
+        
+        // User, level, subject and question exists..
+        if(obj.userId in existingIds) {
+            if(obj.level in existingLvls) {
+                if(obj.subject in existingSubjs) {
+                    if(obj.question in existingQs){
+                        return true;
+                    }
+                }
+            }
+        }
+
+        return false;
+    }
+
     findResults(value, callback) {
         this.collection.find({ _id: value }).toArray(function(err, data) {
             if (data.length == 0) {

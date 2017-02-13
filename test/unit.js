@@ -15,4 +15,37 @@ describe('Unit tests', () => {
         test.must(Result.validateAnswer("Amsterdam", "Amsterdam")).be.true()
     })
 
+    it('Check if a question exists', () => {
+        test.must(Result.validateExist(1)).be.true();
+        test.must(Result.validateExist(7)).be.false();
+    });
+
+    it('Check if we can save a question + answer', () => {
+
+        var input = "xd";
+        var qna = {
+            userId : 1,
+            level : 1,
+            subject: 1,
+            question: 1,
+            answer: "xd",
+            points: 0
+        }
+
+        if(qna.answer == input){
+            qna.points = 1;
+        }
+
+        test.must(Result.validateSave(qna)).be.true();
+        // Non-existing id
+        qna.userId = 23;
+        test.must(Result.validateSave(qna)).be.false();
+    });
+
+    it('Check if admin', () => {
+        test.must(User.checkAdmin(1)).be.false();
+        test.must(User.checkAdmin(2)).be.true();
+    });
+
+
 });

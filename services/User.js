@@ -56,6 +56,27 @@ module.exports = class User {
         return /^[0-9]+$/.test(name)
     }
 
+    static checkAdmin(id) {
+        var users = [
+            { userId : 1, admin: 0 },
+            { userId : 2, admin: 1}
+        ];
+
+        for(var key in users) {
+            var obj = users[key];
+            if(id == obj.userId) {
+                if(obj.admin == 1) {
+                    return true;
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+
+        return false;
+    }
+
     static isGuest(req, res, next) {
         // Check if auth cookie is defined
         if (req.cookies.userId == undefined) {
