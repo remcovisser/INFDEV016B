@@ -3,9 +3,11 @@ const Level = require('./../services/level'),
     Result = require('./../services/Result'),
     root = require('./../app.js'),
     test = require('unit.js');
-    hippie = require('hippie');
+hippie = require('hippie');
 
 require('../app');
+
+let Cookies = null;
 
 require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractise', (err, db) => {
     if (err) {
@@ -32,24 +34,14 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
             })
         });
 
-        it('Check middleware', function (done) {
+        it('Check middleware', function(done) {
             hippie(app)
-            .get('/levels/A2')
-            .expectStatus(302)
-            .end(function(err, res, body) {
-                if (err) throw err;
-                done();
-            });
-        });
-
-          it('Website online', function (done) {
-            hippie(app)
-            .get('/')
-            .expectStatus(200)
-            .end(function(err, res, body) {
-                if (err) throw err;
-                done();
-            });
+                .get('/levels/A2')
+                .expectStatus(302)
+                .end(function(err, res, body) {
+                    if (err) throw err;
+                    done();
+                });
         });
 
         it('Check frontpage', done => {
@@ -75,7 +67,7 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     if (err) throw err;
                     done()
                 })
-        })
+        });
 
         it('Check authentication validation with valid inputs', done => {
             hippie(app)
@@ -86,6 +78,21 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                 })
                 .expectStatus(302)
                 .expectHeader('location', '/levels')
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    Cookies = res.headers['set-cookie'].pop().split(';')[0];
+                    done()
+                })
+        });
+
+        it('Check levels overview', done => {
+
+            let req = hippie(app)
+                .json()
+                .get('/levels');
+
+            req.cookies = Cookies;
+            req.expectStatus(200)
                 .end((err, res, body) => {
                     if (err) throw err;
                     done()
