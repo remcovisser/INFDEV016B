@@ -1,7 +1,7 @@
 const test = require('unit.js');
 const User = require('./../services/User');
 const Result = require('./../services/Result');
-const Level = require('./../services/Level');
+const Level = require('./../services/level');
 
 // http://unitjs.com/guide/quickstart.html
 describe('Unit tests', () => {
