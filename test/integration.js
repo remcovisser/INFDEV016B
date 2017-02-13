@@ -7,8 +7,6 @@ hippie = require('hippie');
 
 require('../app');
 
-let Cookies = null;
-
 require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractise', (err, db) => {
     if (err) {
         console.error('Unable to connect to MongDB:');
@@ -86,7 +84,6 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
         });
 
         it('Check levels overview', done => {
-
             hippie(app)
                 .get('/levels')
                 .use(persistCookies)
@@ -95,7 +92,55 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     if (err) throw err;
                     done()
                 })
-        })
+        });
+
+        it('Check level overview', done => {
+            hippie(app)
+                .get('/levels/A1')
+                .use(persistCookies)
+                .expectStatus(200)
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    done()
+                })
+        });
+
+        it('Check level', done => {
+            hippie(app)
+                .get('/levels/A1/Quantifiers/1')
+                .use(persistCookies)
+                .expectStatus(200)
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    done()
+                })
+        });
+
+        it('Insert wrong answer', done => {
+            hippie(app)
+                .get('/results/C2/Quantifiers/2/1/many')
+                .use(persistCookies)
+                .expectStatus(200)
+                .expectBody('Saved')
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    done()
+                })
+        });
+
+        it('Insert correct answer', done => {
+            hippie(app)
+                .get('/results/C2/Quantifiers/2/1/much')
+                .use(persistCookies)
+                .expectStatus(200)
+                .expectBody('Saved')
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    done()
+                })
+        });
+
+
     });
 });
 
