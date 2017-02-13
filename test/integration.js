@@ -2,8 +2,8 @@ const Level = require('./../services/level'),
     User = require('./../services/User'),
     Result = require('./../services/Result'),
     root = require('./../app.js'),
-    test = require('unit.js');
-hippie = require('hippie');
+    test = require('unit.js'),
+    hippie = require('hippie');
 
 require('../app');
 
@@ -38,8 +38,8 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                 .expectStatus(302)
                 .end(function(err, res, body) {
                     if (err) throw err;
-                    done();
-                });
+                    done()
+                })
         });
 
         it('Check frontpage', done => {
@@ -149,13 +149,12 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                     if (err) throw err;
                     done()
                 })
-        });
+        })
 
-
-    });
+    })
 });
 
 function persistCookies(opts, next) {
     opts.jar = true;
-    next(opts);
+    next(opts)
 }

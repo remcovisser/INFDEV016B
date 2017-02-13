@@ -9,6 +9,7 @@ describe('Unit tests', () => {
     it('Only student numbers are allowed to log-in', () => {
         test.must(User.validateUsername("Unit123")).be.false();
         test.must(User.validateUsername("123")).be.true()
+
     });
 
     it('Check if answer is correct', () => {
