@@ -52,20 +52,44 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
             });
         });
 
-         it('Login', function (done) {
+        it('Check frontpage', done => {
             hippie(app)
-            .json()
-            .post('/process-login')
-            .send(JSON.stringify({ 
-                username: 1123123128723
-            }))
-            .expectBody('"iets"')
-            .end(function(err, res, body) {
-                if (err) throw err;
-                done();
-            });
+                .get('/')
+                .expectStatus(200)
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    done()
+                })
         });
 
+        it('Check authentication validation with invalid inputs', done => {
+            hippie(app)
+                .json()
+                .post('/process-login')
+                .send({
+                    username: 'abc'
+                })
+                .expectStatus(302)
+                .expectHeader('location', '/?errors[username]=numbers_only')
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    done()
+                })
+        })
 
-    })
+        it('Check authentication validation with valid inputs', done => {
+            hippie(app)
+                .json()
+                .post('/process-login')
+                .send({
+                    username: '0908765'
+                })
+                .expectStatus(302)
+                .expectHeader('location', '/levels')
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    done()
+                })
+        })
+    });
 });

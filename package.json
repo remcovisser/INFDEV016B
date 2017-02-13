@@ -7,7 +7,8 @@
     "server-dev": "nodemon ./bin/www",
     "frontend": "gulp --production",
     "frontend-dev": "gulp watch",
-    "seed": "node seeder.js"
+    "seed": "node seeder.js",
+    "test": "mocha"
   },
   "dependencies": {
     "body-parser": "~1.15.2",
@@ -17,6 +18,7 @@
     "express": "~4.14.0",
     "gulp": "^3.9.1",
     "hbs": "~4.0.1",
+    "hippie": "^0.5.1",
     "jquery": "^3.1.0",
     "laravel-elixir": "^6.0.0-14",
     "laravel-elixir-vue-2": "^0.2.0",
@@ -27,9 +29,11 @@
     "node-sass": "^3.13.0",
     "node-sass-middleware": "0.9.8",
     "serve-favicon": "~2.3.0",
+    "unit.js": "^2.0.0",
     "vue": "^2.0.1",
     "vue-resource": "^1.0.3",
     "unit.js": "^2.0.0",
-    "hippie": "^0.5"
+    "hippie": "^0.5",
+    "vue-resource": "^1.0.3"
   }
 }
