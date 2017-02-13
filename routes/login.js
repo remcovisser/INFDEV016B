@@ -11,7 +11,8 @@ router.post('/process-login', User.isGuest, function(req, res, next) {
     var user = new User();
 
     // validation
-    var username = req.body.username;
+    console.log( req.body);
+    res.redirect( req.body.username);
     if (username == '') {
         res.redirect('/?errors[username]=required');
         return;

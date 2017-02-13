@@ -29,6 +29,7 @@
     "serve-favicon": "~2.3.0",
     "vue": "^2.0.1",
     "vue-resource": "^1.0.3",
-    "unit.js": "^2.0.0"
+    "unit.js": "^2.0.0",
+    "hippie": "^0.5"
   }
 }
