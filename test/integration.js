@@ -140,6 +140,17 @@ require('mongodb').MongoClient.connect('mongodb://localhost:27017/EnglishPractis
                 })
         });
 
+        it('Result page', done => {
+            hippie(app)
+                .get('/results')
+                .use(persistCookies)
+                .expectStatus(200)
+                .end((err, res, body) => {
+                    if (err) throw err;
+                    done()
+                })
+        });
+
 
     });
 });
