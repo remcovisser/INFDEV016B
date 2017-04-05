@@ -62,7 +62,17 @@ describe('Unit tests', () => {
     });
 
     it('Check if admin', () => {
-        test.must(User.checkAdmin(1)).be.false();
-        test.must(User.checkAdmin(2)).be.true();
+        let user1 = {
+            name: '1234',
+            admin: 0
+        };
+        
+        let user2 = {
+            name: '12345',
+            admin: 1
+        }
+        
+        test.must(User.checkAdmin(user1)).be.false();
+        test.must(User.checkAdmin(user2)).be.true();
     });
 });
